@@ -1,0 +1,421 @@
+fileFormatVersion: 2
+guid: b5b763ec47dc575458e9d39ffbcd3a13
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8845096839798304972
+    second: Assistant_Commissioner_Run1
+  - first:
+      213: 5261203484604124903
+    second: Assistant_Commissioner_Run2
+  - first:
+      213: 1599103654563631660
+    second: Assistant_Commissioner_Run3
+  - first:
+      213: 2762064358542201233
+    second: Assistant_Commissioner_Extra1
+  - first:
+      213: -87560527171965066
+    second: Assistant_Commissioner_Extra2
+  - first:
+      213: 3130098254615865236
+    second: Commissioner_Idle
+  - first:
+      213: 2122981438781972422
+    second: Commissioner_Bleeding1
+  - first:
+      213: 5668617526151766446
+    second: Commissioner_Bleeding2
+  - first:
+      213: -2956764500307255454
+    second: Commissioner_BleedingRun1
+  - first:
+      213: 895061716980077812
+    second: Commissioner_BleedingRun2
+  - first:
+      213: -2520538689546152467
+    second: Commissioner_BleedingRun3
+  - first:
+      213: 5426617479331339699
+    second: Commissioner_BleedingExtra1
+  - first:
+      213: 3983144064825927041
+    second: Commissioner_BleedingExtra2
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 21
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Assistant_Commissioner_Run1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 671
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0bb1466b810ca70800000000000000
+      internalID: 8845096839798304972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assistant_Commissioner_Run2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 669
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee40e6b1bc830940800000000000000
+      internalID: 5261203484604124903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assistant_Commissioner_Run3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 669
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c225b492d48213610800000000000000
+      internalID: 1599103654563631660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assistant_Commissioner_Extra1
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 669
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191dca966e2d45620800000000000000
+      internalID: 2762064358542201233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assistant_Commissioner_Extra2
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 669
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fa1991a2ce8cef0800000000000000
+      internalID: -87560527171965066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commissioner_Idle
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 414
+        width: 112
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497e27257c7507b20800000000000000
+      internalID: 3130098254615865236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commissioner_Bleeding1
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 406
+        width: 144
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfd85bde58567d10800000000000000
+      internalID: 2122981438781972422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commissioner_Bleeding2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 398
+        width: 151
+        height: 239
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53216606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea164dd3b99faae40800000000000000
+      internalID: 5668617526151766446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commissioner_BleedingRun1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 142
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f53b24a5677f6d0800000000000000
+      internalID: -2956764500307255454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commissioner_BleedingRun2
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 142
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f416aca3e5eb6c00800000000000000
+      internalID: 895061716980077812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commissioner_BleedingRun3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 141
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de519fe8a6f350dd0800000000000000
+      internalID: -2520538689546152467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commissioner_BleedingExtra1
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 142
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd587398d73f4b40800000000000000
+      internalID: 5426617479331339699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commissioner_BleedingExtra2
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 142
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185a7216c68f64730800000000000000
+      internalID: 3983144064825927041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,709 @@
+fileFormatVersion: 2
+guid: 3cf63033a391b9a4ba6cc0be186a4d86
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7588575791868357411
+    second: Constable_Idle
+  - first:
+      213: 5079081161837322988
+    second: Constable_Run1
+  - first:
+      213: -7033806274157083119
+    second: Constable_Run2
+  - first:
+      213: 6617729202785393836
+    second: Constable_Run3
+  - first:
+      213: -7974286131322891532
+    second: Constable_Run4
+  - first:
+      213: 4361465938166457727
+    second: Superintendent_Idle
+  - first:
+      213: 28484144455255032
+    second: Superintendent_Run1
+  - first:
+      213: 8897516048753521354
+    second: Sergeant_Idle
+  - first:
+      213: -2552319959140014100
+    second: Sergeant_Run1
+  - first:
+      213: -282873327598231732
+    second: Sergeant_Run2
+  - first:
+      213: -7372311310249732048
+    second: Sergeant_Run3
+  - first:
+      213: -4692212869664228300
+    second: Sergeant_Run4
+  - first:
+      213: -6741228092247256787
+    second: Superintendent_Run2
+  - first:
+      213: -268250284355274686
+    second: Superintendent_Run3
+  - first:
+      213: -2292444085735949326
+    second: Inspector_Idle
+  - first:
+      213: 7222882271296143072
+    second: Inspector_Run1
+  - first:
+      213: -7104029542704948821
+    second: Inspector_Run2
+  - first:
+      213: -1106067823938924943
+    second: Inspector_Run3
+  - first:
+      213: 4570634099563313896
+    second: Inspector_Run4
+  - first:
+      213: -1168277481921558428
+    second: Superintendent_Run4
+  - first:
+      213: -1210906747721458078
+    second: Chief_Inspector_Idle
+  - first:
+      213: 1165551884370506892
+    second: Chief_Inspector_Run1
+  - first:
+      213: -55656683575621463
+    second: Chief_Inspector_Run2
+  - first:
+      213: -3134772090763906107
+    second: Chief_Inspector_Run3
+  - first:
+      213: 8653241105285912993
+    second: Chief_Inspector_Run4
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 160
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Constable_Idle
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 763
+        width: 109
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b21790a79005960800000000000000
+      internalID: 7588575791868357411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constable_Run1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 763
+        width: 109
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce221b418658c7640800000000000000
+      internalID: 5079081161837322988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constable_Run2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 763
+        width: 109
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11604f9d576e26e90800000000000000
+      internalID: -7033806274157083119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constable_Run3
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 763
+        width: 109
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac90cfc5a5e6db50800000000000000
+      internalID: 6617729202785393836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Constable_Run4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 763
+        width: 109
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2dc2d5305a55190800000000000000
+      internalID: -7974286131322891532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superintendent_Idle
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 582
+        width: 109
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75a068a92a078c30800000000000000
+      internalID: 4361465938166457727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superintendent_Run1
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 582
+        width: 109
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f38cffad22356000800000000000000
+      internalID: 28484144455255032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sergeant_Idle
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 532
+        width: 109
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac27a4d84b35a7b70800000000000000
+      internalID: 8897516048753521354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sergeant_Run1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 532
+        width: 109
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7e15a1586549cd0800000000000000
+      internalID: -2552319959140014100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sergeant_Run2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 532
+        width: 109
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f13101538031cf0800000000000000
+      internalID: -282873327598231732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sergeant_Run3
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 532
+        width: 109
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03858fa6ce940b990800000000000000
+      internalID: -7372311310249732048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sergeant_Run4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 532
+        width: 109
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cb5256149e1eeb0800000000000000
+      internalID: -4692212869664228300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superintendent_Run2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 350
+        width: 109
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21d7b344c85272a0800000000000000
+      internalID: -6741228092247256787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superintendent_Run3
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 350
+        width: 109
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2483b12a9cbf64cf0800000000000000
+      internalID: -268250284355274686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inspector_Idle
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 300
+        width: 109
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb734aff3a9f20e0800000000000000
+      internalID: -2292444085735949326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inspector_Run1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 300
+        width: 109
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eeb2134825dc3460800000000000000
+      internalID: 7222882271296143072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inspector_Run2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 300
+        width: 109
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9d03905ca696d90800000000000000
+      internalID: -7104029542704948821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inspector_Run3
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 300
+        width: 109
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e81a0ac2576a0f0800000000000000
+      internalID: -1106067823938924943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inspector_Run4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 300
+        width: 109
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea32ce4f772e6f30800000000000000
+      internalID: 4570634099563313896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superintendent_Run4
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 118
+        width: 109
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4684afae1d179cfe0800000000000000
+      internalID: -1168277481921558428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chief_Inspector_Idle
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 68
+        width: 109
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e50f58abef13fe0800000000000000
+      internalID: -1210906747721458078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chief_Inspector_Run1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 68
+        width: 109
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84f033734fdc2010800000000000000
+      internalID: 1165551884370506892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chief_Inspector_Run2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 68
+        width: 109
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8491a8a844a3ff0800000000000000
+      internalID: -55656683575621463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chief_Inspector_Run3
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 68
+        width: 109
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c37536646d0f74d0800000000000000
+      internalID: -3134772090763906107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chief_Inspector_Run4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 68
+        width: 109
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9106c30fc761870800000000000000
+      internalID: 8653241105285912993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

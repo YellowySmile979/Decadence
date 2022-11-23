@@ -1,0 +1,589 @@
+fileFormatVersion: 2
+guid: 9ccf94d6cbff8214ea516de8146f5938
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1204279829728799911
+    second: Chief_Inspector_Run1
+  - first:
+      213: -5758940261051545579
+    second: Chief_Inspector_Run2
+  - first:
+      213: 230322702882485373
+    second: Chief_Inspector_Run3
+  - first:
+      213: -9021510874968332327
+    second: Chief_Inspector_Extra1
+  - first:
+      213: -7924265924687518999
+    second: Chief_Inspector_Extra2
+  - first:
+      213: 5348645630252855373
+    second: Commander_Run1
+  - first:
+      213: -2929698708812650402
+    second: Commander_Run2
+  - first:
+      213: -6657807630498981547
+    second: Commander_Run3
+  - first:
+      213: -7143041890614063005
+    second: Commander_Extra1
+  - first:
+      213: 8070854574000908227
+    second: Commander_Extra2
+  - first:
+      213: -5871645240671616994
+    second: Assistant_Commissioner_Run1
+  - first:
+      213: 3721118720200557243
+    second: Assistant_Commissioner_Run2
+  - first:
+      213: 8864742482999167652
+    second: Assistant_Commissioner_Run3
+  - first:
+      213: -4612993962428371813
+    second: Assistant_Commissioner_Extra1
+  - first:
+      213: -8555261137610751738
+    second: Assistant_Commissioner_Extra2
+  - first:
+      213: -7115235153031874111
+    second: Commissioner_Run1
+  - first:
+      213: 5758156948404210694
+    second: Commissioner_Run2
+  - first:
+      213: 1690083161465389101
+    second: Commissioner_Run3
+  - first:
+      213: 4490569067149238104
+    second: Commissioner_Extra1
+  - first:
+      213: 4260313249711221817
+    second: Commissioner_Extra2
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 21
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chief_Inspector_Run1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 769
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953d8da10e9894fe0800000000000000
+      internalID: -1204279829728799911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chief_Inspector_Run2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 769
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518c35148522410b0800000000000000
+      internalID: -5758940261051545579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chief_Inspector_Run3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 769
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74b4092745423300800000000000000
+      internalID: 230322702882485373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chief_Inspector_Extra1
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 769
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7603048a72dc280800000000000000
+      internalID: -9021510874968332327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chief_Inspector_Extra2
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 769
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2a445402a570290800000000000000
+      internalID: -7924265924687518999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commander_Run1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 513
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40baa4ccd43a3a40800000000000000
+      internalID: 5348645630252855373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commander_Run2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 513
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e582d4aeb8e9757d0800000000000000
+      internalID: -2929698708812650402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commander_Run3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 513
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55919311c37ba93a0800000000000000
+      internalID: -6657807630498981547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commander_Extra1
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 513
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360d636fe31dedc90800000000000000
+      internalID: -7143041890614063005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commander_Extra2
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 513
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7292d497f610070800000000000000
+      internalID: 8070854574000908227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assistant_Commissioner_Run1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 258
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10c7ae43c9b38ea0800000000000000
+      internalID: -5871645240671616994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assistant_Commissioner_Run2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 258
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb24c9cb2c114a330800000000000000
+      internalID: 3721118720200557243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assistant_Commissioner_Run3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 258
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aaca742254e50b70800000000000000
+      internalID: 8864742482999167652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assistant_Commissioner_Extra1
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 258
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c6f6e8e6a5bffb0800000000000000
+      internalID: -4612993962428371813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assistant_Commissioner_Extra2
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 258
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601c104b25b954980800000000000000
+      internalID: -8555261137610751738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commissioner_Run1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 12
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9b922935b914d90800000000000000
+      internalID: -7115235153031874111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commissioner_Run2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 10
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c849e8c3519ef40800000000000000
+      internalID: 5758156948404210694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commissioner_Run3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 10
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2083005ea1647710800000000000000
+      internalID: 1690083161465389101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commissioner_Extra1
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 10
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f99c646c4b15e30800000000000000
+      internalID: 4490569067149238104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commissioner_Extra2
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 18
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c6de8145caf1b30800000000000000
+      internalID: 4260313249711221817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

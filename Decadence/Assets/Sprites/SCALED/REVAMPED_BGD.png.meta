@@ -1,0 +1,1093 @@
+fileFormatVersion: 2
+guid: a0deb491dcdd4f34eb724a4b487cdea3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3911877349262259944
+    second: REVAMPED_bricktopleft
+  - first:
+      213: 2534650075597106684
+    second: REVAMPED_bricktop
+  - first:
+      213: 4982873817506072818
+    second: REVAMPED_bricktopright
+  - first:
+      213: 3896550641083422482
+    second: REVAMPED_rottendoor
+  - first:
+      213: 657501331355329638
+    second: REVAMPED_door
+  - first:
+      213: 3543575760333398339
+    second: REVAMPED_dooropen
+  - first:
+      213: 4728863570467383969
+    second: REVAMPED_BGD_6
+  - first:
+      213: -2219258767942865898
+    second: REVAMPED_BGD_7
+  - first:
+      213: 2687103518120551217
+    second: REVAMPED_BGD_8
+  - first:
+      213: 2570476594101805008
+    second: REVAMPED_brickleft
+  - first:
+      213: -5543515276840837986
+    second: REVAMPED_brick
+  - first:
+      213: -1843215132602111750
+    second: REVAMPED_brickright
+  - first:
+      213: 2664239375156219019
+    second: REVAMPED_BGD_12
+  - first:
+      213: 3150223026707758033
+    second: REVAMPED_brickbottomleft
+  - first:
+      213: -280447278275852421
+    second: REVAMPED_brickbottom
+  - first:
+      213: -4324256830434821862
+    second: REVAMPED_brickbottomright
+  - first:
+      213: -3255887266373012992
+    second: REVAMPED_BGD_19
+  - first:
+      213: 4577700944528117020
+    second: REVAMPED_BGD_20
+  - first:
+      213: 8943352037985410931
+    second: REVAMPED_mossbricktopleft
+  - first:
+      213: 8715346127854784327
+    second: REVAMPED_mossbricktop
+  - first:
+      213: 5667685417973652469
+    second: REVAMPED_mossbricktopright
+  - first:
+      213: -7818939906411539175
+    second: REVAMPED_fancywindowOFF1
+  - first:
+      213: -8247044188554714298
+    second: REVAMPED_fancywindowON1
+  - first:
+      213: -6178033733172512713
+    second: REVAMPED_windowOFF2
+  - first:
+      213: 7352083326962982114
+    second: REVAMPED_windowON2
+  - first:
+      213: 7661000819611842965
+    second: REVAMPED_BGD_28
+  - first:
+      213: -5297050425790623865
+    second: REVAMPED_BGD_29
+  - first:
+      213: -8013925381722116982
+    second: REVAMPED_mossbrickleft
+  - first:
+      213: 869429332226190110
+    second: REVAMPED_mossbrick
+  - first:
+      213: 5318512332186513003
+    second: REVAMPED_mossbrickright
+  - first:
+      213: 8340043845101188937
+    second: REVAMPED_BGD_33
+  - first:
+      213: -3425172977554233841
+    second: REVAMPED_mossbricksbottomleft
+  - first:
+      213: -7686393323037401828
+    second: REVAMPED_mossbrickbottom
+  - first:
+      213: 1150350021866265849
+    second: REVAMPED_mossbricksbottomright
+  - first:
+      213: 6444255330734453161
+    second: REVAMPED_fancywindowledge1
+  - first:
+      213: -734882359381519961
+    second: REVAMPED_windowledge2
+  - first:
+      213: -874528650182894945
+    second: REVAMPED_shadow
+  - first:
+      213: -5541865295913881149
+    second: REVAMPED_BGD_40
+  - first:
+      213: 7517055731704438222
+    second: REVAMPED_BGD_41
+  - first:
+      213: -1375098741703781481
+    second: REVAMPED_trashup
+  - first:
+      213: -6816544012951636042
+    second: REVAMPED_trashdown
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: REVAMPED_bricktopleft
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 124
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8198350e64836b9c0800000000000000
+      internalID: -3911877349262259944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_bricktop
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 124
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfde1e980d2ec2320800000000000000
+      internalID: 2534650075597106684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_bricktopright
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 124
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f84b0d2659b62540800000000000000
+      internalID: 4982873817506072818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_rottendoor
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 87
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217191bc924531630800000000000000
+      internalID: 3896550641083422482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_door
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 87
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664e7ce2af9ef1900800000000000000
+      internalID: 657501331355329638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_dooropen
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 87
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3416b5d116f4d2130800000000000000
+      internalID: 3543575760333398339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_BGD_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 125
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa6efcdc5c40a140800000000000000
+      internalID: 4728863570467383969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_BGD_7
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 125
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c2810a8eb9331e0800000000000000
+      internalID: -2219258767942865898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_BGD_8
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 125
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1332740b9628a4520800000000000000
+      internalID: 2687103518120551217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_brickleft
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfd4e6e7da2ca320800000000000000
+      internalID: 2570476594101805008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_brick
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c53fcf93a7113b0800000000000000
+      internalID: -5543515276840837986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_brickright
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af860a84a959b66e0800000000000000
+      internalID: -1843215132602111750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_BGD_12
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 119
+        width: 42
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c8bc0989749f420800000000000000
+      internalID: 2664239375156219019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_brickbottomleft
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 90
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbfb26f627d7bb20800000000000000
+      internalID: 3150223026707758033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_brickbottom
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 90
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b778420bfa6ab1cf0800000000000000
+      internalID: -280447278275852421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_brickbottomright
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 90
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a193068d2572df3c0800000000000000
+      internalID: -4324256830434821862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_BGD_19
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 94
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0027e1b18c3c0d2d0800000000000000
+      internalID: -3255887266373012992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_BGD_20
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 94
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d819e51c2478f30800000000000000
+      internalID: 4577700944528117020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_mossbricktopleft
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fd26d6b4b2d1c70800000000000000
+      internalID: 8943352037985410931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_mossbricktop
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f4c5d902123f870800000000000000
+      internalID: 8715346127854784327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_mossbricktopright
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb1bf4ebd9a7ae40800000000000000
+      internalID: 5667685417973652469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_fancywindowOFF1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 48
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915d636e49b8d7390800000000000000
+      internalID: -7818939906411539175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_fancywindowON1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 48
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6432f36510d9c8d80800000000000000
+      internalID: -8247044188554714298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_windowOFF2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7383fd36d07334aa0800000000000000
+      internalID: -6178033733172512713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_windowON2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 48
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec53b635d8d70660800000000000000
+      internalID: 7352083326962982114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_BGD_28
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599b0fcd7a7515a60800000000000000
+      internalID: 7661000819611842965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_BGD_29
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 72
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f0b65e3b81d76b0800000000000000
+      internalID: -5297050425790623865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_mossbrickleft
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c67fd2351d8c090800000000000000
+      internalID: -8013925381722116982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_mossbrick
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ba5a80f55d01c00800000000000000
+      internalID: 869429332226190110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_mossbrickright
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 55
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ee28599c62fc940800000000000000
+      internalID: 5318512332186513003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_BGD_33
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 35
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947707e80b9cdb370800000000000000
+      internalID: 8340043845101188937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_mossbricksbottomleft
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 38
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06ec9203575770d0800000000000000
+      internalID: -3425172977554233841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_mossbrickbottom
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 38
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ddb683ff1745590800000000000000
+      internalID: -7686393323037401828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_mossbricksbottomright
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 38
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc93b4004dd6ff00800000000000000
+      internalID: 1150350021866265849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_fancywindowledge1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 42
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1385684189e6950800000000000000
+      internalID: 6444255330734453161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_windowledge2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 41
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a11d51436c2dc5f0800000000000000
+      internalID: -734882359381519961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_shadow
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a52fb73dc0dd3f0800000000000000
+      internalID: -874528650182894945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_BGD_40
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1fcfb10e65713b0800000000000000
+      internalID: -5541865295913881149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_BGD_41
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 2
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd9e056c52f15860800000000000000
+      internalID: 7517055731704438222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_trashup
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 5
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793d8a1eafaaaece0800000000000000
+      internalID: -1375098741703781481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REVAMPED_trashdown
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 2
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7b338f555c661a0800000000000000
+      internalID: -6816544012951636042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

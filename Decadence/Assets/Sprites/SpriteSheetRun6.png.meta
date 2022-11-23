@@ -1,0 +1,589 @@
+fileFormatVersion: 2
+guid: ed4f23cea4531ab4abedaaf617bc3210
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3176242381932964478
+    second: 1
+  - first:
+      213: 3264715429339167141
+    second: SpriteSheetRun6_1
+  - first:
+      213: -9078896197430438609
+    second: SpriteSheetRun6_2
+  - first:
+      213: 2160569943744103034
+    second: SpriteSheetRun6_3
+  - first:
+      213: -1601476943411841276
+    second: SpriteSheetRun6_4
+  - first:
+      213: 184430746005218453
+    second: Superintendent_BleedingRun1
+  - first:
+      213: -8979790709943394107
+    second: Superintendent_BleedingRun2
+  - first:
+      213: -2014061749314233757
+    second: Superintendent_BleedingRun3
+  - first:
+      213: -1977123191293042405
+    second: Superintendent_BleedingExtra1
+  - first:
+      213: 3060261787136202267
+    second: Superintendent_BleedingExtra2
+  - first:
+      213: 3430317205584146842
+    second: Chief_Superintendent_BleedingRun1
+  - first:
+      213: 4511619561555720095
+    second: Chief_Superintendent_BleedingRun2
+  - first:
+      213: 5090747978443206921
+    second: Chief_Superintendent_BleedingRun3
+  - first:
+      213: 9082602268442192172
+    second: Chief_Superintendent_BleedingExtra1
+  - first:
+      213: -5720628703155018239
+    second: Chief_Superintendent_BleedingExtra2
+  - first:
+      213: 6764621351230912151
+    second: SpriteSheetRun6_15
+  - first:
+      213: 7803863394236764097
+    second: SpriteSheetRun6_16
+  - first:
+      213: 7244171979013559417
+    second: SpriteSheetRun6_17
+  - first:
+      213: -8789829361241824944
+    second: SpriteSheetRun6_18
+  - first:
+      213: 6725320369880614435
+    second: SpriteSheetRun6_19
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 21
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 769
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7aa7af2e97441c20800000000000000
+      internalID: 3176242381932964478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetRun6_1
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 769
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a97f72c2699e4d20800000000000000
+      internalID: 3264715429339167141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetRun6_2
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 769
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25938fa208410280800000000000000
+      internalID: -9078896197430438609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetRun6_3
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 769
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72c049aae2ebfd10800000000000000
+      internalID: 2160569943744103034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetRun6_4
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 769
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40775f7743966c9e0800000000000000
+      internalID: -1601476943411841276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superintendent_BleedingRun1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 513
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5942d4d49ca3f8200800000000000000
+      internalID: 184430746005218453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superintendent_BleedingRun2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 513
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0a8702def516380800000000000000
+      internalID: -8979790709943394107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superintendent_BleedingRun3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 513
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a5c6c828d9c04e0800000000000000
+      internalID: -2014061749314233757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superintendent_BleedingExtra1
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 513
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11aac9cee8df84e0800000000000000
+      internalID: -1977123191293042405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superintendent_BleedingExtra2
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 513
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1694f5a1eb387a20800000000000000
+      internalID: 3060261787136202267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chief_Superintendent_BleedingRun1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 258
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91f0c9e25fea9f20800000000000000
+      internalID: 3430317205584146842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chief_Superintendent_BleedingRun2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 258
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f977b30761e7c9e30800000000000000
+      internalID: 4511619561555720095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chief_Superintendent_BleedingRun3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 258
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90135208058f5a640800000000000000
+      internalID: 5090747978443206921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chief_Superintendent_BleedingExtra1
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 258
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2967a634a2eb0e70800000000000000
+      internalID: 9082602268442192172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chief_Superintendent_BleedingExtra2
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 258
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106aa80f08e3c90b0800000000000000
+      internalID: -5720628703155018239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetRun6_15
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 10
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79634284743c0ed50800000000000000
+      internalID: 6764621351230912151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetRun6_16
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 10
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf08211964ec4c60800000000000000
+      internalID: 7803863394236764097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetRun6_17
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 10
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97411fc9808788460800000000000000
+      internalID: 7244171979013559417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetRun6_18
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 10
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051e1e634c0440680800000000000000
+      internalID: -8789829361241824944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheetRun6_19
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 18
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326ce6f7e33255d50800000000000000
+      internalID: 6725320369880614435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

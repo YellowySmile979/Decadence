@@ -1,0 +1,565 @@
+fileFormatVersion: 2
+guid: 867c95988f1bd43478dd15cb24bc4d7c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8855945502315608040
+    second: Sergeant_BleedingRun1
+  - first:
+      213: -8065837753419482941
+    second: Sergeant_BleedingRun2
+  - first:
+      213: 3583144466957353843
+    second: Sergeant_BleedingRun3
+  - first:
+      213: 2547173173514835297
+    second: Sergeant_BleedingExtra1
+  - first:
+      213: -2564344137510423934
+    second: Sergeant_BleedingExtra2
+  - first:
+      213: -7009239642507409337
+    second: Inspector_BleedingRun1
+  - first:
+      213: 4585575365032185204
+    second: Inspector_BleedingRun2
+  - first:
+      213: -4503630050110322879
+    second: Inspector_BleedingRun3
+  - first:
+      213: 6623675689193606900
+    second: Inspector_BleedingExtra1
+  - first:
+      213: -2660409749969454098
+    second: Inspector_BleedingExtra2
+  - first:
+      213: 1884928113264932161
+    second: Chief_Inspector_BleedingRun1
+  - first:
+      213: -1223225376544468775
+    second: Chief_Inspector_BleedingRun2
+  - first:
+      213: 2393449183341782917
+    second: Chief_Inspector_BleedingRun3
+  - first:
+      213: 8034063635328463794
+    second: Chief_Inspector_BleedingExtra1
+  - first:
+      213: -2726044535637352584
+    second: Chief_Inspector_BleedingExtra2
+  - first:
+      213: -1920494495063591775
+    second: Commander_BleedingRun1
+  - first:
+      213: -2525054670298270665
+    second: Commander_BleedingRun2
+  - first:
+      213: -5738491216358479243
+    second: Commander_BleedingRun3
+  - first:
+      213: -6929482531355604895
+    second: Commander_BleedingExtra1
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 21
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sergeant_BleedingRun1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 773
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e77db77383a6ea70800000000000000
+      internalID: 8855945502315608040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sergeant_BleedingRun2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 773
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c83f734c43601090800000000000000
+      internalID: -8065837753419482941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sergeant_BleedingRun3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 773
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37346eb88e2e9b130800000000000000
+      internalID: 3583144466957353843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sergeant_BleedingExtra1
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 773
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16591cc7180695320800000000000000
+      internalID: 2547173173514835297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sergeant_BleedingExtra2
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 773
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282f5d9e79e996cd0800000000000000
+      internalID: -2564344137510423934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inspector_BleedingRun1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 517
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74882c28ead2abe90800000000000000
+      internalID: -7009239642507409337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inspector_BleedingRun2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 517
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d8683cf7c33af30800000000000000
+      internalID: 4585575365032185204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inspector_BleedingRun3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 517
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1474667a454ef71c0800000000000000
+      internalID: -4503630050110322879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inspector_BleedingExtra1
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 517
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe86c112f50ceb50800000000000000
+      internalID: 6623675689193606900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inspector_BleedingExtra2
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 517
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebb5188d63541bd0800000000000000
+      internalID: -2660409749969454098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chief_Inspector_BleedingRun1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 262
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145bd4ad12c982a10800000000000000
+      internalID: 1884928113264932161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chief_Inspector_BleedingRun2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 262
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0d2de300b360fe0800000000000000
+      internalID: -1223225376544468775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chief_Inspector_BleedingRun3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 262
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5872909e95d373120800000000000000
+      internalID: 2393449183341782917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chief_Inspector_BleedingExtra1
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 262
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3f2ae5f4abe7f60800000000000000
+      internalID: 8034063635328463794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chief_Inspector_BleedingExtra2
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 262
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fd07320f42b2ad0800000000000000
+      internalID: -2726044535637352584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commander_BleedingRun1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 6
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a434a49e680955e0800000000000000
+      internalID: -1920494495063591775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commander_BleedingRun2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 14
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7343e6ad72435fcd0800000000000000
+      internalID: -2525054670298270665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commander_BleedingRun3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 14
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ae04e74a8cc50b0800000000000000
+      internalID: -5738491216358479243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Commander_BleedingExtra1
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 14
+        width: 160
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16846490a5885df90800000000000000
+      internalID: -6929482531355604895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
