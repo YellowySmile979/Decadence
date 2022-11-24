@@ -868,7 +868,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 8927588188632137048, guid: 37d01c1d170dbc34da3b47f40701ff89, type: 3}
   FireOffset: {fileID: 356910340}
-  timeBetweenEachBulletReload: 0.2
+  timeBetweenEachBulletReload: 1
   currentClip: 3
   maxClipSize: 6
   currentAmmo: 40
