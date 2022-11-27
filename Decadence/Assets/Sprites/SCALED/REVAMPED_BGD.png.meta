@@ -52,10 +52,10 @@ TextureImporter:
     second: REVAMPED_brickbottomright
   - first:
       213: -3255887266373012992
-    second: REVAMPED_BGD_19
+    second: REVAMPED_crate
   - first:
       213: 4577700944528117020
-    second: REVAMPED_BGD_20
+    second: REVAMPED_guncrate
   - first:
       213: 8943352037985410931
     second: REVAMPED_mossbricktopleft
@@ -79,10 +79,10 @@ TextureImporter:
     second: REVAMPED_windowON2
   - first:
       213: 7661000819611842965
-    second: REVAMPED_BGD_28
+    second: REVAMPED_foodcrate
   - first:
       213: -5297050425790623865
-    second: REVAMPED_BGD_29
+    second: REVAMPED_ammocrate
   - first:
       213: -8013925381722116982
     second: REVAMPED_mossbrickleft
@@ -94,7 +94,7 @@ TextureImporter:
     second: REVAMPED_mossbrickright
   - first:
       213: 8340043845101188937
-    second: REVAMPED_BGD_33
+    second: REVAMPED_bigcrate
   - first:
       213: -3425172977554233841
     second: REVAMPED_mossbricksbottomleft
@@ -551,7 +551,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: REVAMPED_BGD_19
+      name: REVAMPED_crate
       rect:
         serializedVersion: 2
         x: 194
@@ -572,7 +572,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: REVAMPED_BGD_20
+      name: REVAMPED_guncrate
       rect:
         serializedVersion: 2
         x: 215
@@ -740,7 +740,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: REVAMPED_BGD_28
+      name: REVAMPED_foodcrate
       rect:
         serializedVersion: 2
         x: 194
@@ -761,7 +761,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: REVAMPED_BGD_29
+      name: REVAMPED_ammocrate
       rect:
         serializedVersion: 2
         x: 215
@@ -845,7 +845,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: REVAMPED_BGD_33
+      name: REVAMPED_bigcrate
       rect:
         serializedVersion: 2
         x: 194
