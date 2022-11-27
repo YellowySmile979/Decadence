@@ -22,13 +22,13 @@ TextureImporter:
     second: REVAMPED_dooropen
   - first:
       213: 4728863570467383969
-    second: REVAMPED_BGD_6
+    second: REVAMPED_glassbottle1
   - first:
       213: -2219258767942865898
-    second: REVAMPED_BGD_7
+    second: REVAMPED_glassbottle2
   - first:
       213: 2687103518120551217
-    second: REVAMPED_BGD_8
+    second: REVAMPED_glassbottle
   - first:
       213: 2570476594101805008
     second: REVAMPED_brickleft
@@ -40,7 +40,7 @@ TextureImporter:
     second: REVAMPED_brickright
   - first:
       213: 2664239375156219019
-    second: REVAMPED_BGD_12
+    second: REVAMPED_glassshards
   - first:
       213: 3150223026707758033
     second: REVAMPED_brickbottomleft
@@ -341,7 +341,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: REVAMPED_BGD_6
+      name: REVAMPED_glassbottle1
       rect:
         serializedVersion: 2
         x: 195
@@ -362,7 +362,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: REVAMPED_BGD_7
+      name: REVAMPED_glassbottle2
       rect:
         serializedVersion: 2
         x: 202
@@ -383,7 +383,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: REVAMPED_BGD_8
+      name: REVAMPED_glassbottle
       rect:
         serializedVersion: 2
         x: 208
@@ -467,7 +467,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: REVAMPED_BGD_12
+      name: REVAMPED_glassshards
       rect:
         serializedVersion: 2
         x: 195
