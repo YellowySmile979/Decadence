@@ -13,7 +13,7 @@ public class Level2Transition : MonoBehaviour
         if (other.GetComponent<PlayerController>())
         {
             //loads scene named level 2
-            SceneManager.LoadScene("Main Menu");
+            SceneManager.LoadScene("MainMenu");
 
         }
     }
