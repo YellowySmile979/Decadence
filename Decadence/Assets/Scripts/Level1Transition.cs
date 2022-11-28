@@ -13,7 +13,7 @@ public class Level1Transition : MonoBehaviour
             if (other.GetComponent<PlayerController>())
             {
                 //loads scene named level 2
-                SceneManager.LoadScene("Level 2");
+                SceneManager.LoadScene("REVAMPED LEVEL2");
 
             }
         }

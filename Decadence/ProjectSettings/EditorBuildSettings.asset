@@ -12,9 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menus/Credits.unity
     guid: 9ace586e12883f34b9093ccd11cb87b9
   - enabled: 1
-    path: Assets/Scenes/Act 1/Level 1 (Tutorial).unity
-    guid: 5b80340f1877317498edc470f0fd0e75
+    path: Assets/Scenes/Act 1/REVAMPED VER/REVAMPED LEVEL 1.unity
+    guid: b0d0c577c73eb284b812a1f45dced073
   - enabled: 1
-    path: Assets/Scenes/Act 1/Level 2.unity
-    guid: 9a7e0a6a182ac2344b762eeb8cad0d97
+    path: Assets/Scenes/Act 1/REVAMPED VER/REVAMPED LEVEL2.unity
+    guid: 25bbe85397fea554e97b503690724d74
   m_configObjects: {}
