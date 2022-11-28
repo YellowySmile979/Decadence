@@ -25,7 +25,10 @@ public class PlayerController : MonoBehaviour
     public float timeBetweenFiring;
     private bool canreload;
 
+
+
     [HideInInspector] public bool canMove = true;
+    [HideInInspector] public Vector2 respawnPosition;
 
     [Header("UI")]
     public Text ammoUIText;
@@ -37,6 +40,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         weapon = GetComponentInChildren<Weapon>();
+        respawnPosition = transform.position;
 
     }
 
