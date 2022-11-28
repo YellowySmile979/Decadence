@@ -21,6 +21,9 @@ public class LevelManager : MonoBehaviour
     public Sprite heartFull;
     public Sprite heartEmpty;
 
+    public GameObject deathSplosion;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -50,6 +53,9 @@ public class LevelManager : MonoBehaviour
         player.gameObject.SetActive(false);
         //wait for a while
         yield return new WaitForSeconds(waitToRespawn);
+        //creates the objects particles when player dies
+        Instantiate(deathSplosion, player.transform.position, player.transform.rotation);
+
 
         //moveplayer to respawn position
         player.gameObject.SetActive(true);

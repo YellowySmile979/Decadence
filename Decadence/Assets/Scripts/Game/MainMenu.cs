@@ -9,7 +9,7 @@ public class MainMenu : MonoBehaviour
     public void NewGame()
     {
         //loads scene named level 1 tutorial
-        SceneManager.LoadScene("Level 1 (Tutorial)");
+        SceneManager.LoadScene("REVAMPED LEVEL 1 (TUTORIAL LEVEL)");
     }
 
     //allows for the game to be quit from

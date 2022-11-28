@@ -13032,6 +13032,7 @@ MonoBehaviour:
   heart3: {fileID: 1195504785}
   heartFull: {fileID: -8405058192176592724, guid: 4c810b65abdfd294daedfc476d6c0211, type: 3}
   heartEmpty: {fileID: -4371761223435045764, guid: 4c810b65abdfd294daedfc476d6c0211, type: 3}
+  deathSplosion: {fileID: 5123954365801350936, guid: 4642c17bcb41f17459c7608c021ae9c8, type: 3}
 --- !u!1 &1562620899
 GameObject:
   m_ObjectHideFlags: 0
