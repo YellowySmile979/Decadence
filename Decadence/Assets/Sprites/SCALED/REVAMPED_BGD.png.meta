@@ -130,7 +130,7 @@ TextureImporter:
     second: REVAMPED_fallingbrick
   - first:
       213: 5140604353335189574
-    second: REVAMPED_BGD_14
+    second: REVAMPED_Grass
   - first:
       213: 77941146669018052
     second: REVAMPED_BGD_15
@@ -1093,7 +1093,7 @@ TextureImporter:
         width: 11
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1106,7 +1106,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: REVAMPED_BGD_14
+      name: REVAMPED_Grass
       rect:
         serializedVersion: 2
         x: 96
@@ -1114,7 +1114,7 @@ TextureImporter:
         width: 32
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1135,7 +1135,7 @@ TextureImporter:
         width: 32
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

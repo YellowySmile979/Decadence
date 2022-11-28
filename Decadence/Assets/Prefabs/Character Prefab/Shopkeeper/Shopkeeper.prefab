@@ -126,10 +126,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 1.2
   m_Material: {fileID: 6200000, guid: 68c2b3985c1a09d429db6d6b56a6bea1, type: 2}
   m_Interpolate: 1
   m_SleepingMode: 1
@@ -156,6 +156,7 @@ MonoBehaviour:
     m_Bits: 8
   timeBetweenFiring: 0.2
   canMove: 1
+  respawnPosition: {x: 0, y: 0}
   ammoUIText: {fileID: 0}
 --- !u!95 &1043654218754022227
 Animator:
@@ -215,6 +216,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9029933807354715557}
+  - component: {fileID: 482291542}
   m_Layer: 0
   m_Name: Weapon
   m_TagString: Untagged
@@ -237,6 +239,25 @@ Transform:
   m_Father: {fileID: 1043654218754022225}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &482291542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9029933807354715556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ae8fbbe29418b44a97d6f56347acf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 8927588188632137048, guid: 37d01c1d170dbc34da3b47f40701ff89, type: 3}
+  FireOffset: {fileID: 9029933808277150685}
+  timeBetweenEachBulletReload: 1
+  currentClip: 6
+  maxClipSize: 6
+  currentAmmo: 30
+  maxAmmoSize: 40
 --- !u!1 &9029933808277150684
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,7 +282,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9029933808277150684}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.66, y: 0.285, z: 0}
+  m_LocalPosition: {x: 0.66, y: -0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9029933807354715557}

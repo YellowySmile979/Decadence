@@ -51,10 +51,13 @@ public class LevelManager : MonoBehaviour
     {
         //Diasble the player
         player.gameObject.SetActive(false);
-        //wait for a while
-        yield return new WaitForSeconds(waitToRespawn);
+
         //creates the objects particles when player dies
         Instantiate(deathSplosion, player.transform.position, player.transform.rotation);
+
+        //wait for a while
+        yield return new WaitForSeconds(waitToRespawn);
+        
 
 
         //moveplayer to respawn position
