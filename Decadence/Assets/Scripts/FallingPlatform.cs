@@ -5,8 +5,8 @@ using UnityEngine;
 public class FallingPlatform : MonoBehaviour
 {
     Rigidbody2D rb;
-    FallingPlatformSpawner FPS; 
-   
+    FallingPlatformSpawner FPS;
+    
 
     // Start is called before the first frame update
     void Start()
