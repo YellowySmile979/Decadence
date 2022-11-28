@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Menus/Credits.unity
     guid: 9ace586e12883f34b9093ccd11cb87b9
   - enabled: 1
-    path: Assets/Scenes/Act 1/REVAMPED VER/REVAMPED LEVEL 1.unity
+    path: Assets/Scenes/Act 1/REVAMPED VER/REVAMPED LEVEL 1 (TUTORIAL LEVEL).unity
     guid: b0d0c577c73eb284b812a1f45dced073
   - enabled: 1
     path: Assets/Scenes/Act 1/REVAMPED VER/REVAMPED LEVEL2.unity
