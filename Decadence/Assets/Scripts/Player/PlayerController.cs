@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour
     Animator anim;
     bool isGrounded;
     Weapon weapon;
+    LevelManager LM;
+
 
     private bool canFire;
     private float timer;
@@ -41,6 +43,8 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         weapon = GetComponentInChildren<Weapon>();
         respawnPosition = transform.position;
+        LM = GetComponent<LevelManager>();
+
 
     }
 
@@ -124,4 +128,17 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(weapon.Reload());
         }
     }
+    void OnTriggerEnter2D(Collider2D other) //this is for when this object's collider collides with a trigger
+                                            //things inside the bracket is a PARAMETER
+    {
+        if (other.GetComponent<CheckpointController>())
+        {
+            //sets respawn position to the collider that is held by this script
+            respawnPosition = other.transform.position;
+
+
+        }
+
+    }
+
 }
