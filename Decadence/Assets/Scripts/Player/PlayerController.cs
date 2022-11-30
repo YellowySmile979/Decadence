@@ -28,7 +28,6 @@ public class PlayerController : MonoBehaviour
     private bool canreload;
 
 
-
     [HideInInspector] public bool canMove = true;
     [HideInInspector] public Vector2 respawnPosition;
 
