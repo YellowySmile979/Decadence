@@ -16,6 +16,16 @@ public class Weapon : MonoBehaviour
 
     public int currentClip, maxClipSize, currentAmmo, maxAmmoSize;
 
+    //adds ammo to the current clip
+    public void AddAmmo(int amount)
+    {
+        currentAmmo += amount; //adds currentAmmo by the added amount under BulletCollecting script
+        if(currentAmmo>=maxAmmoSize) //prevents stack overflow
+        {
+            currentAmmo = maxAmmoSize; //to limit the ammo count
+
+        }
+    }
     private void Start()
     {
         owner = GetComponentInParent<PlayerController>();
@@ -26,14 +36,17 @@ public class Weapon : MonoBehaviour
     {
         if (currentClip > 0)
         {
-
-            GameObject bullet = Instantiate(bulletPrefab, FireOffset.position, FireOffset.rotation);
+            //instantiates a bullet from prefab
+            GameObject bullet = Instantiate(bulletPrefab, FireOffset.position, FireOffset.rotation); 
+            //calls the projectile script
             Projectile p = bullet.GetComponent<Projectile>();
+            //to change the orientation of the bullet in relation to the player
             bullet.transform.localScale = new Vector3(Mathf.Sign(owner.transform.localScale.x), 1, 1);
             currentClip--;
         }
 
     }
+    //script for reloading gun
     public IEnumerator Reload()
     {
         if (canReload)
@@ -60,14 +73,5 @@ public class Weapon : MonoBehaviour
             owner.canMove = true;
         }
 
-    }
-
-    public void addAmmo(int ammoAmmounnt)
-    {
-        currentAmmo += ammoAmmounnt;
-        if (currentAmmo > maxAmmoSize)
-        {
-            currentAmmo = maxAmmoSize;
-        }
     }
 }

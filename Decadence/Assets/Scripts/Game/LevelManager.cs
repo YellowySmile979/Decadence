@@ -33,6 +33,7 @@ public class LevelManager : MonoBehaviour
 
     }
 
+    //when health is below zero or zero, respawn the character
     private void Update()
     {
         if (healthCount <= 0 && !respawning)
@@ -42,11 +43,14 @@ public class LevelManager : MonoBehaviour
         }
 
     }
+
+    //starts the coroutine RespawnCO()
     public void Respawn()
     {
         StartCoroutine(RespawnCO());
     }
 
+    //coroutine RespawnCO() is created here
     IEnumerator RespawnCO()
     {
         //Diasble the player
@@ -68,11 +72,14 @@ public class LevelManager : MonoBehaviour
         UpdateHeartMeter();
     }
 
+    //how much damage the player should take
     public void HurtPlayer(int damageToTake)
     {
         healthCount -= damageToTake;
         UpdateHeartMeter();
     }
+
+    //updates the health sprite
     public void UpdateHeartMeter()
     {
         switch (healthCount)
