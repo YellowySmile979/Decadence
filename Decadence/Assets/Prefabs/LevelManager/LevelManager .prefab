@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2070610398770628296
+--- !u!1 &62034041477529926
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,22 +8,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2070610398770628297}
-  - component: {fileID: 2070610398770628298}
+  - component: {fileID: 62034041477529927}
+  - component: {fileID: 62034041477529924}
   m_Layer: 0
-  m_Name: LevelManager
+  m_Name: 'LevelManager '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2070610398770628297
+--- !u!4 &62034041477529927
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2070610398770628296}
+  m_GameObject: {fileID: 62034041477529926}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -21.855341, y: 0.9275254, z: -398.96033}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -31,13 +31,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2070610398770628298
+--- !u!114 &62034041477529924
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2070610398770628296}
+  m_GameObject: {fileID: 62034041477529926}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24d319ba7dc526b4ba8d6a4007c91558, type: 3}
@@ -49,6 +49,20 @@ MonoBehaviour:
   heart1: {fileID: 0}
   heart2: {fileID: 0}
   heart3: {fileID: 0}
-  heartFull: {fileID: -8405058192176592724, guid: 4c810b65abdfd294daedfc476d6c0211, type: 3}
-  heartEmpty: {fileID: -4371761223435045764, guid: 4c810b65abdfd294daedfc476d6c0211, type: 3}
+  heart4: {fileID: 0}
+  heart5: {fileID: 0}
+  heart6: {fileID: 0}
+  heart7: {fileID: 0}
+  heart8: {fileID: 0}
+  heart9: {fileID: 0}
+  heart10: {fileID: 0}
+  heart11: {fileID: 0}
+  Ammo: {fileID: 0}
+  Ammo0: {fileID: -1834125156064512664, guid: bb4c9f19f0456cf4cabd2a968803fe29, type: 3}
+  Ammo1: {fileID: 7778454623386867554, guid: bb4c9f19f0456cf4cabd2a968803fe29, type: 3}
+  Ammo2: {fileID: -4241692675348272296, guid: bb4c9f19f0456cf4cabd2a968803fe29, type: 3}
+  Ammo3: {fileID: 6683314454382959842, guid: bb4c9f19f0456cf4cabd2a968803fe29, type: 3}
+  Ammo4: {fileID: 4157176978591050632, guid: bb4c9f19f0456cf4cabd2a968803fe29, type: 3}
+  Ammo5: {fileID: 6697462188242072848, guid: bb4c9f19f0456cf4cabd2a968803fe29, type: 3}
+  Ammo6: {fileID: 6470643078102974578, guid: bb4c9f19f0456cf4cabd2a968803fe29, type: 3}
   deathSplosion: {fileID: 5123954365801350936, guid: 4642c17bcb41f17459c7608c021ae9c8, type: 3}

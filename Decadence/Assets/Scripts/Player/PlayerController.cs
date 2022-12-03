@@ -42,9 +42,12 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         weapon = GetComponentInChildren<Weapon>();
         respawnPosition = transform.position;
-        LM = GetComponent<LevelManager>();
+        LM = FindObjectOfType<LevelManager>();
 
-
+        Weapon.currentAmmo = Weapon.currentClip + Weapon.AmmoWithoutClip;
+        ammoUIText.text = " Max Ammo: " + Weapon.currentAmmo + "/" + Weapon.maxAmmoSize;
+        LM.UpdateHeartMeter();
+        LM.UpdateAmmoMeter();
     }
 
     // Update is called once per frame
@@ -58,7 +61,7 @@ public class PlayerController : MonoBehaviour
         if (canMove) movement();
 
 
-        ammoUIText.text = "Ammo: " + weapon.currentClip + " / " + weapon.maxClipSize + " Max Ammo: " + weapon.currentAmmo + "/" + weapon.maxAmmoSize;
+        
 
     }
     void movement()
