@@ -19,12 +19,13 @@ public class PlayerController : MonoBehaviour
     Animator anim;
     bool isGrounded;
     Weapon weapon;
+    LevelManager LM;
+
 
     private bool canFire;
     private float timer;
     public float timeBetweenFiring;
     private bool canreload;
-
 
 
     [HideInInspector] public bool canMove = true;
@@ -41,7 +42,12 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         weapon = GetComponentInChildren<Weapon>();
         respawnPosition = transform.position;
+        LM = FindObjectOfType<LevelManager>();
 
+        Weapon.currentAmmo = Weapon.currentClip + Weapon.AmmoWithoutClip;
+        ammoUIText.text = " Max Ammo: " + Weapon.currentAmmo + "/" + Weapon.maxAmmoSize;
+        LM.UpdateHeartMeter();
+        LM.UpdateAmmoMeter();
     }
 
     // Update is called once per frame
@@ -55,7 +61,7 @@ public class PlayerController : MonoBehaviour
         if (canMove) movement();
 
 
-        ammoUIText.text = "Ammo: " + weapon.currentClip + " / " + weapon.maxClipSize + " Max Ammo: " + weapon.currentAmmo + "/" + weapon.maxAmmoSize;
+        
 
     }
     void movement()
@@ -124,4 +130,17 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(weapon.Reload());
         }
     }
+    void OnTriggerEnter2D(Collider2D other) //this is for when this object's collider collides with a trigger
+                                            //things inside the bracket is a PARAMETER
+    {
+        if (other.GetComponent<CheckpointController>())
+        {
+            //sets respawn position to the collider that is held by this script
+            respawnPosition = other.transform.position;
+
+
+        }
+
+    }
+
 }

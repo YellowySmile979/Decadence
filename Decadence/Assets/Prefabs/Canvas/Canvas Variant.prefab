@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2101450922439770365, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 271
+      objectReference: {fileID: 0}
     - target: {fileID: 2922748567060232854, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
       propertyPath: m_Name
       value: Canvas Variant
@@ -94,6 +98,22 @@ PrefabInstance:
     - target: {fileID: 2922748567060233066, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3780909132333906048, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 545
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378516441767917954, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 611
+      objectReference: {fileID: 0}
+    - target: {fileID: 7200977809962027687, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 358
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109088585332654004, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 446
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}

@@ -7,6 +7,7 @@ public class Weapon : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform FireOffset;
     PlayerController owner;
+    LevelManager Lm;
     public float timeBetweenEachBulletReload;
     private bool canReload;
     //Function is to make sure you don't reload twice
@@ -14,11 +15,17 @@ public class Weapon : MonoBehaviour
     //cannot shoot while reloading variable
 
 
-    public int currentClip, maxClipSize, currentAmmo, maxAmmoSize;
-
+    public static int currentClip = 3;
+    public static int maxClipSize = 6;
+    public static int currentAmmo = 10;
+    public static int maxAmmoSize = 24;
+    public static int AmmoWithoutClip = 7;
+       
+    
     private void Start()
     {
         owner = GetComponentInParent<PlayerController>();
+        Lm = FindObjectOfType<LevelManager>();
         canReload = true;
     }
 
@@ -26,14 +33,20 @@ public class Weapon : MonoBehaviour
     {
         if (currentClip > 0)
         {
-
-            GameObject bullet = Instantiate(bulletPrefab, FireOffset.position, FireOffset.rotation);
+            //instantiates a bullet from prefab
+            GameObject bullet = Instantiate(bulletPrefab, FireOffset.position, FireOffset.rotation); 
+            //calls the projectile script
             Projectile p = bullet.GetComponent<Projectile>();
+            //to change the orientation of the bullet in relation to the player
             bullet.transform.localScale = new Vector3(Mathf.Sign(owner.transform.localScale.x), 1, 1);
             currentClip--;
+            currentAmmo--;
+            Lm.UpdateAmmoMeter();
+            owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
         }
 
     }
+    //script for reloading gun
     public IEnumerator Reload()
     {
         if (canReload)
@@ -46,6 +59,8 @@ public class Weapon : MonoBehaviour
             {
                 currentClip++;
                 currentAmmo--;
+                owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
+                Lm.UpdateAmmoMeter();
                 yield return new WaitForSeconds(timeBetweenEachBulletReload);
                 // This will keep running until your gun is fully reloaded
 
@@ -61,13 +76,16 @@ public class Weapon : MonoBehaviour
         }
 
     }
-
-    public void addAmmo(int ammoAmmounnt)
+    //adds ammo to the current clip
+    public void AddAmmo(int amount)
     {
-        currentAmmo += ammoAmmounnt;
-        if (currentAmmo > maxAmmoSize)
+        currentAmmo += amount; //adds currentAmmo by the added amount under BulletCollecting script
+        if (currentAmmo >= maxAmmoSize) //prevents stack overflow
         {
-            currentAmmo = maxAmmoSize;
+            currentAmmo = maxAmmoSize; //to limit the ammo count
+            owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
+            Lm.UpdateAmmoMeter();
+
         }
     }
 }

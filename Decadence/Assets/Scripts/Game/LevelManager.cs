@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
@@ -8,7 +9,6 @@ public class LevelManager : MonoBehaviour
     public float waitToRespawn = 2f;
     PlayerController player;
 
-    
     public int maxHealth;
     public int healthCount;
 
@@ -17,10 +17,27 @@ public class LevelManager : MonoBehaviour
     public Image heart1;
     public Image heart2;
     public Image heart3;
+    public Image heart4;
+    public Image heart5;
+    public Image heart6;
+    public Image heart7;
+    public Image heart8;
+    public Image heart9;
+    public Image heart10;
+    public Image heart11;
 
-    public Sprite heartFull;
-    public Sprite heartEmpty;
+    [Header("Ammo")]
+    public Image Ammo;
 
+    public Sprite Ammo0;
+    public Sprite Ammo1;
+    public Sprite Ammo2;
+    public Sprite Ammo3;
+    public Sprite Ammo4;
+    public Sprite Ammo5;
+    public Sprite Ammo6;
+
+    [Header("Effect")]
     public GameObject deathSplosion;
 
 
@@ -33,6 +50,7 @@ public class LevelManager : MonoBehaviour
 
     }
 
+    //when health is below zero or zero, respawn the character
     private void Update()
     {
         if (healthCount <= 0 && !respawning)
@@ -42,11 +60,14 @@ public class LevelManager : MonoBehaviour
         }
 
     }
+
+    //starts the coroutine RespawnCO()
     public void Respawn()
     {
         StartCoroutine(RespawnCO());
     }
 
+    //coroutine RespawnCO() is created here
     IEnumerator RespawnCO()
     {
         //Diasble the player
@@ -57,7 +78,7 @@ public class LevelManager : MonoBehaviour
 
         //wait for a while
         yield return new WaitForSeconds(waitToRespawn);
-        
+
 
 
         //moveplayer to respawn position
@@ -66,42 +87,207 @@ public class LevelManager : MonoBehaviour
         healthCount = maxHealth;
         respawning = false;
         UpdateHeartMeter();
+        UpdateAmmoMeter();
     }
 
+    //how much damage the player should take
     public void HurtPlayer(int damageToTake)
     {
         healthCount -= damageToTake;
         UpdateHeartMeter();
+        UpdateAmmoMeter();
     }
+
+    //updates the health sprite
     public void UpdateHeartMeter()
     {
-        switch (healthCount)
-        {
-            case 3:
-                heart1.sprite = heartFull;
-                heart2.sprite = heartFull;
-                heart3.sprite = heartFull;
-                break;
 
-            case 2:
-                heart1.sprite = heartFull;
-                heart2.sprite = heartFull;
-                heart3.sprite = heartEmpty;
+
+        if (healthCount >= 10)
+        {
+            heart1.color = new Color(255, 255, 255, 255);
+            heart2.gameObject.SetActive(true);
+            heart3.gameObject.SetActive(true);
+            heart4.gameObject.SetActive(true);
+            heart5.gameObject.SetActive(true);
+            heart6.gameObject.SetActive(true);
+            heart7.gameObject.SetActive(true);
+            heart8.gameObject.SetActive(true);
+            heart9.gameObject.SetActive(true);
+            heart10.gameObject.SetActive(true);
+            heart11.gameObject.SetActive(true);
+
+        }
+        else if (healthCount >= 9)
+        {
+            heart1.color = new Color(255, 255, 255, 255);
+            heart2.gameObject.SetActive(true);
+            heart3.gameObject.SetActive(true);
+            heart4.gameObject.SetActive(true);
+            heart5.gameObject.SetActive(true);
+            heart6.gameObject.SetActive(true);
+            heart7.gameObject.SetActive(true);
+            heart8.gameObject.SetActive(true);
+            heart9.gameObject.SetActive(true);
+            heart10.gameObject.SetActive(true);
+            heart11.gameObject.SetActive(false);
+        }
+        else if (healthCount >= 8)
+        {
+            heart1.color = new Color(255, 255, 255, 255);
+            heart2.gameObject.SetActive(true);
+            heart3.gameObject.SetActive(true);
+            heart4.gameObject.SetActive(true);
+            heart5.gameObject.SetActive(true);
+            heart6.gameObject.SetActive(true);
+            heart7.gameObject.SetActive(true);
+            heart8.gameObject.SetActive(true);
+            heart9.gameObject.SetActive(true);
+            heart10.gameObject.SetActive(false);
+            heart11.gameObject.SetActive(false);
+
+        }
+        else if (healthCount >= 7)
+        {
+            heart1.color = new Color(255, 255, 255, 255);
+            heart2.gameObject.SetActive(true);
+            heart3.gameObject.SetActive(true);
+            heart4.gameObject.SetActive(true);
+            heart5.gameObject.SetActive(true);
+            heart6.gameObject.SetActive(true);
+            heart7.gameObject.SetActive(true);
+            heart8.gameObject.SetActive(true);
+            heart9.gameObject.SetActive(false);
+            heart10.gameObject.SetActive(false);
+            heart11.gameObject.SetActive(false);
+        }
+        else if (healthCount >= 6)
+        {
+            heart1.color = new Color(255, 255, 255, 255);
+            heart2.gameObject.SetActive(true);
+            heart3.gameObject.SetActive(true);
+            heart4.gameObject.SetActive(true);
+            heart5.gameObject.SetActive(true);
+            heart6.gameObject.SetActive(true);
+            heart7.gameObject.SetActive(true);
+            heart8.gameObject.SetActive(false);
+            heart9.gameObject.SetActive(false);
+            heart10.gameObject.SetActive(false);
+            heart11.gameObject.SetActive(false);
+        }
+        else if (healthCount >= 5)
+        {
+            heart1.color = new Color(255, 255, 255, 255);
+            heart2.gameObject.SetActive(true);
+            heart3.gameObject.SetActive(true);
+            heart4.gameObject.SetActive(true);
+            heart5.gameObject.SetActive(true);
+            heart6.gameObject.SetActive(true);
+            heart7.gameObject.SetActive(false);
+            heart8.gameObject.SetActive(false);
+            heart9.gameObject.SetActive(false);
+            heart10.gameObject.SetActive(false);
+            heart11.gameObject.SetActive(false);
+        }
+        else if (healthCount >= 4)
+        {
+            heart1.color = new Color(255, 255, 255, 255);
+            heart2.gameObject.SetActive(true);
+            heart3.gameObject.SetActive(true);
+            heart4.gameObject.SetActive(true);
+            heart5.gameObject.SetActive(true);
+            heart6.gameObject.SetActive(false);
+            heart7.gameObject.SetActive(false);
+            heart8.gameObject.SetActive(false);
+            heart9.gameObject.SetActive(false);
+            heart10.gameObject.SetActive(false);
+            heart11.gameObject.SetActive(false);
+        }
+        else if (healthCount >= 3)
+        {
+            heart1.color = new Color(255, 255, 255, 255);
+            heart2.gameObject.SetActive(true);
+            heart3.gameObject.SetActive(true);
+            heart4.gameObject.SetActive(true);
+            heart5.gameObject.SetActive(false);
+            heart6.gameObject.SetActive(false);
+            heart7.gameObject.SetActive(false);
+            heart8.gameObject.SetActive(false);
+            heart9.gameObject.SetActive(false);
+            heart10.gameObject.SetActive(false);
+            heart11.gameObject.SetActive(false);
+        }
+        else if (healthCount >= 2)
+        {
+            heart1.color = new Color(255, 255, 255, 255);
+            heart2.gameObject.SetActive(true);
+            heart3.gameObject.SetActive(true);
+            heart4.gameObject.SetActive(false);
+            heart5.gameObject.SetActive(false);
+            heart6.gameObject.SetActive(false);
+            heart7.gameObject.SetActive(false);
+            heart8.gameObject.SetActive(false);
+            heart9.gameObject.SetActive(false);
+            heart10.gameObject.SetActive(false);
+            heart11.gameObject.SetActive(false);
+        }
+        else if (healthCount >= 1)
+        {
+            heart1.color = new Color(255, 255, 255, 255);
+            heart2.gameObject.SetActive(true);
+            heart3.gameObject.SetActive(false);
+            heart4.gameObject.SetActive(false);
+            heart5.gameObject.SetActive(false);
+            heart6.gameObject.SetActive(false);
+            heart7.gameObject.SetActive(false);
+            heart8.gameObject.SetActive(false);
+            heart9.gameObject.SetActive(false);
+            heart10.gameObject.SetActive(false);
+            heart11.gameObject.SetActive(false);
+        }
+        else
+        {
+            heart1.color = new Color(0, 0, 0, 255);
+            heart2.gameObject.SetActive(false);
+            heart3.gameObject.SetActive(false);
+            heart4.gameObject.SetActive(false);
+            heart5.gameObject.SetActive(false);
+            heart6.gameObject.SetActive(false);
+            heart7.gameObject.SetActive(false);
+            heart8.gameObject.SetActive(false);
+            heart9.gameObject.SetActive(false);
+            heart10.gameObject.SetActive(false);
+            heart11.gameObject.SetActive(false);
+
+        }
+    }
+    public void UpdateAmmoMeter()
+    {
+        switch (Weapon.currentClip)
+        {
+            case 0:
+                Ammo.sprite = Ammo0;
                 break;
             case 1:
-                heart1.sprite = heartFull;
-                heart2.sprite = heartEmpty;
-                heart3.sprite = heartEmpty;
+                Ammo.sprite = Ammo1;
                 break;
-            case 0:
-                heart1.sprite = heartEmpty;
-                heart2.sprite = heartEmpty;
-                heart3.sprite = heartEmpty;
+            case 2:
+                Ammo.sprite = Ammo2;
+                break;
+            case 3:
+                Ammo.sprite = Ammo3;
+                break;
+            case 4:
+                Ammo.sprite = Ammo4;
+                break;
+            case 5:
+                Ammo.sprite = Ammo5;
+                break;
+            case 6:
+                Ammo.sprite = Ammo6;
                 break;
             default:
-                heart1.sprite = heartEmpty;
-                heart2.sprite = heartEmpty;
-                heart3.sprite = heartEmpty;
+                Ammo.sprite = Ammo0;
                 break;
         }
     }
