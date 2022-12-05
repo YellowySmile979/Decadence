@@ -1,0 +1,493 @@
+fileFormatVersion: 2
+guid: 761c3e81e64d00645966f60fe0c202b1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2007456881159951943
+    second: ShopkeeperIDLE1_noshoot
+  - first:
+      213: 8702885637157328284
+    second: ShopkeeperIDLE2_noshoot
+  - first:
+      213: 7571798506873795033
+    second: ShopkeeperRUN1_noshoot
+  - first:
+      213: -2845792928275305223
+    second: ShopkeeperRUN2_noshoot
+  - first:
+      213: -599543360427017424
+    second: ShopkeeperRUN3_noshoot
+  - first:
+      213: -3294809466508223597
+    second: ShopkeeperRUN4_noshoot
+  - first:
+      213: -3113127750087599930
+    second: ShopkeeperRUN5_noshoot
+  - first:
+      213: 484433490542101996
+    second: ShopkeeperRUN6_noshoot
+  - first:
+      213: 4698425531881880514
+    second: ShopkeeperRUN7_noshoot
+  - first:
+      213: 2282723503460294241
+    second: ShopkeeperRUN8_noshoot
+  - first:
+      213: -712170042763109765
+    second: ShopkeeperRUN9_noshoot
+  - first:
+      213: -3669584191037500696
+    second: ShopkeeperRUN10_noshoot
+  - first:
+      213: -1589355142281779916
+    second: ShopkeeperJUMP1_noshoot
+  - first:
+      213: -6536357703953007166
+    second: ShopkeeperJUMP2_noshoot
+  - first:
+      213: 7522616479411893322
+    second: ShopkeeperJUMP3_noshoot
+  - first:
+      213: -8279055918935953206
+    second: ShopkeeperJUMP4_noshoot
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ShopkeeperIDLE1_noshoot
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 19
+        width: 37
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746d37fb56bebdb10800000000000000
+      internalID: 2007456881159951943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopkeeperIDLE2_noshoot
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 19
+        width: 37
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c959c9b806cd6c870800000000000000
+      internalID: 8702885637157328284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopkeeperRUN1_noshoot
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 19
+        width: 37
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1bb09ff9e641960800000000000000
+      internalID: 7571798506873795033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopkeeperRUN2_noshoot
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 19
+        width: 37
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fce4ddc866b188d0800000000000000
+      internalID: -2845792928275305223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopkeeperRUN3_noshoot
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 19
+        width: 52
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bbd4e7d7efda7f0800000000000000
+      internalID: -599543360427017424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopkeeperRUN4_noshoot
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 19
+        width: 56
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bde223f3c7642d0800000000000000
+      internalID: -3294809466508223597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopkeeperRUN5_noshoot
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 19
+        width: 49
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c81e9b2ec2fbc4d0800000000000000
+      internalID: -3113127750087599930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopkeeperRUN6_noshoot
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 19
+        width: 37
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5801961bd09b600800000000000000
+      internalID: 484433490542101996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopkeeperRUN7_noshoot
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 19
+        width: 37
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbf17fb029243140800000000000000
+      internalID: 4698425531881880514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopkeeperRUN8_noshoot
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 19
+        width: 37
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e9f289eecddaf10800000000000000
+      internalID: 2282723503460294241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopkeeperRUN9_noshoot
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 19
+        width: 37
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a1e6d8e1ddd16f0800000000000000
+      internalID: -712170042763109765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopkeeperRUN10_noshoot
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 19
+        width: 37
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e212dbde94031dc0800000000000000
+      internalID: -3669584191037500696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopkeeperJUMP1_noshoot
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 20
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435aa5a3be971f9e0800000000000000
+      internalID: -1589355142281779916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopkeeperJUMP2_noshoot
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 20
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd3ef2ac413a45a0800000000000000
+      internalID: -6536357703953007166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopkeeperJUMP3_noshoot
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 21
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4478dcd4d3b56860800000000000000
+      internalID: 7522616479411893322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShopkeeperJUMP4_noshoot
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 20
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac03a3c8182ea1d80800000000000000
+      internalID: -8279055918935953206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
