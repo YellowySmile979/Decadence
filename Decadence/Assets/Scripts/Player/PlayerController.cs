@@ -26,8 +26,7 @@ public class PlayerController : MonoBehaviour
     private float timer;
     public float timeBetweenFiring;
     private bool canreload;
-
-
+    
     [HideInInspector] public bool canMove = true;
     [HideInInspector] public Vector2 respawnPosition;
 
@@ -118,6 +117,7 @@ public class PlayerController : MonoBehaviour
         //Possibly shooting script
         if (Input.GetButtonDown("Fire1") && canFire && !weapon.IsReloading) 
         {
+            anim.SetTrigger("Shoot");
             weapon.Fires();
             canFire = false;
             //Projectile bullet = Instantiate(projectilePrefab, FireOffset.position, transform.rotation);
@@ -126,7 +126,7 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.R))
         {
-
+            rb.velocity = new Vector2(0, 0);
             StartCoroutine(weapon.Reload());
         }
     }
