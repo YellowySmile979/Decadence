@@ -31,7 +31,7 @@ public class Weapon : MonoBehaviour
 
     public void Fires()
     {
-        if (currentClip > 0)
+        if (currentAmmo > 0)
         {
             //instantiates a bullet from prefab
             GameObject bullet = Instantiate(bulletPrefab, FireOffset.position, FireOffset.rotation); 
@@ -55,16 +55,24 @@ public class Weapon : MonoBehaviour
             canReload = false;
             IsReloading = true;
             int reloadAmount = maxClipSize - currentClip;//how many bullets to reload
-            for (int i = 0; i < reloadAmount; i++)
-            {
-                currentClip++;
-                currentAmmo--;
-                owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
-                Lm.UpdateAmmoMeter();
-                yield return new WaitForSeconds(timeBetweenEachBulletReload);
-                // This will keep running until your gun is fully reloaded
+            
 
-            }
+                for (int i = 0; i < reloadAmount; i++)
+                {
+                    if (AmmoWithoutClip > 0)
+                    {
+                        currentClip++;
+                        AmmoWithoutClip--;
+                        owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
+                        Lm.UpdateAmmoMeter();
+                        yield return new WaitForSeconds(timeBetweenEachBulletReload);
+                        // This will keep running until your gun is fully reloaded   
+
+                    }
+                                         ;
+                   
+                }   
+
 
             canReload = true;
             IsReloading = false;
@@ -80,12 +88,13 @@ public class Weapon : MonoBehaviour
     public void AddAmmo(int amount)
     {
         currentAmmo += amount; //adds currentAmmo by the added amount under BulletCollecting script
+        Lm.UpdateAmmoMeter();
+        owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
         if (currentAmmo >= maxAmmoSize) //prevents stack overflow
         {
             currentAmmo = maxAmmoSize; //to limit the ammo count
-            owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
             Lm.UpdateAmmoMeter();
-
+            owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
         }
     }
 }

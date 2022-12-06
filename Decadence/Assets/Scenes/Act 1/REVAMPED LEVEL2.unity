@@ -1354,6 +1354,10 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 62034041477529924, guid: c0480557c89df0341865bcad641f8bf0, type: 3}
+      propertyPath: healthCount
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 62034041477529926, guid: c0480557c89df0341865bcad641f8bf0, type: 3}
       propertyPath: m_Name
       value: 'LevelManager '

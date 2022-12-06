@@ -11,6 +11,7 @@ public class LevelManager : MonoBehaviour
 
     public int maxHealth;
     public int healthCount;
+    public int healthToRespawn;
 
     bool respawning;
 
@@ -45,8 +46,8 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
         player = FindObjectOfType<PlayerController>();
-
-        healthCount = maxHealth;
+        healthToRespawn = healthCount;
+        //healthCount = maxHealth;
 
     }
 
@@ -84,7 +85,7 @@ public class LevelManager : MonoBehaviour
         //moveplayer to respawn position
         player.gameObject.SetActive(true);
         player.transform.position = player.respawnPosition;
-        healthCount = maxHealth;
+        healthCount = healthToRespawn;
         respawning = false;
         UpdateHeartMeter();
         UpdateAmmoMeter();
