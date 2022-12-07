@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
 
     public Transform groundCheck;
     //transform creates an option or component under Inspector to get the Transform of a gameobject
-    public float groundCheckRadius = 0.21f;
+    public float groundCheckRadius = 0.4f;
     public LayerMask whatIsGround;
 
 
@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour
         respawnPosition = transform.position;
         LM = FindObjectOfType<LevelManager>();
 
-        Weapon.currentAmmo = Weapon.currentClip + Weapon.AmmoWithoutClip;
+
         ammoUIText.text = " Max Ammo: " + Weapon.currentAmmo + "/" + Weapon.maxAmmoSize;
         LM.UpdateHeartMeter();
         LM.UpdateAmmoMeter();
@@ -90,7 +90,7 @@ public class PlayerController : MonoBehaviour
         }
 
         //listen to spacebar to jump
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && isGrounded )
         {
             //rb.velocity = new Vector2(rb.velocity.x, jumpSpeed)
             //above is what the slides say
@@ -99,9 +99,8 @@ public class PlayerController : MonoBehaviour
 
             //basically it forms a vector triangle which adds the x axis velocity with the y axis velocity to produce
             //the third velocity which is diagonal (basically physics)
-
-
         }
+
 
         if (!canFire)
         {

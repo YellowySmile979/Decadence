@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4245575798723185688}
   - component: {fileID: 4245575798723185689}
   - component: {fileID: 4245575798723185690}
+  - component: {fileID: 8184897366134849317}
+  - component: {fileID: -2477545511968355719}
   m_Layer: 3
   m_Name: REVAMPED_fallingbrick
   m_TagString: Untagged
@@ -109,3 +111,36 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6875, y: 0.4375}
   m_EdgeRadius: 0
+--- !u!114 &8184897366134849317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4245575798723185691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93cc55dc91f9674196a1ff3add135bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &-2477545511968355719
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4245575798723185691}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

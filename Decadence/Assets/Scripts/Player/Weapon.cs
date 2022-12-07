@@ -19,7 +19,6 @@ public class Weapon : MonoBehaviour
     public static int maxClipSize = 6;
     public static int currentAmmo = 10;
     public static int maxAmmoSize = 24;
-    public static int AmmoWithoutClip = 7;
        
     
     private void Start()
@@ -31,7 +30,7 @@ public class Weapon : MonoBehaviour
 
     public void Fires()
     {
-        if (currentAmmo > 0)
+        if (currentClip > 0)
         {
             //instantiates a bullet from prefab
             GameObject bullet = Instantiate(bulletPrefab, FireOffset.position, FireOffset.rotation); 
@@ -40,7 +39,6 @@ public class Weapon : MonoBehaviour
             //to change the orientation of the bullet in relation to the player
             bullet.transform.localScale = new Vector3(Mathf.Sign(owner.transform.localScale.x), 1, 1);
             currentClip--;
-            currentAmmo--;
             Lm.UpdateAmmoMeter();
             owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
         }
@@ -59,10 +57,10 @@ public class Weapon : MonoBehaviour
 
                 for (int i = 0; i < reloadAmount; i++)
                 {
-                    if (AmmoWithoutClip > 0)
+                    if (currentAmmo > 0)
                     {
                         currentClip++;
-                        AmmoWithoutClip--;
+                        currentAmmo--;
                         owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
                         Lm.UpdateAmmoMeter();
                         yield return new WaitForSeconds(timeBetweenEachBulletReload);

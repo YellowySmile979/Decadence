@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class FallingPlatformSpawner : MonoBehaviour
 {
-    public GameObject fallingplatformPrefab;
+    public GameObject fallingPlatformPrefab;
     [HideInInspector] public bool isplatformThere;
 
     // Start is called before the first frame update
     void Start()
     {
         isplatformThere = true;
+
     }
 
     // Update is called once per frame
@@ -32,7 +33,7 @@ public class FallingPlatformSpawner : MonoBehaviour
     {
         yield return new WaitForSeconds(3f);
 
-        GameObject platform = Instantiate(fallingplatformPrefab, transform.position, transform.rotation);
+        GameObject platform = Instantiate(fallingPlatformPrefab, transform.position, transform.rotation);
 
         Destroy(gameObject, 0.5f);
 
