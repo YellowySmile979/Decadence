@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
+    [Header("Reload")]
     public GameObject bulletPrefab;
     public Transform FireOffset;
     PlayerController owner;
@@ -14,7 +15,7 @@ public class Weapon : MonoBehaviour
     public bool IsReloading { get; private set; }
     //cannot shoot while reloading variable
 
-
+    [Header("Ammo")]
     public static int currentClip = 3;
     public static int maxClipSize = 6;
     public static int currentAmmo = 10;
@@ -23,13 +24,14 @@ public class Weapon : MonoBehaviour
     
     private void Start()
     {
-        owner = GetComponentInParent<PlayerController>();
+        owner = GetComponentInParent<PlayerController>(); //prevents bullet from killing player
         Lm = FindObjectOfType<LevelManager>();
         canReload = true;
     }
-
+    
     public void Fires()
     {
+        //prevents firing when player has no ammo
         if (currentClip > 0)
         {
             //instantiates a bullet from prefab
@@ -47,6 +49,7 @@ public class Weapon : MonoBehaviour
     //script for reloading gun
     public IEnumerator Reload()
     {
+        //checks to see if you can reload based on if player has ammo in reserve
         if (canReload)
         {
             owner.canMove = false;
@@ -57,6 +60,7 @@ public class Weapon : MonoBehaviour
 
                 for (int i = 0; i < reloadAmount; i++)
                 {
+                    //reloading part
                     if (currentAmmo > 0)
                     {
                         currentClip++;
@@ -64,7 +68,8 @@ public class Weapon : MonoBehaviour
                         owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
                         Lm.UpdateAmmoMeter();
                         yield return new WaitForSeconds(timeBetweenEachBulletReload);
-                        // This will keep running until your gun is fully reloaded   
+                        //This will keep running until your gun is fully reloaded
+                        //also stops u from moving
 
                     }
                                          ;

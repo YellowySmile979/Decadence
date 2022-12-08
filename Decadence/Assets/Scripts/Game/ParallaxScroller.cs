@@ -19,6 +19,7 @@ public class ParallaxScroller : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
+        //performs the parallax effect
         float fullWidth = sr.size.x / 2f;
         x = Mathf.Floor((thisCamera.transform.position.x * parallax) / fullWidth) * fullWidth;
         Vector2 newPos = new Vector2((thisCamera.transform.position.x * parallax) + x, thisCamera.transform.position.y * parallax);

@@ -5,9 +5,11 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Movement")]
     public float moveSpeed = 5; //float is for things like speed, vectors etc.
     public float jumpSpeed = 7; //float is a decimal no.
 
+    [Header("Ground Check")]
     public Transform groundCheck;
     //transform creates an option or component under Inspector to get the Transform of a gameobject
     public float groundCheckRadius = 0.4f;
@@ -43,7 +45,7 @@ public class PlayerController : MonoBehaviour
         respawnPosition = transform.position;
         LM = FindObjectOfType<LevelManager>();
 
-
+        //updates the UI for ammo
         ammoUIText.text = " Max Ammo: " + Weapon.currentAmmo + "/" + Weapon.maxAmmoSize;
         LM.UpdateHeartMeter();
         LM.UpdateAmmoMeter();
@@ -55,6 +57,7 @@ public class PlayerController : MonoBehaviour
         //if i draw a circle, is there a collider in there? thats what this is
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
 
+        //to activate animations' variables
         anim.SetBool("IsGrounded", isGrounded);
         anim.SetFloat("MoveSpeed", Mathf.Abs(rb.velocity.x));
         if (canMove) movement();
@@ -63,6 +66,7 @@ public class PlayerController : MonoBehaviour
         
 
     }
+    //references movement
     void movement()
     {
 
@@ -101,10 +105,11 @@ public class PlayerController : MonoBehaviour
             //the third velocity which is diagonal (basically physics)
         }
 
-
+        //checks to see if you can fire
         if (!canFire)
         {
             timer += Time.deltaTime;
+            //checks to see if timer > timeBetweenFiring, if yes then player can fire and timer is set to zero
             if (timer > timeBetweenFiring)
             {
                 canFire = true;
@@ -123,6 +128,7 @@ public class PlayerController : MonoBehaviour
             //bullet.transform.localScale = new Vector3(Mathf.Sign(transform.localScale.x), 1, 1);
 
         }
+        //allows reload and reload is R key
         if (Input.GetKeyDown(KeyCode.R))
         {
             rb.velocity = new Vector2(0, 0);

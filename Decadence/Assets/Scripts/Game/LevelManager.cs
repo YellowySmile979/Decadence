@@ -6,15 +6,18 @@ using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
+    [Header("Respawn")]
     public float waitToRespawn = 2f;
     PlayerController player;
 
+    [Header("Health")]
     public int maxHealth;
     public int healthCount;
     public int healthToRespawn;
 
     bool respawning;
 
+    [Header("Hearts")]
     public Image heart1;
     public Image heart2;
     public Image heart3;
@@ -262,6 +265,7 @@ public class LevelManager : MonoBehaviour
 
         }
     }
+    //updates the ammo counter
     public void UpdateAmmoMeter()
     {
         switch (Weapon.currentClip)

@@ -5,7 +5,7 @@ using UnityEngine;
 public class FallingPlatformSpawner : MonoBehaviour
 {
     public GameObject fallingPlatformPrefab;
-    [HideInInspector] public bool isplatformThere;
+    public bool isplatformThere;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +17,7 @@ public class FallingPlatformSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //checks to see if platform exists, if not do nothing. otherwise start coroutine SpawnPlatform
         if (!isplatformThere)
         {
             StartCoroutine(SpawnPlatform());
@@ -28,7 +29,7 @@ public class FallingPlatformSpawner : MonoBehaviour
             return;
         }
     }
-
+    //waits for awhile before triggering the platform to fall
     public IEnumerator SpawnPlatform()
     {
         yield return new WaitForSeconds(3f);
