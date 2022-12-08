@@ -1595,6 +1595,10 @@ PrefabInstance:
       propertyPath: maxAmmoSize
       value: 24
       objectReference: {fileID: 0}
+    - target: {fileID: 482291542, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 5095750906621595155, guid: d5b5c24f8d6b4c542b292000e9c5703f, type: 3}
     - target: {fileID: 1043654218754022224, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
       propertyPath: m_Sprite
       value: 
