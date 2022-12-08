@@ -5,7 +5,7 @@ using UnityEngine;
 public class FallingPlatformSpawner : MonoBehaviour
 {
     public GameObject fallingPlatformPrefab;
-    [HideInInspector] public bool isplatformThere;
+    public bool isplatformThere;
 
     // Start is called before the first frame update
     void Start()
