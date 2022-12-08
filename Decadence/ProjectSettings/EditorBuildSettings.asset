@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Dialogues/Dialogue.unity
     guid: a10e0aa44cd2fe543908d7f8d58201bd
+  - enabled: 1
+    path: Assets/Scenes/Dialogues/DialogueTemp.unity
+    guid: f88bdf7bb4392da4ca9706c6470d9c92
   m_configObjects: {}
