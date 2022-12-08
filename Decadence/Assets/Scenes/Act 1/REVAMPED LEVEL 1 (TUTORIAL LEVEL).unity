@@ -4109,7 +4109,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 0.64, g: 0.47213116, b: 0.4126776, a: 1}
+  m_Color: {r: 0.554, g: 0.40785277, b: 0.3568712, a: 1}
   m_Origin: {x: -43, y: -5, z: 0}
   m_Size: {x: 83, y: 11, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
@@ -4850,7 +4850,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 0.67, g: 0.67, b: 0.67, a: 1}
+  m_Color: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 1}
   m_Origin: {x: 0, y: -2, z: 0}
   m_Size: {x: 6, y: 5, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
@@ -9439,7 +9439,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 0.644, g: 0.5779487, b: 0.6043692, a: 1}
+  m_Color: {r: 0.551, g: 0.49388415, b: 0.51740247, a: 1}
   m_Origin: {x: -43, y: -5, z: 0}
   m_Size: {x: 88, y: 10, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
@@ -12307,7 +12307,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 0.63, g: 0.63, b: 0.63, a: 1}
+  m_Color: {r: 0.547, g: 0.547, b: 0.547, a: 1}
   m_Origin: {x: 0, y: -4, z: 0}
   m_Size: {x: 29, y: 10, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
@@ -13655,7 +13655,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 0.6490625, g: 0.67, b: 0.67, a: 1}
+  m_Color: {r: 0.7108579, g: 0.735849, b: 0.735849, a: 1}
   m_Origin: {x: 0, y: -8, z: 0}
   m_Size: {x: 7, y: 13, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
@@ -15383,7 +15383,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 0.64199996, g: 0.6119649, b: 0.6119649, a: 1}
+  m_Color: {r: 0.55, g: 0.52317077, b: 0.52317077, a: 1}
   m_Origin: {x: 0, y: -4, z: 0}
   m_Size: {x: 29, y: 9, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
