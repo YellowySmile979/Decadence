@@ -1579,26 +1579,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 482291542, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
-      propertyPath: currentAmmo
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 482291542, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
-      propertyPath: maxAmmoSize
-      value: 24
-      objectReference: {fileID: 0}
-    - target: {fileID: 482291542, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
-      propertyPath: bulletPrefab
-      value: 
-      objectReference: {fileID: 5095750906621595155, guid: d5b5c24f8d6b4c542b292000e9c5703f, type: 3}
-    - target: {fileID: 1043654218754022224, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 2007456881159951943, guid: 761c3e81e64d00645966f60fe0c202b1, type: 3}
-    - target: {fileID: 1043654218754022224, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
-      propertyPath: m_SortingOrder
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 1043654218754022225, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1644,64 +1624,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1043654218754022226, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
-      propertyPath: jumpSpeed
-      value: 7.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1043654218754022226, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
-      propertyPath: moveSpeed
-      value: 4.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1043654218754022226, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
       propertyPath: ammoUIText
       value: 
       objectReference: {fileID: 809536032}
-    - target: {fileID: 1043654218754022226, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
-      propertyPath: groundCheckRadius
-      value: 0.15
-      objectReference: {fileID: 0}
     - target: {fileID: 1043654218754022229, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
       propertyPath: m_Name
       value: Shopkeeper
-      objectReference: {fileID: 0}
-    - target: {fileID: 1043654218754022229, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 1043654218754022230, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
-      propertyPath: m_Mass
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1043654218754022230, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
-      propertyPath: m_GravityScale
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1043654218754022231, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
-      propertyPath: m_Size.x
-      value: 0.5247936
-      objectReference: {fileID: 0}
-    - target: {fileID: 1043654218754022231, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
-      propertyPath: m_Size.y
-      value: 1.7198756
-      objectReference: {fileID: 0}
-    - target: {fileID: 1043654218754022231, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.065032005
-      objectReference: {fileID: 0}
-    - target: {fileID: 1043654218754022231, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.029956222
-      objectReference: {fileID: 0}
-    - target: {fileID: 1043654218754022231, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.7708333
-      objectReference: {fileID: 0}
-    - target: {fileID: 1043654218754022231, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1.7708334
-      objectReference: {fileID: 0}
-    - target: {fileID: 1043654219899474918, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.882
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}

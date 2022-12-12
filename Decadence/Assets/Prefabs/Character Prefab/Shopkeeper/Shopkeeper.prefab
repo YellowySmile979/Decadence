@@ -76,8 +76,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1103917201
   m_SortingLayer: 2
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -5312082723439039676, guid: 55849170c69dd7f42aa88d00f17e2384, type: 3}
+  m_SortingOrder: 6
+  m_Sprite: {fileID: 2007456881159951943, guid: 761c3e81e64d00645966f60fe0c202b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,18 +101,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0013208389, y: 0}
+  m_Offset: {x: -0.065032005, y: -0.029956222}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7619048, y: 1.4285715}
+    oldSize: {x: 0.7708333, y: 1.7708334}
     newSize: {x: 0.7619048, y: 1.4285715}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.39208794, y: 1.4285715}
+  m_Size: {x: 0.5247936, y: 1.7198756}
   m_EdgeRadius: 0
 --- !u!50 &1043654218754022230
 Rigidbody2D:
@@ -126,10 +126,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 2
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1.2
+  m_GravityScale: 1.1
   m_Material: {fileID: 6200000, guid: 68c2b3985c1a09d429db6d6b56a6bea1, type: 2}
   m_Interpolate: 1
   m_SleepingMode: 1
@@ -147,10 +147,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dc8cb726764bea41b2f315928aa9b17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  jumpSpeed: 7
+  moveSpeed: 4.5
+  jumpSpeed: 7.7
   groundCheck: {fileID: 1043654219899474918}
-  groundCheckRadius: 0.1
+  groundCheckRadius: 0.15
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
@@ -201,7 +201,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043654219899474917}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.005999565, y: -0.74, z: -2.2652683}
+  m_LocalPosition: {x: 0.005999565, y: -0.882, z: -2.2652683}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1043654218754022225}
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3ae8fbbe29418b44a97d6f56347acf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 8927588188632137048, guid: 37d01c1d170dbc34da3b47f40701ff89, type: 3}
+  bulletPrefab: {fileID: 5095750906621595155, guid: d5b5c24f8d6b4c542b292000e9c5703f, type: 3}
   FireOffset: {fileID: 9029933808277150685}
   timeBetweenEachBulletReload: 1
 --- !u!1 &9029933808277150684

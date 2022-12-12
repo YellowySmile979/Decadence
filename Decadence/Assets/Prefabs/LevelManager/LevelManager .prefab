@@ -46,6 +46,7 @@ MonoBehaviour:
   waitToRespawn: 2
   maxHealth: 3
   healthCount: 1
+  healthToRespawn: 0
   heart1: {fileID: 0}
   heart2: {fileID: 0}
   heart3: {fileID: 0}
