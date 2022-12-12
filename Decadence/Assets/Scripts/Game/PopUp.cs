@@ -13,8 +13,11 @@ public class PopUp : MonoBehaviour
         mr = GetComponent<MeshRenderer>();
 
     }
+    //when player collides with collider, enable the mesh renderer, assuming the thug hasn't died yet
     void OnTriggerEnter2D(Collider2D other)
     {
+        //from the code written under void OnTriggerExit2D, if thugHasDied == true, the mesh renderer will turn on as per normal,
+        //otherwise the mesh renderer will permanently be set to false
         if (thugHasDied == true)
         {
 

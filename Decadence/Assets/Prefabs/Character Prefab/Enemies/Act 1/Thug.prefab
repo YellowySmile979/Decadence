@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 724725470}
   - component: {fileID: 724725468}
   - component: {fileID: 724725469}
+  - component: {fileID: 5291077117494673130}
   m_Layer: 0
   m_Name: Thug
   m_TagString: Untagged
@@ -207,3 +208,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   patrolDistance: 1.5
   moveSpeed: 2
+--- !u!114 &5291077117494673130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8528430324829460686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f58da8acba9fbb344b1c6bdaaf6a1fa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1

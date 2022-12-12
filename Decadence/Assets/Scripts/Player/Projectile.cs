@@ -7,11 +7,13 @@ public class Projectile : MonoBehaviour
     public float bulletspeed = 5f;
     float direction = 1;
     public float lifespan = 3f;
-    public int damage = 1;
+    public int maxdamage = 1;
+    int damage;
 
     //to change the direction the sprite is facing in relation to the player
     private void Start()
     {
+        damage = maxdamage;
         direction = Mathf.Sign(transform.localScale.x);
         Destroy(gameObject, lifespan); //destroys bullet based on it's lifespan
     }
@@ -26,10 +28,17 @@ public class Projectile : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         EnemyController enemy = other.GetComponent<EnemyController>();
-        if (enemy != null)
+        if (other.tag != "NO") //allows us to prevent ALL colliders from destroying the bullet
         {
-            enemy.TakeDamage(damage);
+            if (enemy != null)
+            {
+                enemy.TakeDamage(damage);
+            }
+            Destroy(gameObject);
         }
-        Destroy(gameObject);
+    }
+    public void SetDamage(int dmg)
+    {
+        damage += dmg;
     }
 }
