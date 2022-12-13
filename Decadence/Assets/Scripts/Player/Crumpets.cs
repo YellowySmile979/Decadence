@@ -11,6 +11,7 @@ public class Crumpets : MonoBehaviour
     public int initialDamage = 1;
 
     Projectile projectile;
+    PopUpExit puExit;
 
     // Start is called before the first frame update
     void Start()
