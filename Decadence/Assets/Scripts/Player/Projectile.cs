@@ -28,7 +28,7 @@ public class Projectile : MonoBehaviour
         transform.position += transform.right * direction * Time.deltaTime * bulletspeed;
     }
     //when bullet collides with enemy's collider, enemy takes damage based on TakeDamage function
-    private void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         EnemyController enemy = other.GetComponent<EnemyController>();
         if (other.tag != "NO") //allows us to prevent ALL colliders from destroying the bullet
@@ -36,6 +36,16 @@ public class Projectile : MonoBehaviour
             if (enemy != null)
             {
                 enemy.TakeDamage(damage);
+            }
+            Destroy(gameObject);
+        }
+        //this is so that the PopUpExit script does not interfere with Act 1
+        Act1EnemyController enemy1 = other.GetComponent<Act1EnemyController>();
+        if (other.tag != "NO") //allows us to prevent ALL colliders from destroying the bullet
+        {
+            if (enemy1 != null)
+            {
+                enemy1.TakeDamage(damage);
             }
             Destroy(gameObject);
         }

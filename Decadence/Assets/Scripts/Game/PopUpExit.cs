@@ -10,7 +10,7 @@ public class PopUpExit : MonoBehaviour
     public int requiredNumberOfKills = 1;
 
     MeshRenderer mr;
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +28,7 @@ public class PopUpExit : MonoBehaviour
         if (numberOfEnemies >= requiredNumberOfKills)
         {
             SceneManager.LoadScene("Act 2 Level 2");
-
+            
         }
     }
     //when player interacts with collider, msg will appear
@@ -40,15 +40,10 @@ public class PopUpExit : MonoBehaviour
 
         }
     }
+    //sets the required amount of enemies to kill before the player can progress
     public void EnemyKillCounter(int number)
     {
         numberOfEnemies += number;
         
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-       
     }
 }

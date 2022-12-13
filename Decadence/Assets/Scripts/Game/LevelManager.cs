@@ -106,7 +106,8 @@ public class LevelManager : MonoBehaviour
     public void HealPlayer(int health)
     {
         healthCount += health;
-        
+        UpdateHeartMeter();
+
     }
     //updates the health sprite
     public void UpdateHeartMeter()

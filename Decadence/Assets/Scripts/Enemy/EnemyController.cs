@@ -16,20 +16,21 @@ public class EnemyController : MonoBehaviour
         puExit = FindObjectOfType<PopUpExit>();
         
     }
-
+    //when bullet collides with collider, enemy's health is reduced. if enemies health is equal to or less than 0,
+    //increase number of enemies still needed to be killed and perform Die() 
     public void TakeDamage(int damage)
     {
         health -= damage;
         if (health <= 0)
-        {            
+        {
+            puExit.EnemyKillCounter(enemyIncreaseNumber);
             Die();
              
         }
     }
-
+    //deletes the enemy
     public void Die()
-    {
-        puExit.EnemyKillCounter(enemyIncreaseNumber);
+    {        
         Destroy(gameObject);
     }
 }

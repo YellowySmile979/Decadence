@@ -6,6 +6,15 @@ using UnityEngine.SceneManagement;
 
 public class Level1Transition : MonoBehaviour
 {
+    int enemyIncreaseNumber = 1;
+
+    PopUpExit puExit;
+
+    void Start()
+    {
+        puExit = FindObjectOfType<PopUpExit>();
+
+    }
     //upon entering the trigger, the trigger activates
     void OnTriggerEnter2D(Collider2D other) 
         //prevents other colliders from loading scenes like bullets
