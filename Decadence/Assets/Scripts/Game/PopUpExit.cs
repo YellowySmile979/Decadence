@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class PopUpExit : MonoBehaviour
 {
-    public int numberOfEnemies = 0;
+    public int numberOfEnemies;
+    public int requiredNumberOfKills = 1;
 
     MeshRenderer mr;
 
@@ -24,6 +25,11 @@ public class PopUpExit : MonoBehaviour
             mr.enabled = true;
 
         }
+        if (numberOfEnemies >= requiredNumberOfKills)
+        {
+            SceneManager.LoadScene("Act 2 Level 2");
+
+        }
     }
     //when player interacts with collider, msg will appear
     void OnTriggerExit2D(Collider2D other)
@@ -37,11 +43,7 @@ public class PopUpExit : MonoBehaviour
     public void EnemyKillCounter(int number)
     {
         numberOfEnemies += number;
-        if (numberOfEnemies >= 12)
-        {
-            SceneManager.LoadScene("Act 2 Level 2");
-
-        }
+        
     }
 
     // Update is called once per frame

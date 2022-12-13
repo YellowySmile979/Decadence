@@ -17,7 +17,10 @@ public class Projectile : MonoBehaviour
         direction = Mathf.Sign(transform.localScale.x);
         Destroy(gameObject, lifespan); //destroys bullet based on it's lifespan
     }
-
+    public void SetDamage(int dmg)
+    {
+        damage += dmg;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -36,9 +39,5 @@ public class Projectile : MonoBehaviour
             }
             Destroy(gameObject);
         }
-    }
-    public void SetDamage(int dmg)
-    {
-        damage += dmg;
-    }
+    }   
 }

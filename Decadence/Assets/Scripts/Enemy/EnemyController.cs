@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     public int health = 2;
-    public int damageIncreaseNumber = 1;
+    int enemyIncreaseNumber = 1;
 
 
     PopUpExit puExit;
@@ -13,7 +13,7 @@ public class EnemyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        puExit = GetComponent<PopUpExit>();
+        puExit = FindObjectOfType<PopUpExit>();
         
     }
 
@@ -28,7 +28,8 @@ public class EnemyController : MonoBehaviour
     }
 
     public void Die()
-    {        
+    {
+        puExit.EnemyKillCounter(enemyIncreaseNumber);
         Destroy(gameObject);
     }
 }
