@@ -12,8 +12,9 @@ public class LevelManager : MonoBehaviour
 
     [Header("Health")]
     public int maxHealth;
-    public int healthCount;
+    public int healthCount;    
     public int healthToRespawn;
+    int maxHealthCount = 10;
 
     bool respawning;
 
@@ -101,7 +102,12 @@ public class LevelManager : MonoBehaviour
         UpdateHeartMeter();
         UpdateAmmoMeter();
     }
-
+    //heals player
+    public void HealPlayer(int health)
+    {
+        healthCount += health;
+        
+    }
     //updates the health sprite
     public void UpdateHeartMeter()
     {
@@ -109,6 +115,8 @@ public class LevelManager : MonoBehaviour
 
         if (healthCount >= 10)
         {
+            healthCount = maxHealthCount; //limits the max health to 10
+
             heart1.color = new Color(255, 255, 255, 255);
             heart2.gameObject.SetActive(true);
             heart3.gameObject.SetActive(true);

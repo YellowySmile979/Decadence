@@ -4475,6 +4475,7 @@ GameObject:
   - component: {fileID: 95013929}
   - component: {fileID: 95013928}
   - component: {fileID: 95013927}
+  - component: {fileID: 95013930}
   m_Layer: 0
   m_Name: tea
   m_TagString: Untagged
@@ -4495,18 +4496,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.16892052, y: 0}
+  m_Offset: {x: -0.45083147, y: -0.016582966}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.4375, y: 0.875}
-    newSize: {x: 1.3125, y: 0.75}
+    oldSize: {x: 4, y: 2.2857144}
+    newSize: {x: 4, y: 2.2857144}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.099659, y: 0.875}
+  m_Size: {x: 3.0564413, y: 2.3011284}
   m_EdgeRadius: 0
 --- !u!212 &95013928
 SpriteRenderer:
@@ -4545,18 +4546,18 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -2035047353
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8014173827192042742, guid: 2c9a4ac6fd003c740a66b6900a704d9c, type: 3}
+  m_Sprite: {fileID: -537215817038067675, guid: be2c7ffd9363bbb48bc1d58cb4cbcb04, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.3125, y: 0.75}
+  m_Size: {x: 4, y: 2.2857144}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &95013929
@@ -4567,12 +4568,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 95013926}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.77, y: -2.679, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 25.16, y: -2.92, z: 0}
+  m_LocalScale: {x: 0.23172, y: 0.23172, z: 0.23172}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &95013930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95013926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d14085da4780b3547ad6474bce36a062, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealthToGive: 5
 --- !u!114 &112725126 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 687798495, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
@@ -10044,6 +10058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BulletSpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 153113421175009148, guid: 04882db449702674da76472b43de0dcd, type: 3}
+      propertyPath: m_TagString
+      value: NO
+      objectReference: {fileID: 0}
     - target: {fileID: 153113421175009150, guid: 04882db449702674da76472b43de0dcd, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -10562,6 +10580,14 @@ PrefabInstance:
     - target: {fileID: 6721987334915452984, guid: a624a2e264780494b8b1368c0422e73d, type: 3}
       propertyPath: m_Name
       value: Robber
+      objectReference: {fileID: 0}
+    - target: {fileID: 8616398519475570249, guid: a624a2e264780494b8b1368c0422e73d, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8616398519475570249, guid: a624a2e264780494b8b1368c0422e73d, type: 3}
+      propertyPath: m_Simulated
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 75868733197451813, guid: a624a2e264780494b8b1368c0422e73d, type: 3}
@@ -14226,8 +14252,8 @@ GameObject:
   - component: {fileID: 1605569365}
   - component: {fileID: 1605569364}
   m_Layer: 0
-  m_Name: OLSpritesheet2_20
-  m_TagString: Untagged
+  m_Name: Checkpoint
+  m_TagString: NO
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
