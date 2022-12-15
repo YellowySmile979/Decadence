@@ -4,20 +4,18 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class PopUpExit : MonoBehaviour
+public class Act2Lvl2Transition : MonoBehaviour
 {
     public int numberOfEnemies;
     public int requiredNumberOfKills = 1;
-    public string Scene;
-
 
     MeshRenderer mr;
-    
+
     // Start is called before the first frame update
     void Start()
     {
         mr = GetComponent<MeshRenderer>();
-        
+
     }
     //when player collides with collider, enable the mesh renderer
     void OnTriggerEnter2D(Collider2D other)
@@ -29,8 +27,8 @@ public class PopUpExit : MonoBehaviour
         }
         if (numberOfEnemies >= requiredNumberOfKills)
         {
-            SceneManager.LoadScene(Scene);
-            
+            SceneManager.LoadScene("Act 2 Level 3");
+
         }
     }
     //when player interacts with collider, msg will appear
@@ -46,6 +44,6 @@ public class PopUpExit : MonoBehaviour
     public void EnemyKillCounter(int number)
     {
         numberOfEnemies += number;
-        
+
     }
 }
