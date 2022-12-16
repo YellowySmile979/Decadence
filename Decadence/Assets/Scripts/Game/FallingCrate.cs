@@ -20,21 +20,16 @@ public class FallingCrate : MonoBehaviour
 
     bool isGrounded;
     Rigidbody2D rb;
-    LevelManager lm;
+    ShootableChain sc;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        lm = FindObjectOfType<LevelManager>();
+        sc = GetComponentInChildren<ShootableChain>();
+
     }
-    void OnTriggerExit2D(Collider2D collision)
-    {
-        if(collision.GetComponent<ShootableChain>())
-        {
-            lm.DropBoxOrChain();
-        }
-    }
+    
     // Update is called once per frame
     void Update()
     {
@@ -45,13 +40,18 @@ public class FallingCrate : MonoBehaviour
         //based on the amount we have specified in maxLoot
         if(isGrounded)
         {
-            Destroy(gameObject, 0.5f);
+           Destroy(gameObject,0.4f); 
             if (numberOfLoot < maxLoot)
             {
                 Instantiate(lootToDrop, whereToSpawnLoot.position, whereToSpawnLoot.rotation);
-                numberOfLoot += 1;               
-            }
+                numberOfLoot += 1;
+                             
+            } 
         }
+    }
+     public void DropBoxOrChain()
+    {
+        rb.isKinematic = false;
     }
     
 }

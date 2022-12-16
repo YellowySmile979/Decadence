@@ -55,10 +55,7 @@ public class LevelManager : MonoBehaviour
         //healthCount = maxHealth;
         rb = GetComponent<Rigidbody2D>();
     }
-    public void DropBoxOrChain()
-    {
-        rb.isKinematic = false;
-    }
+    
     //when health is below zero or zero, respawn the character
     private void Update()
     {
