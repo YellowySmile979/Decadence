@@ -45,6 +45,7 @@ public class LevelManager : MonoBehaviour
     [Header("Effect")]
     public GameObject deathSplosion;
 
+    Rigidbody2D rb;
 
     // Start is called before the first frame update
     void Start()
@@ -52,9 +53,12 @@ public class LevelManager : MonoBehaviour
         player = FindObjectOfType<PlayerController>();
         healthToRespawn = healthCount;
         //healthCount = maxHealth;
-
+        rb = GetComponent<Rigidbody2D>();
     }
-
+    public void DropBoxOrChain()
+    {
+        rb.isKinematic = false;
+    }
     //when health is below zero or zero, respawn the character
     private void Update()
     {

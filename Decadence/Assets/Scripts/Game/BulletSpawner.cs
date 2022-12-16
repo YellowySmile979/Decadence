@@ -31,13 +31,8 @@ public class BulletSpawner : MonoBehaviour
                 firstSpawn = timeBetweenRespawn;
                 //increases the count so that once the limit has been hit, bullets stop spawning
                 bulletSpawnCount += 1;
-
-
             }
-        }
-        
-            
-        
+        }       
     }
     //resets the code so that the bullets can spawn again when the player picks up the bullets
     void OnTriggerEnter2D(Collider2D other)
