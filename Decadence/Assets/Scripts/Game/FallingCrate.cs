@@ -28,6 +28,8 @@ public class FallingCrate : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         sc = GetComponentInChildren<ShootableChain>();
 
+        //randomises loot
+        maxLoot = Random.Range(0, 3);
     }
     
     // Update is called once per frame
