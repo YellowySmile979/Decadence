@@ -16,9 +16,9 @@ public class Weapon : MonoBehaviour
     //cannot shoot while reloading variable
 
     [Header("Ammo")]
-    public static int currentClip = 3;
+    public static int currentClip = 6;
     public static int maxClipSize = 6;
-    public static int currentAmmo = 10;
+    public static int currentAmmo = 24;
     public static int maxAmmoSize = 24;
        
     

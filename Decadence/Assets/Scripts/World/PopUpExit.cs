@@ -12,7 +12,12 @@ public class PopUpExit : MonoBehaviour
 
 
     MeshRenderer mr;
-    
+
+    void Reset()
+    {
+        requiredNumberOfKills = FindObjectsOfType<EnemyController>().Length;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
