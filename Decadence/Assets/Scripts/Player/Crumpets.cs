@@ -6,7 +6,7 @@ public class Crumpets : MonoBehaviour
 {
     public float maxdamageBoostDuration = 5f;
     float damageBoostDuration;
-    public int maxDamageBoost = 2;
+    public int maxDamageBoost = 1;
     int damageBoost;
     public int initialDamage = 1;
 
