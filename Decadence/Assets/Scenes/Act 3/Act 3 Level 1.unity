@@ -3920,14 +3920,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shopkeeper
       objectReference: {fileID: 0}
-    - target: {fileID: 1043654218754022231, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
-      propertyPath: m_Size.y
-      value: 1.5233881
-      objectReference: {fileID: 0}
-    - target: {fileID: 1043654218754022231, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.12819993
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
 --- !u!4 &277973595 stripped
@@ -25636,6 +25628,10 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 62034041477529924, guid: c0480557c89df0341865bcad641f8bf0, type: 3}
+      propertyPath: damageBoost
+      value: 
+      objectReference: {fileID: 1784819338}
     - target: {fileID: 62034041477529924, guid: c0480557c89df0341865bcad641f8bf0, type: 3}
       propertyPath: healthCount
       value: 10
@@ -71480,6 +71476,17 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1784819338 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1047607359, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
+  m_PrefabInstance: {fileID: 1784819324}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 

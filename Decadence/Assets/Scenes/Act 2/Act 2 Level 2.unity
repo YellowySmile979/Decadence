@@ -1451,6 +1451,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &299772668 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1047607359, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
+  m_PrefabInstance: {fileID: 299772654}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &351545890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4976,7 +4987,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1067340404}
   - component: {fileID: 1067340403}
-  - component: {fileID: 1067340402}
   - component: {fileID: 1067340405}
   m_Layer: 0
   m_Name: Main Camera
@@ -4985,14 +4995,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1067340402
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1067340401}
-  m_Enabled: 1
 --- !u!20 &1067340403
 Camera:
   m_ObjectHideFlags: 0
@@ -26857,6 +26859,10 @@ PrefabInstance:
       propertyPath: heart11
       value: 
       objectReference: {fileID: 299772656}
+    - target: {fileID: 62034041477529924, guid: c0480557c89df0341865bcad641f8bf0, type: 3}
+      propertyPath: damageBoost
+      value: 
+      objectReference: {fileID: 299772668}
     - target: {fileID: 62034041477529926, guid: c0480557c89df0341865bcad641f8bf0, type: 3}
       propertyPath: m_Name
       value: 'LevelManager '

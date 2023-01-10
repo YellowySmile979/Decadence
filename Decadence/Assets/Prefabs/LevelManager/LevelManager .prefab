@@ -67,3 +67,4 @@ MonoBehaviour:
   Ammo5: {fileID: 6697462188242072848, guid: bb4c9f19f0456cf4cabd2a968803fe29, type: 3}
   Ammo6: {fileID: 6470643078102974578, guid: bb4c9f19f0456cf4cabd2a968803fe29, type: 3}
   deathSplosion: {fileID: 5123954365801350936, guid: 4642c17bcb41f17459c7608c021ae9c8, type: 3}
+  damageBoost: {fileID: 0}

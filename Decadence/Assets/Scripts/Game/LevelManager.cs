@@ -47,14 +47,13 @@ public class LevelManager : MonoBehaviour
 
     [Header("Damage Boost")]
     public Image damageBoost;
-    Image image;
+    public Text numberOfCrumpets;
 
     Rigidbody2D rb;
 
     // Start is called before the first frame update
     void Start()
     {
-        image = GetComponent<Image>();
         player = FindObjectOfType<PlayerController>();
         healthToRespawn = healthCount;
         //healthCount = maxHealth;

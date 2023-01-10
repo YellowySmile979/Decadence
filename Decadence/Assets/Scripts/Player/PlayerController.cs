@@ -23,8 +23,10 @@ public class PlayerController : MonoBehaviour
     Weapon weapon;
     LevelManager LM;
 
+    [Header("Damage")]
     public int damg = 1;
 
+    [Header("Firing Time")]
     private bool canFire;
     private float timer;
     public float timeBetweenFiring;
