@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
     Weapon weapon;
     LevelManager LM;
 
+    public int damg = 1;
 
     private bool canFire;
     private float timer;
@@ -65,6 +66,10 @@ public class PlayerController : MonoBehaviour
 
         
 
+    }
+    public void SetDamage(int dmg)
+    {
+        damg = dmg;
     }
     //references movement
     void movement()

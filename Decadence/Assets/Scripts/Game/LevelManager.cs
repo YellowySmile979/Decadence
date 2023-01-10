@@ -45,17 +45,30 @@ public class LevelManager : MonoBehaviour
     [Header("Effect")]
     public GameObject deathSplosion;
 
+    [Header("Damage Boost")]
+    public Image damageBoost;
+    Image image;
+
     Rigidbody2D rb;
 
     // Start is called before the first frame update
     void Start()
     {
+        image = GetComponent<Image>();
         player = FindObjectOfType<PlayerController>();
         healthToRespawn = healthCount;
         //healthCount = maxHealth;
         rb = GetComponent<Rigidbody2D>();
     }
     
+    public void UpdateCrumpetUI(float fillAmount)
+    {
+        if (fillAmount <= 0) damageBoost.enabled = false;
+        if (fillAmount > 0) damageBoost.enabled = true;
+        //clamp caps the fillAmount between the two min-max values in this case 0-1
+        damageBoost.fillAmount = Mathf.Clamp(fillAmount, 0, 1);
+    }
+
     //when health is below zero or zero, respawn the character
     private void Update()
     {
@@ -66,7 +79,6 @@ public class LevelManager : MonoBehaviour
         }
 
     }
-
     //starts the coroutine RespawnCO()
     public void Respawn()
     {
