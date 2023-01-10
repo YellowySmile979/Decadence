@@ -1123,7 +1123,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6721987334915452981, guid: a624a2e264780494b8b1368c0422e73d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.859999
+      value: 15.03
       objectReference: {fileID: 0}
     - target: {fileID: 6721987334915452981, guid: a624a2e264780494b8b1368c0422e73d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13394,8 +13394,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -135, y: 430}
-  m_SizeDelta: {x: 160, y: 50}
+  m_AnchoredPosition: {x: -135, y: 428.8}
+  m_SizeDelta: {x: 160, y: 52.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &556271762
 MonoBehaviour:
@@ -13422,7 +13422,7 @@ MonoBehaviour:
     m_FontSize: 47
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 9
+    m_MinSize: 4
     m_MaxSize: 59
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -27252,6 +27252,10 @@ PrefabInstance:
       propertyPath: damageBoost
       value: 
       objectReference: {fileID: 1047607359}
+    - target: {fileID: 62034041477529924, guid: c0480557c89df0341865bcad641f8bf0, type: 3}
+      propertyPath: numberOfCrumpets
+      value: 
+      objectReference: {fileID: 556271762}
     - target: {fileID: 62034041477529926, guid: c0480557c89df0341865bcad641f8bf0, type: 3}
       propertyPath: m_Name
       value: 'LevelManager '
@@ -29286,7 +29290,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1617826912}
   - component: {fileID: 1617826911}
-  - component: {fileID: 1617826910}
   - component: {fileID: 1617826913}
   m_Layer: 0
   m_Name: Main Camera
@@ -29295,14 +29298,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1617826910
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1617826909}
-  m_Enabled: 1
 --- !u!20 &1617826911
 Camera:
   m_ObjectHideFlags: 0

@@ -48,6 +48,7 @@ public class LevelManager : MonoBehaviour
     [Header("Damage Boost")]
     public Image damageBoost;
     public Text numberOfCrumpets;
+    int crumpets = 0;
 
     Rigidbody2D rb;
 
@@ -59,7 +60,12 @@ public class LevelManager : MonoBehaviour
         //healthCount = maxHealth;
         rb = GetComponent<Rigidbody2D>();
     }
-    
+    public void AddCrumpets(int amount)
+    {
+        crumpets += amount;
+        numberOfCrumpets.text = "x" + crumpets;
+        player.NumberOfCrumpetsTracker(crumpets);
+    }
     public void UpdateCrumpetUI(float fillAmount)
     {
         if (fillAmount <= 0) damageBoost.enabled = false;

@@ -25,6 +25,14 @@ public class PlayerController : MonoBehaviour
 
     [Header("Damage")]
     public int damg = 1;
+    public float maxDamageBoostDuration = 5f;
+    float damageBoostDuration;
+    public int maxDamageBoost = 1;
+    int damageBoost;
+    public int initialDamage = 1;
+    bool haveIPressedF = false;
+    bool canIEat = false;
+    int crumpetTracker = 0;
 
     [Header("Firing Time")]
     private bool canFire;
@@ -41,6 +49,9 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        damageBoostDuration = maxDamageBoostDuration;
+        damageBoost = maxDamageBoost;
+
         //for script to take the labelled component under Inspector
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -64,10 +75,39 @@ public class PlayerController : MonoBehaviour
         anim.SetBool("IsGrounded", isGrounded);
         anim.SetFloat("MoveSpeed", Mathf.Abs(rb.velocity.x));
         if (canMove) movement();
-
-
-        
-
+        CrumpetTimer();
+        if (crumpetTracker <= 0 && haveIPressedF == false)
+        {
+            canIEat = false;
+        }
+        else
+        {
+            canIEat = true;
+        }
+        if (Input.GetKeyDown(KeyCode.F) && canIEat == true)
+        {
+            haveIPressedF = true;           
+            SetDamage(damageBoost);
+            crumpetTracker -= 1;
+        }
+    }
+    public void NumberOfCrumpetsTracker(int amount)
+    {
+        crumpetTracker = amount;
+    }
+    public void CrumpetTimer()
+    {
+        if (damageBoostDuration > 0 && haveIPressedF == true && canIEat == true)
+        {
+            damageBoostDuration -= Time.deltaTime;
+            LM.UpdateCrumpetUI(damageBoostDuration / maxDamageBoostDuration);
+            print(damageBoostDuration);
+        }
+        else if (damageBoostDuration <= 0)
+        {
+            SetDamage(initialDamage);
+            haveIPressedF = false;
+        }
     }
     public void SetDamage(int dmg)
     {
@@ -76,7 +116,6 @@ public class PlayerController : MonoBehaviour
     //references movement
     void movement()
     {
-
         //if command basically is if 1 can happen, 1 happens, else 2. otherwise 3 etc etc
         //listens to the left and right or A and D keys, and moves the player when keys are pressed
         if (Input.GetAxisRaw("Horizontal") > 0)

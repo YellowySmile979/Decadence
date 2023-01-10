@@ -9,6 +9,7 @@ public class Crumpets : MonoBehaviour
     public int maxDamageBoost = 1;
     int damageBoost;
     public int initialDamage = 1;
+    int crumpetValue = 1;
 
     PlayerController pc;
     SpriteRenderer sr;
@@ -29,24 +30,9 @@ public class Crumpets : MonoBehaviour
     {
         if(other.GetComponent<PlayerController>())
         {
-            sr.enabled = false;
-            pc.SetDamage(damageBoost);           
-        }       
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        //when the sprite renderer is disabled, start the timer and update the UI
-        if (sr.enabled == false)
-        {
-            damageBoostDuration -= Time.deltaTime;
-            lm.UpdateCrumpetUI(damageBoostDuration / maxDamageBoostDuration);
-        }
-        //when time runs out, reset the damage of the player and delete the crumpet
-        if (damageBoostDuration <= 0)
-        {
-            pc.SetDamage(initialDamage);
+            lm.AddCrumpets(crumpetValue);
+            pc.SetDamage(damageBoost);
             Destroy(gameObject);
-        }    
+        }       
     }
 }
