@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    public float bulletspeed = 5f;
+    public float bulletspeed = 15f;
     float direction = 1;
     public float lifespan = 3f;
     public int maxdamage = 1;

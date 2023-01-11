@@ -34,12 +34,12 @@ public class PlayerController : MonoBehaviour
     bool canIEat = false;
     int crumpetTracker = 0;
     int usedCrumpet = 1;
+    bool isReloading;
 
     [Header("Firing Time")]
-    private bool canFire;
-    private float timer;
+    bool canFire;
+    float timer;
     public float timeBetweenFiring;
-    private bool canreload;
     
     [HideInInspector] public bool canMove = true;
     [HideInInspector] public Vector2 respawnPosition;
@@ -75,6 +75,7 @@ public class PlayerController : MonoBehaviour
         //to activate animations' variables
         anim.SetBool("IsGrounded", isGrounded);
         anim.SetFloat("MoveSpeed", Mathf.Abs(rb.velocity.x));
+        anim.SetBool("IsReloading", isReloading);
 
         if (canMove) movement();
 
@@ -96,6 +97,10 @@ public class PlayerController : MonoBehaviour
             crumpetTracker -= 1;
             LM.AddCrumpets(usedCrumpet);
         }
+    }
+    public void ReloadingAnimation(bool yeahnah)
+    {
+        isReloading = yeahnah;
     }
     //keeps track of crumpet count for the canIEat variable
     public void NumberOfCrumpetsTracker(int amount)
@@ -189,17 +194,14 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(weapon.Reload());
         }
     }
-    void OnTriggerEnter2D(Collider2D other) //this is for when this object's collider collides with a trigger
-                                            //things inside the bracket is a PARAMETER
+    //this is for when this object's collider collides with a trigger
+    //things inside the bracket is a PARAMETER
+    void OnTriggerEnter2D(Collider2D other) 
     {
         if (other.GetComponent<CheckpointController>())
         {
             //sets respawn position to the collider that is held by this script
             respawnPosition = other.transform.position;
-
-
         }
-
     }
-
 }

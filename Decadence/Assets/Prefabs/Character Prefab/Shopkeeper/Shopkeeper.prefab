@@ -157,6 +157,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   damg: 1
+  maxDamageBoostDuration: 5
+  maxDamageBoost: 1
+  initialDamage: 1
   timeBetweenFiring: 0.2
   canMove: 1
   respawnPosition: {x: 0, y: 0}

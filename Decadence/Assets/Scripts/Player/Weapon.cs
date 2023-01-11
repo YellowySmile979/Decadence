@@ -14,6 +14,7 @@ public class Weapon : MonoBehaviour
     //Function is to make sure you don't reload twice
     public bool IsReloading { get; private set; }
     //cannot shoot while reloading variable
+    bool isReloading;
 
     [Header("Ammo")]
     public static int currentClip = 6;
@@ -55,28 +56,32 @@ public class Weapon : MonoBehaviour
             owner.canMove = false;
             canReload = false;
             IsReloading = true;
+            isReloading = true;
             int reloadAmount = maxClipSize - currentClip;//how many bullets to reload
             
-
-                for (int i = 0; i < reloadAmount; i++)
+            for (int i = 0; i < reloadAmount; i++)
+            {
+                if (currentClip <= maxClipSize && isReloading == true)
                 {
-                    //reloading part
-                    if (currentAmmo > 0)
-                    {
-                        currentClip++;
-                        currentAmmo--;
-                        owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
-                        Lm.UpdateAmmoMeter();
-                        yield return new WaitForSeconds(timeBetweenEachBulletReload);
-                        //This will keep running until your gun is fully reloaded
-                        //also stops u from moving
-
-                    }
-                                         ;
-                   
-                }   
-
-
+                    owner.ReloadingAnimation(isReloading);
+                }
+                //reloading part
+                if (currentAmmo > 0)
+                {
+                    currentClip++;
+                    currentAmmo--;
+                    owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
+                    Lm.UpdateAmmoMeter();
+                    yield return new WaitForSeconds(timeBetweenEachBulletReload);
+                    //This will keep running until your gun is fully reloaded
+                    //also stops u from moving
+                }               
+            }
+            if (currentClip >= 5)
+            {
+                isReloading = false;
+                owner.ReloadingAnimation(isReloading);
+            }
             canReload = true;
             IsReloading = false;
             //reloadAmmount = (currentAmmo - reloadAmmount) >= 0 ? reloadAmmount : currentAmmo;
