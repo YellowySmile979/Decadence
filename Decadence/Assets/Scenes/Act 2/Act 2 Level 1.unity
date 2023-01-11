@@ -31806,6 +31806,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d16b521d4f002342a5d2a97d9e29a2b, type: 3}
+--- !u!1 &2055366938 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2818534849049872565, guid: 5f1334365ff27f7408609310b524de41, type: 3}
+  m_PrefabInstance: {fileID: 2600810294098869536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &2055366939
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055366938}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &2076476810
 GameObject:
   m_ObjectHideFlags: 0
@@ -34522,6 +34553,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 485032514}
     m_Modifications:
+    - target: {fileID: 272284990463389169, guid: 5f1334365ff27f7408609310b524de41, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.33
+      objectReference: {fileID: 0}
     - target: {fileID: 2600810293585377177, guid: 5f1334365ff27f7408609310b524de41, type: 3}
       propertyPath: m_Name
       value: Non-Shootable Chain and Box
@@ -34536,7 +34571,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2600810293585377178, guid: 5f1334365ff27f7408609310b524de41, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.12
+      value: 7.02
       objectReference: {fileID: 0}
     - target: {fileID: 2600810293585377178, guid: 5f1334365ff27f7408609310b524de41, type: 3}
       propertyPath: m_LocalPosition.z
@@ -34573,6 +34608,26 @@ PrefabInstance:
     - target: {fileID: 2600810294720845346, guid: 5f1334365ff27f7408609310b524de41, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818534849049872565, guid: 5f1334365ff27f7408609310b524de41, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330665558327660557, guid: 5f1334365ff27f7408609310b524de41, type: 3}
+      propertyPath: m_Anchor.x
+      value: -0.1718731
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330665558327660557, guid: 5f1334365ff27f7408609310b524de41, type: 3}
+      propertyPath: m_Anchor.y
+      value: -0.00000035762787
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330665558327660557, guid: 5f1334365ff27f7408609310b524de41, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.13749886
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330665558327660557, guid: 5f1334365ff27f7408609310b524de41, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.21694565
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f1334365ff27f7408609310b524de41, type: 3}
