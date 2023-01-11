@@ -10,11 +10,13 @@ public class Weapon : MonoBehaviour
     PlayerController owner;
     LevelManager Lm;
     public float timeBetweenEachBulletReload;
-    private bool canReload;
+    bool canReload;
     //Function is to make sure you don't reload twice
     public bool IsReloading { get; private set; }
     //cannot shoot while reloading variable
-    bool isReloading;
+    bool reloading;
+    public float waitToReload;
+    public int reloadCount = 0;
 
     [Header("Ammo")]
     public static int currentClip = 6;
@@ -56,7 +58,7 @@ public class Weapon : MonoBehaviour
             owner.canMove = false;
             canReload = false;
             IsReloading = true;
-            isReloading = true;
+            reloading = true;
             int reloadAmount = maxClipSize - currentClip;//how many bullets to reload
             
             for (int i = 0; i < reloadAmount; i++)
@@ -66,27 +68,32 @@ public class Weapon : MonoBehaviour
                 {
                     currentClip++;
                     currentAmmo--;
+                    reloadCount++;
                     owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
                     Lm.UpdateAmmoMeter();
-                    if (currentClip <= maxClipSize && isReloading == true)
+                    if (currentClip <= maxClipSize && reloading == true)
                     {
-                        owner.ReloadingAnimation(isReloading);
+                        owner.ReloadingAnimation(reloading);
+                    }
+                    if (reloadCount == reloadAmount)
+                    {
+                        yield return new WaitForSeconds(waitToReload);
+                        reloading = false;
+                        owner.ReloadingAnimation(reloading);
+                    }
+                    else if(currentAmmo <= 0)
+                    {
+                        yield return new WaitForSeconds(waitToReload);
+                        reloading = false;
+                        owner.ReloadingAnimation(reloading);
                     }
                     yield return new WaitForSeconds(timeBetweenEachBulletReload);
                     //This will keep running until your gun is fully reloaded
                     //also stops u from moving
+                    
                 }               
             }
-            if (currentClip == maxClipSize)
-            {
-                isReloading = false;
-                owner.ReloadingAnimation(isReloading);
-            }
-            else if(currentAmmo <= 0)
-            {
-                isReloading = false;
-                owner.ReloadingAnimation(isReloading);
-            }
+            reloadCount = 0;
             canReload = true;
             IsReloading = false;
             //reloadAmmount = (currentAmmo - reloadAmmount) >= 0 ? reloadAmmount : currentAmmo;

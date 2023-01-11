@@ -7,7 +7,7 @@ public class Crumpets : MonoBehaviour
     public int maxDamageBoost = 1;
     int damageBoost;
     public int initialDamage = 1;
-    int crumpetValue = 2;
+    int crumpetValue = 1;
 
     PlayerController pc;
     LevelManager lm;

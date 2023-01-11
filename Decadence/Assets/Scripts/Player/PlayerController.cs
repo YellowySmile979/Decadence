@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
     bool haveIPressedF = false;
     bool canIEat = false;
     int crumpetTracker = 0;
-    int usedCrumpet = 1;
+    int usedCrumpet = -1;
     bool isReloading;
 
     [Header("Firing Time")]

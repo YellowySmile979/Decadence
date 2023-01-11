@@ -35,7 +35,6 @@ public class PopUpExit : MonoBehaviour
         if (numberOfEnemies >= requiredNumberOfKills)
         {
             SceneManager.LoadScene(Scene);
-            
         }
     }
     //when player interacts with collider, msg will appear
