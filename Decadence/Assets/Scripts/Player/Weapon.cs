@@ -61,10 +61,6 @@ public class Weapon : MonoBehaviour
             
             for (int i = 0; i < reloadAmount; i++)
             {
-                if (currentClip <= maxClipSize && isReloading == true)
-                {
-                    owner.ReloadingAnimation(isReloading);
-                }
                 //reloading part
                 if (currentAmmo > 0)
                 {
@@ -72,12 +68,21 @@ public class Weapon : MonoBehaviour
                     currentAmmo--;
                     owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
                     Lm.UpdateAmmoMeter();
+                    if (currentClip <= maxClipSize && isReloading == true)
+                    {
+                        owner.ReloadingAnimation(isReloading);
+                    }
                     yield return new WaitForSeconds(timeBetweenEachBulletReload);
                     //This will keep running until your gun is fully reloaded
                     //also stops u from moving
                 }               
             }
-            if (currentClip >= 5)
+            if (currentClip == maxClipSize)
+            {
+                isReloading = false;
+                owner.ReloadingAnimation(isReloading);
+            }
+            else if(currentAmmo <= 0)
             {
                 isReloading = false;
                 owner.ReloadingAnimation(isReloading);

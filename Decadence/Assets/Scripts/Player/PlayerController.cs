@@ -65,7 +65,10 @@ public class PlayerController : MonoBehaviour
         LM.UpdateHeartMeter();
         LM.UpdateAmmoMeter();
     }
-
+    public void ReloadingAnimation(bool yeahnah)
+    {
+        isReloading = yeahnah;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -97,10 +100,6 @@ public class PlayerController : MonoBehaviour
             crumpetTracker -= 1;
             LM.AddCrumpets(usedCrumpet);
         }
-    }
-    public void ReloadingAnimation(bool yeahnah)
-    {
-        isReloading = yeahnah;
     }
     //keeps track of crumpet count for the canIEat variable
     public void NumberOfCrumpetsTracker(int amount)
