@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
     bool haveIPressedF = false;
     bool canIEat = false;
     int crumpetTracker = 0;
+    int usedCrumpet = 1;
 
     [Header("Firing Time")]
     private bool canFire;
@@ -74,8 +75,11 @@ public class PlayerController : MonoBehaviour
         //to activate animations' variables
         anim.SetBool("IsGrounded", isGrounded);
         anim.SetFloat("MoveSpeed", Mathf.Abs(rb.velocity.x));
+
         if (canMove) movement();
-        CrumpetTimer();
+
+        CrumpetTimer(); //constantly checks so that the timer can constantly update
+        //this is where the crumpetTracker helps to determine if the person can eat or not
         if (crumpetTracker <= 0 && haveIPressedF == false)
         {
             canIEat = false;
@@ -84,29 +88,33 @@ public class PlayerController : MonoBehaviour
         {
             canIEat = true;
         }
+        //when i press F, use the crumpet, activate damage boost and update UI and reduce crumpetTracker value
         if (Input.GetKeyDown(KeyCode.F) && canIEat == true)
         {
             haveIPressedF = true;           
             SetDamage(damageBoost);
             crumpetTracker -= 1;
+            LM.AddCrumpets(usedCrumpet);
         }
     }
+    //keeps track of crumpet count for the canIEat variable
     public void NumberOfCrumpetsTracker(int amount)
     {
         crumpetTracker = amount;
     }
+    //timer for the damage boost
     public void CrumpetTimer()
     {
         if (damageBoostDuration > 0 && haveIPressedF == true && canIEat == true)
         {
             damageBoostDuration -= Time.deltaTime;
+            //reduces the value to between 0-1 for the radial sprite in UI to be able to read it
             LM.UpdateCrumpetUI(damageBoostDuration / maxDamageBoostDuration);
-            print(damageBoostDuration);
         }
         else if (damageBoostDuration <= 0)
         {
-            SetDamage(initialDamage);
-            haveIPressedF = false;
+            SetDamage(initialDamage); //resets damage and
+            haveIPressedF = false; //stops the timer
         }
     }
     public void SetDamage(int dmg)

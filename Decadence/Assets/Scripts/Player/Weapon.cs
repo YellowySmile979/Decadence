@@ -18,7 +18,7 @@ public class Weapon : MonoBehaviour
     [Header("Ammo")]
     public static int currentClip = 6;
     public static int maxClipSize = 6;
-    public static int currentAmmo = 24;
+    public static int currentAmmo = 0;
     public static int maxAmmoSize = 24;
        
     

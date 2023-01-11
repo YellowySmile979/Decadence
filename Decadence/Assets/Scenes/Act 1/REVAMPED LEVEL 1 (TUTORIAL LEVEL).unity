@@ -4453,6 +4453,17 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &42337997 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1047607359, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
+  m_PrefabInstance: {fileID: 8066266596479644577}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &90573065 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8066266596561304232, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
@@ -4920,7 +4931,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 326372976}
-  m_Text: "Left Click \nto Shoot"
+  m_Text: "Left Click \nto Shoot\nR to reload"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -11272,6 +11283,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageToGive: 1
   timeBetweenEachDamage: 2.5
+--- !u!114 &1232567049 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 556271762, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
+  m_PrefabInstance: {fileID: 8066266596479644577}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1306320452
 GameObject:
   m_ObjectHideFlags: 0
@@ -17008,9 +17030,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1296749591960650031}
     - target: {fileID: 62034041477529924, guid: c0480557c89df0341865bcad641f8bf0, type: 3}
+      propertyPath: damageBoost
+      value: 
+      objectReference: {fileID: 42337997}
+    - target: {fileID: 62034041477529924, guid: c0480557c89df0341865bcad641f8bf0, type: 3}
       propertyPath: healthCount
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 62034041477529924, guid: c0480557c89df0341865bcad641f8bf0, type: 3}
+      propertyPath: numberOfCrumpets
+      value: 
+      objectReference: {fileID: 1232567049}
     - target: {fileID: 62034041477529926, guid: c0480557c89df0341865bcad641f8bf0, type: 3}
       propertyPath: m_Name
       value: 'LevelManager '
