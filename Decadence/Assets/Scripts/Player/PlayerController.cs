@@ -97,14 +97,15 @@ public class PlayerController : MonoBehaviour
         {
             haveIPressedF = true;           
             SetDamage(damageBoost);
-            crumpetTracker -= 1;
             LM.AddCrumpets(usedCrumpet);
+            crumpetTracker -= 1;
+            NumberOfCrumpetsTracker(crumpetTracker);
         }
     }
     //keeps track of crumpet count for the canIEat variable
     public void NumberOfCrumpetsTracker(int amount)
     {
-        crumpetTracker = amount;
+        crumpetTracker += amount;
     }
     //timer for the damage boost
     public void CrumpetTimer()
@@ -117,8 +118,9 @@ public class PlayerController : MonoBehaviour
         }
         else if (damageBoostDuration <= 0)
         {
-            SetDamage(initialDamage); //resets damage and
+            SetDamage(initialDamage); //resets damage
             haveIPressedF = false; //stops the timer
+            damageBoostDuration = maxDamageBoostDuration;
         }
     }
     public void SetDamage(int dmg)

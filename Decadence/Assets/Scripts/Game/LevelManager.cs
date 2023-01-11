@@ -50,20 +50,18 @@ public class LevelManager : MonoBehaviour
     public Text numberOfCrumpets;
     int crumpets = 0;
 
-    Rigidbody2D rb;
-
     // Start is called before the first frame update
     void Start()
     {
         player = FindObjectOfType<PlayerController>();
         healthToRespawn = healthCount;
         //healthCount = maxHealth;
-        rb = GetComponent<Rigidbody2D>();
     }
     //updates the UI for the crumpets when someone picks up a crumpets
     public void AddCrumpets(int amount)
     {
-        crumpets = amount;
+        crumpets += amount;
+        player.NumberOfCrumpetsTracker(crumpets); //updates the crumpet tracker
         if (crumpets == 0)
         {
             numberOfCrumpets.text = "x" + 0;
@@ -72,7 +70,6 @@ public class LevelManager : MonoBehaviour
         {
             numberOfCrumpets.text = "x" + crumpets;
         }
-        player.NumberOfCrumpetsTracker(crumpets); //updates the crumpet tracker
     }
     //updates the timer for the power up
     public void UpdateCrumpetUI(float fillAmount)
