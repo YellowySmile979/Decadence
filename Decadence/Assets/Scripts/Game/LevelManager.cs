@@ -55,6 +55,7 @@ public class LevelManager : MonoBehaviour
     {
         player = FindObjectOfType<PlayerController>();
         healthToRespawn = healthCount;
+        numberOfCrumpets.text = "x" + 0;
         //healthCount = maxHealth;
     }
     //updates the UI for the crumpets when someone picks up a crumpets
@@ -62,11 +63,7 @@ public class LevelManager : MonoBehaviour
     {
         crumpets += amount;
         player.NumberOfCrumpetsTracker(crumpets); //updates the crumpet tracker
-        if (crumpets == 0)
-        {
-            numberOfCrumpets.text = "x" + 0;
-        }
-        else if (crumpets > 0)
+        if (crumpets > 0)
         {
             numberOfCrumpets.text = "x" + crumpets;
         }
