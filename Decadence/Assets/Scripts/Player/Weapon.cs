@@ -23,7 +23,9 @@ public class Weapon : MonoBehaviour
     public static int maxClipSize = 6;
     public static int currentAmmo = 0;
     public static int maxAmmoSize = 24;
-       
+
+    [Header("Particles")]
+    public GameObject muzzleFlash;
     
     private void Start()
     {
@@ -38,11 +40,15 @@ public class Weapon : MonoBehaviour
         if (currentClip > 0)
         {
             //instantiates a bullet from prefab
-            GameObject bullet = Instantiate(bulletPrefab, FireOffset.position, FireOffset.rotation); 
+            GameObject bullet = Instantiate(bulletPrefab, FireOffset.position, FireOffset.rotation);
+            //instantiates the muzzle flash to where you fire from
+            GameObject flash = Instantiate(muzzleFlash, FireOffset.position, Quaternion.Euler(0, 90, 0));
             //calls the projectile script
             Projectile p = bullet.GetComponent<Projectile>();
             //to change the orientation of the bullet in relation to the player
             bullet.transform.localScale = new Vector3(Mathf.Sign(owner.transform.localScale.x), 1, 1);
+            //to change the orientation of the muzzle flash in relation to the player
+            flash.transform.localScale = new Vector3(Mathf.Sign(owner.transform.localScale.x), 1, 1);
             currentClip--;
             Lm.UpdateAmmoMeter();
             owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
