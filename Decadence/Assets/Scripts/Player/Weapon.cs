@@ -56,21 +56,29 @@ public class Weapon : MonoBehaviour
         if (currentClip > 0)
         {
             //instantiates a bullet from prefab
-            GameObject bullet = Instantiate(bulletPrefab, FireOffset.position, FireOffset.rotation);
-            //instantiates the muzzle flash to where you fire from
-            GameObject flash = Instantiate(muzzleFlash, FireOffset.position, Quaternion.Euler(0, 90, 0));
+            GameObject bullet = Instantiate(bulletPrefab, FireOffset.position, FireOffset.rotation);           
+            GameObject flash;
+            if (owner.transform.localScale.x == 1) 
+            {
+                //instantiates the muzzle flash to where you fire from
+                flash = Instantiate(muzzleFlash, FireOffset.position, Quaternion.Euler(0, 90, 0));
+                Destroy(flash, 1.2f);
+            }            
+            else if (owner.transform.localScale.x == -1)
+            {
+                //to change the orientation of the muzzle flash in relation to the player
+                flash = Instantiate(muzzleFlash, FireOffset.position, Quaternion.Euler(180, 90, 0));
+                Destroy(flash, 1.2f);
+            }
             //plays noise after flash
             PlayRevolverShootingNoise();
             //calls the projectile script
             Projectile p = bullet.GetComponent<Projectile>();
             //to change the orientation of the bullet in relation to the player
             bullet.transform.localScale = new Vector3(Mathf.Sign(owner.transform.localScale.x), 1, 1);
-            //to change the orientation of the muzzle flash in relation to the player
-            flash.transform.localScale = new Vector3(Mathf.Sign(owner.transform.localScale.x), 1, 1);
             currentClip--;
             Lm.UpdateAmmoMeter();
-            owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
-            Destroy(flash, 1.2f);
+            owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;           
         }
         else
         {

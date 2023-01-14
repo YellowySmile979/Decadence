@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 199469323}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.07, y: -0.9, z: 0}
+  m_LocalPosition: {x: 0.211, y: -0.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1043654218754022225}
@@ -399,7 +399,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 5095750906621595155, guid: d5b5c24f8d6b4c542b292000e9c5703f, type: 3}
   FireOffset: {fileID: 9029933808277150685}
   timeBetweenEachBulletReload: 1
-  waitToReload: 0
+  waitToReload: 0.5
   reloadCount: 0
   muzzleFlash: {fileID: 5763507587532058490, guid: 153973827d80c8944bdb8a0491fb7f7c, type: 3}
   emptyClipSound: {fileID: 8300000, guid: 080a19aca39fcde4eb5ad3c22cc03f28, type: 3}

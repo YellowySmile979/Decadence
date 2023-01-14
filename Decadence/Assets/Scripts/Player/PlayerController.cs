@@ -49,6 +49,7 @@ public class PlayerController : MonoBehaviour
     public Transform walkingParticlesSpawnPoint;
     public float waitToDestroy;
     bool hasSpawned = false;
+    float wait = 1f;
 
     [Header("UI")]
     public Text ammoUIText;
@@ -71,19 +72,24 @@ public class PlayerController : MonoBehaviour
         LM.UpdateHeartMeter();
         LM.UpdateAmmoMeter();
     }
-    IEnumerator WalkingParticles()
-    {       
-        //prevents particles from infinitely spawning
-        if (hasSpawned == false)
-        {
-            //spawns the walking particles
-            GameObject walking = Instantiate(walkingParticles, walkingParticlesSpawnPoint.position, Quaternion.identity);
-            Destroy(walking, waitToDestroy);
-            hasSpawned = true;
-        }
-        //waits awhile before resetting hasSpawned to true
-        yield return new WaitForSeconds(2);
-        hasSpawned = false;
+    public void WalkingParticles()
+    {
+        if(isGrounded == true)
+        { 
+            //prevents particles from infinitely spawning
+            if (hasSpawned == false && wait > 0)
+            {
+                wait = 1;
+                //spawns the walking particles
+                GameObject walking = Instantiate(walkingParticles, walkingParticlesSpawnPoint.position, Quaternion.identity);
+                Destroy(walking, waitToDestroy);
+            }
+            if (hasSpawned == true)
+            {
+                wait -= Time.deltaTime;
+                if (wait <= 0) hasSpawned = false;
+            }
+      }
     }
     public void ReloadingAnimation(bool yeahnah)
     {
@@ -163,13 +169,16 @@ public class PlayerController : MonoBehaviour
             //Time.deltaTime=1/30=0.03(all approx)
             transform.localScale = new Vector3(1, 1, 1);
 
-            StartCoroutine(WalkingParticles());
+            WalkingParticles();
+            hasSpawned = true;
         }
         else if (Input.GetAxisRaw("Horizontal") < 0)
         {
             rb.velocity = new Vector2(-moveSpeed, rb.velocity.y); //moves it other direction
             transform.localScale = new Vector3(-1, 1, 1);
-            StartCoroutine(WalkingParticles());
+            
+            WalkingParticles();
+            hasSpawned = true;
         }
         else
         {
