@@ -26,14 +26,30 @@ public class Weapon : MonoBehaviour
 
     [Header("Particles")]
     public GameObject muzzleFlash;
+
+    [Header("SFX")]
+    public AudioClip emptyClipSound;
+    public AudioClip revolverShootingSound;
+    AudioSource audioSource;
     
     private void Start()
     {
         owner = GetComponentInParent<PlayerController>(); //prevents bullet from killing player
         Lm = FindObjectOfType<LevelManager>();
+        audioSource = GetComponent<AudioSource>();
         canReload = true;
     }
-    
+    //plays empty clip sound
+    public void PlayEmptyGunSound()
+    {
+        audioSource.PlayOneShot(emptyClipSound);
+    }
+    //plays the sound of the revolver fire
+    public void PlayRevolverShootingNoise()
+    {
+        audioSource.PlayOneShot(revolverShootingSound);
+    }
+    //function performs the action of firing the reolver
     public void Fires()
     {
         //prevents firing when player has no ammo
@@ -43,6 +59,8 @@ public class Weapon : MonoBehaviour
             GameObject bullet = Instantiate(bulletPrefab, FireOffset.position, FireOffset.rotation);
             //instantiates the muzzle flash to where you fire from
             GameObject flash = Instantiate(muzzleFlash, FireOffset.position, Quaternion.Euler(0, 90, 0));
+            //plays noise after flash
+            PlayRevolverShootingNoise();
             //calls the projectile script
             Projectile p = bullet.GetComponent<Projectile>();
             //to change the orientation of the bullet in relation to the player
@@ -52,6 +70,11 @@ public class Weapon : MonoBehaviour
             currentClip--;
             Lm.UpdateAmmoMeter();
             owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
+            Destroy(flash, 1.2f);
+        }
+        else
+        {
+            PlayEmptyGunSound(); //calls the function when currentclip posses 0 bullets
         }
 
     }
