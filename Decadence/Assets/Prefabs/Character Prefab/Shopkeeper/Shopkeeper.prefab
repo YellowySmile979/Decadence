@@ -404,6 +404,9 @@ MonoBehaviour:
   muzzleFlash: {fileID: 5763507587532058490, guid: 153973827d80c8944bdb8a0491fb7f7c, type: 3}
   emptyClipSound: {fileID: 8300000, guid: 080a19aca39fcde4eb5ad3c22cc03f28, type: 3}
   revolverShootingSound: {fileID: 8300000, guid: db3fe3df69b146b479690edb34ecb7fb, type: 3}
+  reloadingSoundOne: {fileID: 8300000, guid: c0f275134d4bf4745b9aa219dc027c3c, type: 3}
+  reloadingSoundTwo: {fileID: 8300000, guid: 1ec0d16b5fa41ea4b883b774098d9640, type: 3}
+  rackingRevolverSound: {fileID: 8300000, guid: 4c92efb3baf75b446a8b3d0b83211920, type: 3}
 --- !u!82 &25869664
 AudioSource:
   m_ObjectHideFlags: 0

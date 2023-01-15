@@ -30,6 +30,10 @@ public class Weapon : MonoBehaviour
     [Header("SFX")]
     public AudioClip emptyClipSound;
     public AudioClip revolverShootingSound;
+    public AudioClip reloadingSoundOne;
+    public AudioClip reloadingSoundTwo;
+    public AudioClip rackingRevolverSound;
+    int randomSound;
     AudioSource audioSource;
     
     private void Start()
@@ -103,6 +107,7 @@ public class Weapon : MonoBehaviour
                 //reloading part
                 if (currentAmmo > 0)
                 {
+                    randomSound = Random.Range(0, 1);
                     currentClip++;
                     currentAmmo--;
                     reloadCount++;
@@ -111,6 +116,14 @@ public class Weapon : MonoBehaviour
                     if (currentClip <= maxClipSize && reloading == true)
                     {
                         owner.ReloadingAnimation(reloading);
+                        if(randomSound == 0)
+                        {
+                            audioSource.PlayOneShot(reloadingSoundOne);
+                        }
+                        else
+                        {
+                            audioSource.PlayOneShot(reloadingSoundTwo);
+                        }
                     }
                     if (reloadCount == reloadAmount)
                     {
@@ -124,12 +137,13 @@ public class Weapon : MonoBehaviour
                         reloading = false;
                         owner.ReloadingAnimation(reloading);
                     }
+                    if (reloading == false) audioSource.PlayOneShot(rackingRevolverSound);
                     yield return new WaitForSeconds(timeBetweenEachBulletReload);
                     //This will keep running until your gun is fully reloaded
                     //also stops u from moving
                     
                 }               
-            }
+            }           
             reloadCount = 0;
             canReload = true;
             IsReloading = false;

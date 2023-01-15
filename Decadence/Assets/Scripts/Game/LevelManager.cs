@@ -122,6 +122,7 @@ public class LevelManager : MonoBehaviour
         healthCount -= damageToTake;
         UpdateHeartMeter();
         UpdateAmmoMeter();
+        StartCoroutine(player.ChangeColour());
     }
     //heals player
     public void HealPlayer(int health)

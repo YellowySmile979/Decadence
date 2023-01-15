@@ -29,11 +29,13 @@ public class EnemyControllerPatroller : MonoBehaviour
         // Make the enemy flip after he exceeds his patrol distance.
         if (moveDirection > 0 && transform.position.x > origin.x + patrolDistance)
         {
-            moveDirection *= -1;            
+            moveDirection *= -1;
+            transform.localScale = new Vector3(-1, 1, 1);
         }
         else if (moveDirection < 0 && transform.position.x < origin.x - patrolDistance)
         {
             moveDirection *= -1;
+            transform.localScale = new Vector3(1, 1, 1);
         }
     }
 

@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     bool isGrounded;
     Weapon weapon;
     LevelManager LM;
+    SpriteRenderer sr;
 
     [Header("Damage")]
     public int damg = 1;
@@ -66,6 +67,7 @@ public class PlayerController : MonoBehaviour
         weapon = GetComponentInChildren<Weapon>();
         respawnPosition = transform.position;
         LM = FindObjectOfType<LevelManager>();
+        sr = GetComponent<SpriteRenderer>();
 
         //updates the UI for ammo
         ammoUIText.text = " Max Ammo: " + Weapon.currentAmmo + "/" + Weapon.maxAmmoSize;
@@ -77,18 +79,18 @@ public class PlayerController : MonoBehaviour
         if(isGrounded == true)
         { 
             //prevents particles from infinitely spawning
-            if (hasSpawned == false && wait > 0)
+            if (hasSpawned == false)
             {
                 wait = 1;
                 //spawns the walking particles
                 GameObject walking = Instantiate(walkingParticles, walkingParticlesSpawnPoint.position, Quaternion.identity);
                 Destroy(walking, waitToDestroy);
             }
-            if (hasSpawned == true)
-            {
-                wait -= Time.deltaTime;
-                if (wait <= 0) hasSpawned = false;
-            }
+            //if (hasSpawned == true)
+            //{
+                //wait -= Time.deltaTime;
+                //if (wait <= 0) hasSpawned = false;
+            //}
       }
     }
     public void ReloadingAnimation(bool yeahnah)
@@ -149,6 +151,14 @@ public class PlayerController : MonoBehaviour
             damageBoostDuration = maxDamageBoostDuration;
         }
     }
+    //changes colour when player gets hurt
+    public IEnumerator ChangeColour()
+    {
+        Color originalColor = sr.color;
+        sr.color = new Color(255, 0, 0);
+        yield return new WaitForSeconds(0.1f);
+        sr.color = originalColor;
+    }
     public void SetDamage(int dmg)
     {
         damg = dmg;
@@ -170,7 +180,7 @@ public class PlayerController : MonoBehaviour
             transform.localScale = new Vector3(1, 1, 1);
 
             WalkingParticles();
-            hasSpawned = true;
+            //hasSpawned = true;
         }
         else if (Input.GetAxisRaw("Horizontal") < 0)
         {
@@ -178,7 +188,7 @@ public class PlayerController : MonoBehaviour
             transform.localScale = new Vector3(-1, 1, 1);
             
             WalkingParticles();
-            hasSpawned = true;
+            //hasSpawned = true;
         }
         else
         {
