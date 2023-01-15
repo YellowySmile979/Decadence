@@ -20,14 +20,12 @@ public class FallingCrate : MonoBehaviour
 
     bool isGrounded;
     Rigidbody2D rb;
-    ShootableChain sc;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        sc = GetComponentInChildren<ShootableChain>();
-
+        
         //randomises loot
         maxLoot = Random.Range(0, 3);
     }
