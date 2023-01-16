@@ -13,9 +13,9 @@ public class FollowingScriptLowRanking : MonoBehaviour
 
     public LayerMask WhoICanSee;//pls put player,default, ground,enemy(if have)
     bool playerSeen;//whether the enemy see the player
-    public float time;//time for timer
+    float time;//time for timer
     public float timeToFlip;//whether the enemy should flip the localScale.x
-    public bool canflip;
+    bool canflip;
 
     void Start()
     {
