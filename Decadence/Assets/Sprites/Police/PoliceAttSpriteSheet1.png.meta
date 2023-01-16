@@ -1,7 +1,55 @@
 fileFormatVersion: 2
 guid: fed27328efc0c664b906c6a472588596
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5775353768403531498
+    second: PoliceAttSpriteSheet1_0
+  - first:
+      213: 9078030543029670059
+    second: PoliceAttSpriteSheet1_1
+  - first:
+      213: -7608429231092085749
+    second: PoliceAttSpriteSheet1_2
+  - first:
+      213: -3766414718786977538
+    second: PoliceAttSpriteSheet1_3
+  - first:
+      213: -9101806408904640433
+    second: PoliceAttSpriteSheet1_4
+  - first:
+      213: -7585143276580155045
+    second: PoliceAttSpriteSheet1_5
+  - first:
+      213: 3405263877360987569
+    second: PoliceAttSpriteSheet1_6
+  - first:
+      213: 1055561664018896470
+    second: PoliceAttSpriteSheet1_7
+  - first:
+      213: -1499213762483861520
+    second: PoliceAttSpriteSheet1_8
+  - first:
+      213: 1425868321176149407
+    second: PoliceAttSpriteSheet1_9
+  - first:
+      213: 5174926260335613232
+    second: PoliceAttSpriteSheet1_10
+  - first:
+      213: -4047334083835080481
+    second: PoliceAttSpriteSheet1_11
+  - first:
+      213: 6726827982700775065
+    second: PoliceAttSpriteSheet1_12
+  - first:
+      213: -4364992744746137295
+    second: PoliceAttSpriteSheet1_13
+  - first:
+      213: 5499559670349467618
+    second: PoliceAttSpriteSheet1_14
+  - first:
+      213: -1326968264488624576
+    second: PoliceAttSpriteSheet1_15
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -41,12 +89,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 102
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,7 +138,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PoliceAttSpriteSheet1_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 835
+        width: 154
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6f7e937ad262050800000000000000
+      internalID: 5775353768403531498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceAttSpriteSheet1_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 844
+        width: 184
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba01e617ea4abfd70800000000000000
+      internalID: 9078030543029670059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceAttSpriteSheet1_2
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 844
+        width: 192
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cce0eeced696690800000000000000
+      internalID: -7608429231092085749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceAttSpriteSheet1_3
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 850
+        width: 192
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef046e1c4c10bbbc0800000000000000
+      internalID: -3766414718786977538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceAttSpriteSheet1_4
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 620
+        width: 154
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f487dd66b43efa180800000000000000
+      internalID: -9101806408904640433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceAttSpriteSheet1_5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 629
+        width: 184
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b515ff4b0682cb690800000000000000
+      internalID: -7585143276580155045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceAttSpriteSheet1_6
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 629
+        width: 192
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd2290647de14f20800000000000000
+      internalID: 3405263877360987569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceAttSpriteSheet1_7
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 635
+        width: 192
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656dd56adbb16ae00800000000000000
+      internalID: 1055561664018896470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceAttSpriteSheet1_8
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 408
+        width: 154
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7c5c4b609b13be0800000000000000
+      internalID: -1499213762483861520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceAttSpriteSheet1_9
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 417
+        width: 184
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ddf2cfea3b9c310800000000000000
+      internalID: 1425868321176149407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceAttSpriteSheet1_10
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 417
+        width: 192
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035152e040801d740800000000000000
+      internalID: 5174926260335613232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceAttSpriteSheet1_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 423
+        width: 192
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0ddad281bf4d7c0800000000000000
+      internalID: -4047334083835080481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceAttSpriteSheet1_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 203
+        width: 154
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9968906f86e7a5d50800000000000000
+      internalID: 6726827982700775065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceAttSpriteSheet1_13
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 212
+        width: 184
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139cf32b93e6c63c0800000000000000
+      internalID: -4364992744746137295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceAttSpriteSheet1_14
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 212
+        width: 192
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef8e3cd16c525c40800000000000000
+      internalID: 5499559670349467618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceAttSpriteSheet1_15
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 218
+        width: 192
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e50fed469a59de0800000000000000
+      internalID: -1326968264488624576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

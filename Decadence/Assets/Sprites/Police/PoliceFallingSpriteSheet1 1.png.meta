@@ -1,7 +1,82 @@
 fileFormatVersion: 2
 guid: 562f432e23743f347af1b6de5eccfca8
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2747812076616178600
+    second: PoliceFallingSpriteSheet1 1_0
+  - first:
+      213: -6618859924980718085
+    second: PoliceFallingSpriteSheet1 1_1
+  - first:
+      213: 220705244378713041
+    second: PoliceFallingSpriteSheet1 1_2
+  - first:
+      213: -4032306498884827475
+    second: PoliceFallingSpriteSheet1 1_3
+  - first:
+      213: -8711541459772332138
+    second: PoliceFallingSpriteSheet1 1_4
+  - first:
+      213: -3580410750622816365
+    second: PoliceFallingSpriteSheet1 1_5
+  - first:
+      213: 5421170205652624881
+    second: PoliceFallingSpriteSheet1 1_6
+  - first:
+      213: -6279478873420893700
+    second: PoliceFallingSpriteSheet1 1_7
+  - first:
+      213: 6899583253533516587
+    second: PoliceFallingSpriteSheet1 1_8
+  - first:
+      213: 7376050607108803154
+    second: PoliceFallingSpriteSheet1 1_9
+  - first:
+      213: 5737663128929702348
+    second: PoliceFallingSpriteSheet1 1_10
+  - first:
+      213: -6102671107217099374
+    second: PoliceFallingSpriteSheet1 1_11
+  - first:
+      213: -6141962925485908086
+    second: PoliceFallingSpriteSheet1 1_12
+  - first:
+      213: -8163939179704422206
+    second: PoliceFallingSpriteSheet1 1_13
+  - first:
+      213: -1199715677039416039
+    second: PoliceFallingSpriteSheet1 1_14
+  - first:
+      213: -7294572378996747779
+    second: PoliceFallingSpriteSheet1 1_15
+  - first:
+      213: 9044524827154124205
+    second: PoliceFallingSpriteSheet1 1_16
+  - first:
+      213: -5597210000171848878
+    second: PoliceFallingSpriteSheet1 1_17
+  - first:
+      213: -2709507662865762012
+    second: PoliceFallingSpriteSheet1 1_18
+  - first:
+      213: 7760864326716287668
+    second: PoliceFallingSpriteSheet1 1_19
+  - first:
+      213: 2375272527461665036
+    second: PoliceFallingSpriteSheet1 1_20
+  - first:
+      213: 1753687429553334346
+    second: PoliceFallingSpriteSheet1 1_21
+  - first:
+      213: 2925340708051644904
+    second: PoliceFallingSpriteSheet1 1_22
+  - first:
+      213: 2511963167601259761
+    second: PoliceFallingSpriteSheet1 1_23
+  - first:
+      213: -3906144394426631048
+    second: PoliceFallingSpriteSheet1 1_24
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -41,12 +116,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 102
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,7 +165,532 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 822
+        width: 152
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab5c307680322620800000000000000
+      internalID: 2747812076616178600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 834
+        width: 158
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5a47967f51524a0800000000000000
+      internalID: -6618859924980718085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_2
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 850
+        width: 176
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db424b104a101300800000000000000
+      internalID: 220705244378713041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_3
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 845
+        width: 179
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da688747a9e5a08c0800000000000000
+      internalID: -4032306498884827475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_4
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 865
+        width: 168
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697ae24b2336a1780800000000000000
+      internalID: -8711541459772332138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_5
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 625
+        width: 152
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39723236463df4ec0800000000000000
+      internalID: -3580410750622816365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_6
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 637
+        width: 158
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f52bd6549ddb3b40800000000000000
+      internalID: 5421170205652624881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_7
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 653
+        width: 176
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf17d271c3fcad8a0800000000000000
+      internalID: -6279478873420893700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_8
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 648
+        width: 179
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23691dd96e30cf50800000000000000
+      internalID: 6899583253533516587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_9
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 668
+        width: 168
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a460a72fefc5660800000000000000
+      internalID: 7376050607108803154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_10
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 425
+        width: 152
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc116b0673640af40800000000000000
+      internalID: 5737663128929702348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_11
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 437
+        width: 158
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295f84916f4fe4ba0800000000000000
+      internalID: -6102671107217099374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_12
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 453
+        width: 176
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f1bc2c24d53caa0800000000000000
+      internalID: -6141962925485908086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_13
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 448
+        width: 179
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0f2d9029cd3be80800000000000000
+      internalID: -8163939179704422206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_14
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 468
+        width: 168
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d2996b2f0c95fe0800000000000000
+      internalID: -1199715677039416039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_15
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 222
+        width: 152
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1d581d11974ca90800000000000000
+      internalID: -7294572378996747779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_16
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 234
+        width: 158
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad09bc096b948d70800000000000000
+      internalID: 9044524827154124205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_17
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 250
+        width: 176
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b2e7ef827b252b0800000000000000
+      internalID: -5597210000171848878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_18
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 245
+        width: 179
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429ffaed225e56ad0800000000000000
+      internalID: -2709507662865762012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_19
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 265
+        width: 168
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4baecef7cf024bb60800000000000000
+      internalID: 7760864326716287668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 28
+        width: 152
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09c81c67c9a6f020800000000000000
+      internalID: 2375272527461665036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_21
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 40
+        width: 158
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48289dfc69565810800000000000000
+      internalID: 1753687429553334346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_22
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 56
+        width: 176
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e17866ffd5e89820800000000000000
+      internalID: 2925340708051644904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_23
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 51
+        width: 179
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4fcb521394cd220800000000000000
+      internalID: 2511963167601259761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceFallingSpriteSheet1 1_24
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 71
+        width: 168
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c31d07e569ac9c0800000000000000
+      internalID: -3906144394426631048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
