@@ -525,6 +525,10 @@ PrefabInstance:
       propertyPath: patrolDistance
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 9092499227024673379, guid: f683775b233f7cb4cb9c270f71aea656, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4549771532112909933, guid: e286dda766a9a2640840ad0b6aa08cf6, type: 3}
     - target: {fileID: 9092499227024673388, guid: f683775b233f7cb4cb9c270f71aea656, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -1523,6 +1527,10 @@ PrefabInstance:
       propertyPath: patrolDistance
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 9092499227024673379, guid: f683775b233f7cb4cb9c270f71aea656, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4549771532112909933, guid: e286dda766a9a2640840ad0b6aa08cf6, type: 3}
     - target: {fileID: 9092499227024673388, guid: f683775b233f7cb4cb9c270f71aea656, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -34834,6 +34842,10 @@ PrefabInstance:
       propertyPath: patrolDistance
       value: 1.36
       objectReference: {fileID: 0}
+    - target: {fileID: 6863137059301040565, guid: 7e0b2f7658bc4204cadc0640d164eb3a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4702556073113692611, guid: e286dda766a9a2640840ad0b6aa08cf6, type: 3}
     - target: {fileID: 6863137059301040566, guid: 7e0b2f7658bc4204cadc0640d164eb3a, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -45568,6 +45580,10 @@ PrefabInstance:
       propertyPath: patrolDistance
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 9092499227024673379, guid: f683775b233f7cb4cb9c270f71aea656, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4549771532112909933, guid: e286dda766a9a2640840ad0b6aa08cf6, type: 3}
     - target: {fileID: 9092499227024673388, guid: f683775b233f7cb4cb9c270f71aea656, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -48795,6 +48811,10 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6863137059301040565, guid: 7e0b2f7658bc4204cadc0640d164eb3a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4702556073113692611, guid: e286dda766a9a2640840ad0b6aa08cf6, type: 3}
+    - target: {fileID: 6863137059301040565, guid: 7e0b2f7658bc4204cadc0640d164eb3a, type: 3}
       propertyPath: m_Color.b
       value: 1
       objectReference: {fileID: 0}
@@ -50599,7 +50619,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0.21}
-  m_ConnectedAnchor: {x: 0, y: -0.25999975}
+  m_ConnectedAnchor: {x: 4.2635746, y: 3.077333}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -53738,7 +53758,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0.21}
-  m_ConnectedAnchor: {x: 0, y: -0.26000023}
+  m_ConnectedAnchor: {x: 32.674904, y: 3.183333}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -53762,7 +53782,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0.15}
-  m_ConnectedAnchor: {x: 0, y: -0.3199997}
+  m_ConnectedAnchor: {x: 11.524311, y: 3.353333}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0

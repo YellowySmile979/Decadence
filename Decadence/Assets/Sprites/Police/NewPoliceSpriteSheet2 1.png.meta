@@ -1,0 +1,709 @@
+fileFormatVersion: 2
+guid: a0f872a0a45dbac4ea2ece18ebb74e67
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5510292135762672675
+    second: NewPoliceSpriteSheet2 1_0
+  - first:
+      213: -8217312338213312776
+    second: NewPoliceSpriteSheet2 1_1
+  - first:
+      213: 5535109042940873459
+    second: NewPoliceSpriteSheet2 1_2
+  - first:
+      213: -1025760463150141120
+    second: NewPoliceSpriteSheet2 1_3
+  - first:
+      213: -888715485764157569
+    second: NewPoliceSpriteSheet2 1_4
+  - first:
+      213: -1158079126381369255
+    second: NewPoliceSpriteSheet2 1_5
+  - first:
+      213: -5690439428648807663
+    second: NewPoliceSpriteSheet2 1_6
+  - first:
+      213: 5235317130656958021
+    second: NewPoliceSpriteSheet2 1_7
+  - first:
+      213: 7044195702888054666
+    second: NewPoliceSpriteSheet2 1_8
+  - first:
+      213: 1195324727369564975
+    second: NewPoliceSpriteSheet2 1_9
+  - first:
+      213: 3681625759415454919
+    second: NewPoliceSpriteSheet2 1_10
+  - first:
+      213: -6786284132105579614
+    second: NewPoliceSpriteSheet2 1_11
+  - first:
+      213: -851354328694009247
+    second: NewPoliceSpriteSheet2 1_12
+  - first:
+      213: 1297073444800774009
+    second: NewPoliceSpriteSheet2 1_13
+  - first:
+      213: 7328112712026292410
+    second: NewPoliceSpriteSheet2 1_14
+  - first:
+      213: -703297175922089510
+    second: NewPoliceSpriteSheet2 1_15
+  - first:
+      213: -1234183790626795870
+    second: NewPoliceSpriteSheet2 1_16
+  - first:
+      213: -4160439091455789309
+    second: NewPoliceSpriteSheet2 1_17
+  - first:
+      213: 1566610290935485829
+    second: NewPoliceSpriteSheet2 1_18
+  - first:
+      213: 1758710395794502036
+    second: NewPoliceSpriteSheet2 1_19
+  - first:
+      213: -4786315249440930077
+    second: NewPoliceSpriteSheet2 1_20
+  - first:
+      213: -6084825778009257323
+    second: NewPoliceSpriteSheet2 1_21
+  - first:
+      213: 2288396011273587492
+    second: NewPoliceSpriteSheet2 1_22
+  - first:
+      213: -1826549249336760668
+    second: NewPoliceSpriteSheet2 1_23
+  - first:
+      213: 6165890071215167093
+    second: NewPoliceSpriteSheet2 1_24
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 102
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 827
+        width: 110
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3cc3f4f728783b0800000000000000
+      internalID: -5510292135762672675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 827
+        width: 100
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f66c5037fd36fd80800000000000000
+      internalID: -8217312338213312776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_2
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 827
+        width: 100
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa0b892958a0dc40800000000000000
+      internalID: 5535109042940873459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_3
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 827
+        width: 119
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041bb412b44c3c1f0800000000000000
+      internalID: -1025760463150141120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_4
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 827
+        width: 140
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f73ac69f5aaa3f0800000000000000
+      internalID: -888715485764157569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 611
+        width: 110
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9586e3a9b2dadefe0800000000000000
+      internalID: -1158079126381369255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 611
+        width: 100
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113d2872d7f7701b0800000000000000
+      internalID: -5690439428648807663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_7
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 611
+        width: 100
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5464353413597a840800000000000000
+      internalID: 5235317130656958021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_8
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 611
+        width: 119
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fb9f68ba202c160800000000000000
+      internalID: 7044195702888054666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_9
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 611
+        width: 140
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f238a16a185a69010800000000000000
+      internalID: 1195324727369564975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_10
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 421
+        width: 110
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ccc2e14f13c71330800000000000000
+      internalID: 3681625759415454919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_11
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 421
+        width: 100
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a31af0898642d1a0800000000000000
+      internalID: -6786284132105579614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_12
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 421
+        width: 100
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162d33cafb16f24f0800000000000000
+      internalID: -851354328694009247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_13
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 421
+        width: 119
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f31f40d61200210800000000000000
+      internalID: 1297073444800774009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_14
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 421
+        width: 140
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab00a528fafa2b560800000000000000
+      internalID: 7328112712026292410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_15
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 229
+        width: 110
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1e0a9d1f26d36f0800000000000000
+      internalID: -703297175922089510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_16
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 229
+        width: 100
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae0524a16c4fdee0800000000000000
+      internalID: -1234183790626795870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_17
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 229
+        width: 100
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307f02470b62346c0800000000000000
+      internalID: -4160439091455789309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_18
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 229
+        width: 119
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5855ea462c7bdb510800000000000000
+      internalID: 1566610290935485829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_19
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 229
+        width: 140
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4913e1479c1386810800000000000000
+      internalID: 1758710395794502036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_20
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 22
+        width: 110
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6c90eb3a7939db0800000000000000
+      internalID: -4786315249440930077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_21
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 22
+        width: 100
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a4e95913b5e8ba0800000000000000
+      internalID: -6084825778009257323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_22
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 22
+        width: 100
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b026d3c0402cf10800000000000000
+      internalID: 2288396011273587492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_23
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 22
+        width: 119
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6a68c922bc6a6e0800000000000000
+      internalID: -1826549249336760668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewPoliceSpriteSheet2 1_24
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 22
+        width: 140
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57653eaf954a19550800000000000000
+      internalID: 6165890071215167093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
