@@ -3931,7 +3931,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6721987334915452981, guid: a624a2e264780494b8b1368c0422e73d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.88
+      value: 6.24
       objectReference: {fileID: 0}
     - target: {fileID: 6721987334915452981, guid: a624a2e264780494b8b1368c0422e73d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3969,6 +3969,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Robber
       objectReference: {fileID: 0}
+    - target: {fileID: 6721987334915452986, guid: a624a2e264780494b8b1368c0422e73d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5592176336217801819, guid: 54504b85b241e634daefad86e00e85db, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a624a2e264780494b8b1368c0422e73d, type: 3}
 --- !u!1 &376675166
@@ -35789,6 +35793,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8528430324829460685, guid: b7a270ee7906bae44afa392dbc754a65, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6257990240138202671, guid: 54504b85b241e634daefad86e00e85db, type: 3}
     - target: {fileID: 8528430324829460686, guid: b7a270ee7906bae44afa392dbc754a65, type: 3}
       propertyPath: m_Name
       value: Thug (2)
@@ -37416,7 +37424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8528430324829460684, guid: b7a270ee7906bae44afa392dbc754a65, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.91
+      value: 6.13
       objectReference: {fileID: 0}
     - target: {fileID: 8528430324829460684, guid: b7a270ee7906bae44afa392dbc754a65, type: 3}
       propertyPath: m_LocalPosition.z
@@ -37450,6 +37458,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8528430324829460685, guid: b7a270ee7906bae44afa392dbc754a65, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6257990240138202671, guid: 54504b85b241e634daefad86e00e85db, type: 3}
     - target: {fileID: 8528430324829460686, guid: b7a270ee7906bae44afa392dbc754a65, type: 3}
       propertyPath: m_Name
       value: Thug (3)
@@ -40052,6 +40064,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8528430324829460685, guid: b7a270ee7906bae44afa392dbc754a65, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6257990240138202671, guid: 54504b85b241e634daefad86e00e85db, type: 3}
     - target: {fileID: 8528430324829460686, guid: b7a270ee7906bae44afa392dbc754a65, type: 3}
       propertyPath: m_Name
       value: Thug
@@ -40081,7 +40097,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6721987334915452981, guid: a624a2e264780494b8b1368c0422e73d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.88
+      value: 5.97
       objectReference: {fileID: 0}
     - target: {fileID: 6721987334915452981, guid: a624a2e264780494b8b1368c0422e73d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -40119,6 +40135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Robber (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6721987334915452986, guid: a624a2e264780494b8b1368c0422e73d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5592176336217801819, guid: 54504b85b241e634daefad86e00e85db, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a624a2e264780494b8b1368c0422e73d, type: 3}
 --- !u!1 &1458672356
@@ -44092,6 +44112,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8528430324829460685, guid: b7a270ee7906bae44afa392dbc754a65, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6257990240138202671, guid: 54504b85b241e634daefad86e00e85db, type: 3}
     - target: {fileID: 8528430324829460686, guid: b7a270ee7906bae44afa392dbc754a65, type: 3}
       propertyPath: m_Name
       value: Thug (1)
