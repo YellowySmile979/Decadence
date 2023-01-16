@@ -1,67 +1,52 @@
 fileFormatVersion: 2
-guid: fb83381aa339f634e914ebe80f1c066a
+guid: 8eca1283e980cdb4caa938643723e746
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7493532457125420099
-    second: PoliceFallingSpriteSheet2 1_0
+      213: -750275353077210316
+    second: SergeantToChiefInspector_0
   - first:
-      213: -4583625311600381822
-    second: PoliceFallingSpriteSheet2 1_1
+      213: -571251598255226679
+    second: SergeantToChiefInspector_1
   - first:
-      213: 2943090866650799976
-    second: PoliceFallingSpriteSheet2 1_2
+      213: -8681717863095599892
+    second: SergeantToChiefInspector_2
   - first:
-      213: 8327707608865126445
-    second: PoliceFallingSpriteSheet2 1_3
+      213: -8336202087814881909
+    second: SergeantToChiefInspector_3
   - first:
-      213: -1212523436933075375
-    second: PoliceFallingSpriteSheet2 1_4
+      213: 2805101511199399743
+    second: SergeantToChiefInspector_4
   - first:
-      213: 6913573508633914001
-    second: PoliceFallingSpriteSheet2 1_5
+      213: -3189129184723301319
+    second: SergeantToChiefInspector_5
   - first:
-      213: 5245488869179769311
-    second: PoliceFallingSpriteSheet2 1_6
+      213: -2709980048765503856
+    second: SergeantToChiefInspector_6
   - first:
-      213: 6364721831285840756
-    second: PoliceFallingSpriteSheet2 1_7
+      213: 5893646048293401230
+    second: SergeantToChiefInspector_7
   - first:
-      213: -5396354925016829105
-    second: PoliceFallingSpriteSheet2 1_8
+      213: 8199618038719746700
+    second: SergeantToChiefInspector_8
   - first:
-      213: -4878513231218298287
-    second: PoliceFallingSpriteSheet2 1_9
+      213: 5376399414306176527
+    second: SergeantToChiefInspector_9
   - first:
-      213: 3234202489762121511
-    second: PoliceFallingSpriteSheet2 1_10
+      213: -8141495619026500036
+    second: SergeantToChiefInspector_10
   - first:
-      213: 6964049740611409690
-    second: PoliceFallingSpriteSheet2 1_11
+      213: 7037915486363513561
+    second: SergeantToChiefInspector_11
   - first:
-      213: -1036558836457217916
-    second: PoliceFallingSpriteSheet2 1_12
+      213: 1329729015377803824
+    second: SergeantToChiefInspector_12
   - first:
-      213: 2888202590854977986
-    second: PoliceFallingSpriteSheet2 1_13
+      213: -9127996587865338495
+    second: SergeantToChiefInspector_13
   - first:
-      213: 4370570818488962869
-    second: PoliceFallingSpriteSheet2 1_14
-  - first:
-      213: 8251438773414816465
-    second: PoliceFallingSpriteSheet2 1_15
-  - first:
-      213: 9219135905805135179
-    second: PoliceFallingSpriteSheet2 1_16
-  - first:
-      213: 8816230023081731230
-    second: PoliceFallingSpriteSheet2 1_17
-  - first:
-      213: -2638928533396361060
-    second: PoliceFallingSpriteSheet2 1_18
-  - first:
-      213: -4308776869956666065
-    second: PoliceFallingSpriteSheet2 1_19
+      213: 7179512137975807255
+    second: SergeantToChiefInspector_14
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -152,12 +137,33 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PoliceFallingSpriteSheet2 1_0
+      name: SergeantToChiefInspector_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 822
-        width: 152
+        x: 23
+        y: 824
+        width: 110
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4332a10aa8c7695f0800000000000000
+      internalID: -750275353077210316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SergeantToChiefInspector_1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 824
+        width: 100
         height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -166,103 +172,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34c12db31106ef760800000000000000
-      internalID: 7493532457125420099
+      spriteID: 9c08f90b2b18218f0800000000000000
+      internalID: -571251598255226679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoliceFallingSpriteSheet2 1_1
+      name: SergeantToChiefInspector_2
       rect:
         serializedVersion: 2
-        x: 212
-        y: 834
-        width: 158
-        height: 154
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 280f19e6011b360c0800000000000000
-      internalID: -4583625311600381822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PoliceFallingSpriteSheet2 1_2
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 850
-        width: 176
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 86fda60dc85f7d820800000000000000
-      internalID: 2943090866650799976
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PoliceFallingSpriteSheet2 1_3
-      rect:
-        serializedVersion: 2
-        x: 609
-        y: 845
-        width: 179
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2839bbb2f5f19370800000000000000
-      internalID: 8327707608865126445
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PoliceFallingSpriteSheet2 1_4
-      rect:
-        serializedVersion: 2
-        x: 829
-        y: 865
-        width: 168
-        height: 113
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 15ea4cbbb504c2fe0800000000000000
-      internalID: -1212523436933075375
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PoliceFallingSpriteSheet2 1_5
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 625
-        width: 152
+        x: 352
+        y: 824
+        width: 100
         height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -271,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19aeca6f972f1ff50800000000000000
-      internalID: 6913573508633914001
+      spriteID: cecf50ae997548780800000000000000
+      internalID: -8681717863095599892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoliceFallingSpriteSheet2 1_6
+      name: SergeantToChiefInspector_3
       rect:
         serializedVersion: 2
-        x: 212
-        y: 637
-        width: 158
-        height: 154
+        x: 500
+        y: 824
+        width: 119
+        height: 165
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,82 +214,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd1c9b0b558bbc840800000000000000
-      internalID: 5245488869179769311
+      spriteID: b8d9ce34e5cdf4c80800000000000000
+      internalID: -8336202087814881909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoliceFallingSpriteSheet2 1_7
+      name: SergeantToChiefInspector_4
       rect:
         serializedVersion: 2
-        x: 399
-        y: 653
-        width: 176
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47b57f7a8c8045850800000000000000
-      internalID: 6364721831285840756
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PoliceFallingSpriteSheet2 1_8
-      rect:
-        serializedVersion: 2
-        x: 609
-        y: 648
-        width: 179
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f43317c69cb4c15b0800000000000000
-      internalID: -5396354925016829105
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PoliceFallingSpriteSheet2 1_9
-      rect:
-        serializedVersion: 2
-        x: 829
-        y: 668
-        width: 168
-        height: 113
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 152b03d401a0c4cb0800000000000000
-      internalID: -4878513231218298287
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PoliceFallingSpriteSheet2 1_10
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 425
-        width: 152
+        x: 660
+        y: 824
+        width: 140
         height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -376,20 +235,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72784f5670232ec20800000000000000
-      internalID: 3234202489762121511
+      spriteID: f3f93fd56f8bde620800000000000000
+      internalID: 2805101511199399743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoliceFallingSpriteSheet2 1_11
+      name: SergeantToChiefInspector_5
       rect:
         serializedVersion: 2
-        x: 212
-        y: 437
-        width: 158
-        height: 154
+        x: 23
+        y: 606
+        width: 110
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,82 +256,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a175b4b875645a060800000000000000
-      internalID: 6964049740611409690
+      spriteID: 93c8cb937efedb3d0800000000000000
+      internalID: -3189129184723301319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoliceFallingSpriteSheet2 1_12
+      name: SergeantToChiefInspector_6
       rect:
         serializedVersion: 2
-        x: 399
-        y: 453
-        width: 176
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 480ec2cea376d91f0800000000000000
-      internalID: -1036558836457217916
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PoliceFallingSpriteSheet2 1_13
-      rect:
-        serializedVersion: 2
-        x: 609
-        y: 448
-        width: 179
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c9164b34f4f41820800000000000000
-      internalID: 2888202590854977986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PoliceFallingSpriteSheet2 1_14
-      rect:
-        serializedVersion: 2
-        x: 829
-        y: 468
-        width: 168
-        height: 113
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53f09bdc00367ac30800000000000000
-      internalID: 4370570818488962869
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PoliceFallingSpriteSheet2 1_15
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 222
-        width: 152
+        x: 188
+        y: 606
+        width: 100
         height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -481,20 +277,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1da664fa8dff28270800000000000000
-      internalID: 8251438773414816465
+      spriteID: 096bfe4f087346ad0800000000000000
+      internalID: -2709980048765503856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoliceFallingSpriteSheet2 1_16
+      name: SergeantToChiefInspector_7
       rect:
         serializedVersion: 2
-        x: 212
-        y: 234
-        width: 158
-        height: 154
+        x: 352
+        y: 606
+        width: 100
+        height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,20 +298,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4d6091e243f0ff70800000000000000
-      internalID: 9219135905805135179
+      spriteID: e82b964eadf6ac150800000000000000
+      internalID: 5893646048293401230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoliceFallingSpriteSheet2 1_17
+      name: SergeantToChiefInspector_8
       rect:
         serializedVersion: 2
-        x: 399
-        y: 250
-        width: 176
-        height: 133
+        x: 500
+        y: 606
+        width: 119
+        height: 165
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -523,20 +319,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e94abefde7a895a70800000000000000
-      internalID: 8816230023081731230
+      spriteID: c8296cba925eac170800000000000000
+      internalID: 8199618038719746700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoliceFallingSpriteSheet2 1_18
+      name: SergeantToChiefInspector_9
       rect:
         serializedVersion: 2
-        x: 609
-        y: 245
-        width: 179
-        height: 133
+        x: 660
+        y: 606
+        width: 140
+        height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -544,20 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9074430b74a06bd0800000000000000
-      internalID: -2638928533396361060
+      spriteID: f0e765c28cecc9a40800000000000000
+      internalID: 5376399414306176527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoliceFallingSpriteSheet2 1_19
+      name: SergeantToChiefInspector_10
       rect:
         serializedVersion: 2
-        x: 829
-        y: 265
-        width: 168
-        height: 113
+        x: 23
+        y: 395
+        width: 110
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -565,8 +361,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2d30d104462434c0800000000000000
-      internalID: -4308776869956666065
+      spriteID: c36c687bed8930f80800000000000000
+      internalID: -8141495619026500036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SergeantToChiefInspector_11
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 395
+        width: 100
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2faeba8d2bba160800000000000000
+      internalID: 7037915486363513561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SergeantToChiefInspector_12
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 395
+        width: 100
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03abf198e75247210800000000000000
+      internalID: 1329729015377803824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SergeantToChiefInspector_13
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 395
+        width: 119
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d0f4d2777d25180800000000000000
+      internalID: -9127996587865338495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SergeantToChiefInspector_14
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 395
+        width: 140
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d37a43040c2a360800000000000000
+      internalID: 7179512137975807255
       vertices: []
       indices: 
       edges: []

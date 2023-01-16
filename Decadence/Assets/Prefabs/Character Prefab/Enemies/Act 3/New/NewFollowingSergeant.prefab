@@ -145,6 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 2
+  bloodied: {fileID: -750275353077210316, guid: 8eca1283e980cdb4caa938643723e746, type: 3}
 --- !u!60 &4410487009130322479
 PolygonCollider2D:
   m_ObjectHideFlags: 0

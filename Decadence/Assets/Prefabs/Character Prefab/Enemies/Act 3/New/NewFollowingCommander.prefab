@@ -110,7 +110,6 @@ MonoBehaviour:
   firePoint: {fileID: 2967145114711679804}
   ammo: 3
   enemyBullet: {fileID: 5433503932301646451, guid: 85bf44f67551a254bbd361c825dcb90c, type: 3}
-  goingToShoot: 0
   whatCanBeShot:
     serializedVersion: 2
     m_Bits: 9
@@ -127,6 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 7
+  bloodied: {fileID: 5074040985831508039, guid: baf4bbebce3cc634bb67d2d01187a54b, type: 3}
 --- !u!61 &2967145113261011947
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -119,6 +119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
+  bloodied: {fileID: 4549771532112909933, guid: e286dda766a9a2640840ad0b6aa08cf6, type: 3}
 --- !u!61 &2983447831895816482
 BoxCollider2D:
   m_ObjectHideFlags: 0
