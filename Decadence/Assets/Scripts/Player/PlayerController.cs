@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     bool isGrounded;
     Weapon weapon;
     LevelManager LM;
+    SpriteRenderer sr;
 
     [Header("Damage")]
     public int damg = 1;
@@ -33,15 +34,20 @@ public class PlayerController : MonoBehaviour
     bool haveIPressedF = false;
     bool canIEat = false;
     int crumpetTracker = 0;
+    int usedCrumpet = -1;
+    bool isReloading;
 
     [Header("Firing Time")]
-    private bool canFire;
-    private float timer;
+    bool canFire;
+    float timer;
     public float timeBetweenFiring;
-    private bool canreload;
     
     [HideInInspector] public bool canMove = true;
     [HideInInspector] public Vector2 respawnPosition;
+
+    [Header("Particles")]
+    ParticleSystem footStepEffect;
+    public float waitToDestroy;
 
     [Header("UI")]
     public Text ammoUIText;
@@ -58,6 +64,9 @@ public class PlayerController : MonoBehaviour
         weapon = GetComponentInChildren<Weapon>();
         respawnPosition = transform.position;
         LM = FindObjectOfType<LevelManager>();
+        sr = GetComponent<SpriteRenderer>();
+
+        footStepEffect = transform.Find("Footstep").GetComponentInChildren<ParticleSystem>();
 
         //updates the UI for ammo
         ammoUIText.text = " Max Ammo: " + Weapon.currentAmmo + "/" + Weapon.maxAmmoSize;
@@ -65,6 +74,10 @@ public class PlayerController : MonoBehaviour
         LM.UpdateAmmoMeter();
     }
 
+    public void ReloadingAnimation(bool yeahnah)
+    {
+        isReloading = yeahnah;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -74,8 +87,12 @@ public class PlayerController : MonoBehaviour
         //to activate animations' variables
         anim.SetBool("IsGrounded", isGrounded);
         anim.SetFloat("MoveSpeed", Mathf.Abs(rb.velocity.x));
+        anim.SetBool("IsReloading", isReloading);
+
         if (canMove) movement();
-        CrumpetTimer();
+
+        CrumpetTimer(); //constantly checks so that the timer can constantly update
+        //this is where the crumpetTracker helps to determine if the person can eat or not
         if (crumpetTracker <= 0 && haveIPressedF == false)
         {
             canIEat = false;
@@ -84,30 +101,44 @@ public class PlayerController : MonoBehaviour
         {
             canIEat = true;
         }
+        //when i press F, use the crumpet, activate damage boost and update UI and reduce crumpetTracker value
         if (Input.GetKeyDown(KeyCode.F) && canIEat == true)
         {
             haveIPressedF = true;           
             SetDamage(damageBoost);
+            LM.AddCrumpets(usedCrumpet);
             crumpetTracker -= 1;
+            NumberOfCrumpetsTracker(crumpetTracker);
         }
     }
+    //keeps track of crumpet count for the canIEat variable
     public void NumberOfCrumpetsTracker(int amount)
     {
-        crumpetTracker = amount;
+        crumpetTracker += amount;
     }
+    //timer for the damage boost
     public void CrumpetTimer()
     {
         if (damageBoostDuration > 0 && haveIPressedF == true && canIEat == true)
         {
             damageBoostDuration -= Time.deltaTime;
+            //reduces the value to between 0-1 for the radial sprite in UI to be able to read it
             LM.UpdateCrumpetUI(damageBoostDuration / maxDamageBoostDuration);
-            print(damageBoostDuration);
         }
         else if (damageBoostDuration <= 0)
         {
-            SetDamage(initialDamage);
-            haveIPressedF = false;
+            SetDamage(initialDamage); //resets damage
+            haveIPressedF = false; //stops the timer
+            damageBoostDuration = maxDamageBoostDuration;
         }
+    }
+    //changes colour when player gets hurt
+    public IEnumerator ChangeColour()
+    {
+        Color originalColor = sr.color;
+        sr.color = new Color(255, 0, 0);
+        yield return new WaitForSeconds(0.1f);
+        sr.color = originalColor;
     }
     public void SetDamage(int dmg)
     {
@@ -181,17 +212,21 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(weapon.Reload());
         }
     }
-    void OnTriggerEnter2D(Collider2D other) //this is for when this object's collider collides with a trigger
-                                            //things inside the bracket is a PARAMETER
+    //this is for when this object's collider collides with a trigger
+    //things inside the bracket is a PARAMETER
+    void OnTriggerEnter2D(Collider2D other) 
     {
         if (other.GetComponent<CheckpointController>())
         {
             //sets respawn position to the collider that is held by this script
             respawnPosition = other.transform.position;
-
-
         }
-
     }
-
+    public void NotifyFootStep()
+    {
+        //RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 10, whatIsGround);
+        //if (hit.collider.tag == "Grass") 
+        footStepEffect.Play();
+        //Add footstep sounds.
+    }
 }

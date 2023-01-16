@@ -13,8 +13,8 @@ TagManager:
   - Water
   - UI
   - Background
-  - 
-  - 
+  - Player
+  - Enemies
   - 
   - 
   - 
@@ -44,6 +44,9 @@ TagManager:
     locked: 0
   - name: Background (Walls)
     uniqueID: 4243167185
+    locked: 0
+  - name: Background-1
+    uniqueID: 3593407025
     locked: 0
   - name: Background (Aesthetics)
     uniqueID: 1931217769

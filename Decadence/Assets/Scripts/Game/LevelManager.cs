@@ -50,28 +50,31 @@ public class LevelManager : MonoBehaviour
     public Text numberOfCrumpets;
     int crumpets = 0;
 
-    Rigidbody2D rb;
-
     // Start is called before the first frame update
     void Start()
     {
         player = FindObjectOfType<PlayerController>();
         healthToRespawn = healthCount;
+        numberOfCrumpets.text = "x" + 0;
         //healthCount = maxHealth;
-        rb = GetComponent<Rigidbody2D>();
     }
+    //updates the UI for the crumpets when someone picks up a crumpets
     public void AddCrumpets(int amount)
     {
         crumpets += amount;
-        numberOfCrumpets.text = "x" + crumpets;
-        player.NumberOfCrumpetsTracker(crumpets);
+        player.NumberOfCrumpetsTracker(crumpets); //updates the crumpet tracker
+        if (crumpets > 0)
+        {
+            numberOfCrumpets.text = "x" + crumpets;
+        }
     }
+    //updates the timer for the power up
     public void UpdateCrumpetUI(float fillAmount)
     {
         if (fillAmount <= 0) damageBoost.enabled = false;
         if (fillAmount > 0) damageBoost.enabled = true;
         //clamp caps the fillAmount between the two min-max values in this case 0-1
-        damageBoost.fillAmount = Mathf.Clamp(fillAmount, 0, 1);
+        damageBoost.fillAmount = Mathf.Clamp(fillAmount, 0, 1); //restricts the value to between 0-1 for radial
     }
 
     //when health is below zero or zero, respawn the character
@@ -119,6 +122,7 @@ public class LevelManager : MonoBehaviour
         healthCount -= damageToTake;
         UpdateHeartMeter();
         UpdateAmmoMeter();
+        StartCoroutine(player.ChangeColour());
     }
     //heals player
     public void HealPlayer(int health)

@@ -4,25 +4,25 @@ using UnityEngine;
 
 public class Crumpets : MonoBehaviour
 {
-    public float maxDamageBoostDuration = 5f;
-    float damageBoostDuration;
     public int maxDamageBoost = 1;
     int damageBoost;
     public int initialDamage = 1;
     int crumpetValue = 1;
+    public AudioClip CrumpetPickUpSound;
 
     PlayerController pc;
-    SpriteRenderer sr;
     LevelManager lm;
+    AudioSource audioSource;
+    SpriteRenderer sr;
 
     // Start is called before the first frame update
     void Start()
     {
-        damageBoostDuration = maxDamageBoostDuration; //sets the time that damage boost lasts for
         damageBoost = maxDamageBoost; //sets damage to the damage we deal
         pc = FindObjectOfType<PlayerController>();
-        sr = GetComponent<SpriteRenderer>();
         lm = FindObjectOfType<LevelManager>();
+        audioSource = GetComponent<AudioSource>();
+        sr = GetComponent<SpriteRenderer>();
     }
     //when player touches the crumpet, disable the sprite renderer so that crumpets disappear
     //and then we set the damage to the damage boost
@@ -30,9 +30,14 @@ public class Crumpets : MonoBehaviour
     {
         if(other.GetComponent<PlayerController>())
         {
-            lm.AddCrumpets(crumpetValue);
-            pc.SetDamage(damageBoost);
-            Destroy(gameObject);
+            if(sr.enabled == true)
+            {
+                audioSource.PlayOneShot(CrumpetPickUpSound); //plays audio for picking it up
+                lm.AddCrumpets(crumpetValue);
+                pc.SetDamage(damageBoost);
+            }
+            sr.enabled = false;
+            Destroy(gameObject, 1f);
         }       
     }
 }
