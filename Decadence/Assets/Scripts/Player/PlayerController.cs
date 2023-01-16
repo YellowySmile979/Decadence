@@ -139,7 +139,7 @@ public class PlayerController : MonoBehaviour
         Color originalColor = sr.color;
         sr.color = new Color(255, 0, 0);
         yield return new WaitForSeconds(0.1f);
-        sr.color = originalColor;
+        sr.color = new Color(1,1,1);
     }
     public void SetDamage(int dmg)
     {

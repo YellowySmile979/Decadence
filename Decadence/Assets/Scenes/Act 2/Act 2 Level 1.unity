@@ -1800,7 +1800,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 156902791}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -2267,7 +2267,7 @@ GameObject:
   - component: {fileID: 5014966161139024792}
   - component: {fileID: 241818494756371822}
   - component: {fileID: 1883523414182095313}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: REVAMPED_crate (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19457,7 +19457,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 776353354}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.664, y: 1.7679012, z: 10.722522}
+  m_LocalPosition: {x: 1.664, y: 1.56, z: 10.722522}
   m_LocalScale: {x: 1.2436142, y: 1.2436142, z: 1.2436142}
   m_Children: []
   m_Father: {fileID: 757896719}
@@ -21928,7 +21928,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 856921686}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.5, y: -2.0828032, z: 9.854519}
+  m_LocalPosition: {x: 16.5, y: -2.25, z: 9.854519}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 895534402}
@@ -33651,7 +33651,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874370943}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.85, y: 1.3009999, z: 9.854519}
+  m_LocalPosition: {x: 0.85, y: 1.13, z: 9.854519}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1988920740}
@@ -34523,7 +34523,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 940353572}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3683, y: 1.78, z: 10.722522}
+  m_LocalPosition: {x: -0.3683, y: 1.59, z: 10.722522}
   m_LocalScale: {x: 1.173221, y: 1.173221, z: 1.173221}
   m_Children: []
   m_Father: {fileID: 757896719}
@@ -34912,7 +34912,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981642760}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.8349991, y: 1.3009999, z: 9.854519}
+  m_LocalPosition: {x: -0.8349991, y: 1.16, z: 9.854519}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1988920740}
@@ -35119,7 +35119,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 990507920}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WhereToSpawnLoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35759,7 +35759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8528430324829460684, guid: b7a270ee7906bae44afa392dbc754a65, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.9499999
+      value: 0.854
       objectReference: {fileID: 0}
     - target: {fileID: 8528430324829460684, guid: b7a270ee7906bae44afa392dbc754a65, type: 3}
       propertyPath: m_LocalPosition.z
@@ -36547,7 +36547,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080838639}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.287, y: 1.657, z: 9.854519}
+  m_LocalPosition: {x: -0.287, y: 1.437, z: 9.854519}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1806247939}
@@ -38218,7 +38218,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1346264995}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.487999, y: 0.46519685, z: 9.854519}
+  m_LocalPosition: {x: 16.487999, y: 0.15, z: 9.854519}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 895534402}
@@ -49248,7 +49248,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 241818494766440799}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WhereToSpawnLoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49380,7 +49380,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 241818495567069897}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.57, y: -4.34, z: -0.07}
+  m_LocalPosition: {x: -0.57, y: -4.244, z: -0.07}
   m_LocalScale: {x: 1.15, y: 1.15, z: 1}
   m_Children:
   - {fileID: 156902791}
@@ -49453,7 +49453,7 @@ GameObject:
   - component: {fileID: 5099096794658132311}
   - component: {fileID: 1001861025}
   - component: {fileID: 1835360004510710558}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: REVAMPED_crate (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49483,7 +49483,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 241818495610763080}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -50586,7 +50586,7 @@ DistanceJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 2.670019
+  m_Distance: 2.5740194
   m_MaxDistanceOnly: 0
 --- !u!233 &1712941756739140341
 HingeJoint2D:
@@ -50707,7 +50707,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0.58}
-  m_ConnectedAnchor: {x: 0.015830994, y: -0.19300014}
+  m_ConnectedAnchor: {x: 0.015830994, y: -0.097}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
