@@ -47,7 +47,7 @@ MonoBehaviour:
   timeBetweenRespawn: 30
   firstSpawn: 30
   bulletSpawnCount: 0
-  maxBulletSpawnCount: 1
+  maxBulletSpawnCount: 3
   whatSpawns: {fileID: 8781068430013697499, guid: 82ac90efb32d6354099a1ad7aa869aeb, type: 3}
 --- !u!61 &153113421175009151
 BoxCollider2D:

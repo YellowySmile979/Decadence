@@ -12,13 +12,13 @@ public class FollowingScriptHighRanking : MonoBehaviour
 
     public LayerMask WhoICanSee;//pls put player,default, ground,enemy(if have)
     bool playerSeen;//whether the enemy see the player
-    public float time;//time for timer
+    float time;//time for timer
     public float timeToFlip;//whether the enemy should flip the localScale.x
-    public bool canflip;
+    bool canflip;
     public Transform firePoint;
     public float ammo = 3;
     public GameObject enemyBullet;
-    public bool goingToShoot;//the enemy is going to shoot
+    bool goingToShoot;//the enemy is going to shoot
     public LayerMask whatCanBeShot;//pls put default,ground, enemy(if have)
     LineRenderer lR;
 

@@ -304,8 +304,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -139.93037}
-  m_SizeDelta: {x: 659, y: 279.8708}
+  m_AnchoredPosition: {x: 0, y: -152.3221}
+  m_SizeDelta: {x: 659, y: 304.6542}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &995043529
 MonoBehaviour:
@@ -340,9 +340,42 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Music:\nThe following music was used for this media project:\r\nMusic:
-    Mystery Palace by Alexander Nakarada\r\nFree download: https://filmmusic.io/song/7257-mystery-palace\r\nLicense
-    (CC BY 4.0): https://filmmusic.io/standard-license\r"
+  m_Text: 'Music:
+
+    The following music was used for this media project:
+
+    Music:
+    Mystery Palace by Alexander Nakarada
+
+    Free download: https://filmmusic.io/song/7257-mystery-palace
+
+    License
+    (CC BY 4.0): https://filmmusic.io/standard-license
+
+
+    The following music
+    was used for this media project:
+
+    Music: Mysterious by Agnese Valmaggia
+
+    Free
+    download: https://filmmusic.io/song/6786-mysterious
+
+    License (CC BY 4.0):
+    https://filmmusic.io/standard-license
+
+
+    The following music was used for
+    this media project:
+
+    Music: Heros by Frank Schroeter
+
+    Free download:
+    https://filmmusic.io/song/6463-heros
+
+    License (CC BY 4.0): https://filmmusic.io/standard-license
+
+'
 --- !u!222 &995043530
 CanvasRenderer:
   m_ObjectHideFlags: 0
