@@ -48,8 +48,6 @@ public class PlayerController : MonoBehaviour
     [Header("Particles")]
     ParticleSystem footStepEffect;
     public float waitToDestroy;
-    bool hasSpawned = false;
-    float wait = 1f;
 
     [Header("UI")]
     public Text ammoUIText;
@@ -161,17 +159,11 @@ public class PlayerController : MonoBehaviour
             //this line of code above is to control speed better, assuming frame rate=30,
             //Time.deltaTime=1/30=0.03(all approx)
             transform.localScale = new Vector3(1, 1, 1);
-
-
-            //hasSpawned = true;
         }
         else if (Input.GetAxisRaw("Horizontal") < 0)
         {
             rb.velocity = new Vector2(-moveSpeed, rb.velocity.y); //moves it other direction
             transform.localScale = new Vector3(-1, 1, 1);
-            
-
-            //hasSpawned = true;
         }
         else
         {
@@ -230,7 +222,6 @@ public class PlayerController : MonoBehaviour
             respawnPosition = other.transform.position;
         }
     }
-
     public void NotifyFootStep()
     {
         //RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 10, whatIsGround);
