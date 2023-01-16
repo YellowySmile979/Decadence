@@ -110,6 +110,7 @@ public class PlayerController : MonoBehaviour
             crumpetTracker -= 1;
             NumberOfCrumpetsTracker(crumpetTracker);
         }
+
     }
     //keeps track of crumpet count for the canIEat variable
     public void NumberOfCrumpetsTracker(int amount)
