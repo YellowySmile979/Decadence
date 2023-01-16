@@ -46,8 +46,7 @@ public class PlayerController : MonoBehaviour
     [HideInInspector] public Vector2 respawnPosition;
 
     [Header("Particles")]
-    public GameObject walkingParticles;
-    public Transform walkingParticlesSpawnPoint;
+    ParticleSystem footStepEffect;
     public float waitToDestroy;
     bool hasSpawned = false;
     float wait = 1f;
@@ -69,30 +68,14 @@ public class PlayerController : MonoBehaviour
         LM = FindObjectOfType<LevelManager>();
         sr = GetComponent<SpriteRenderer>();
 
+        footStepEffect = transform.Find("Footstep").GetComponentInChildren<ParticleSystem>();
+
         //updates the UI for ammo
         ammoUIText.text = " Max Ammo: " + Weapon.currentAmmo + "/" + Weapon.maxAmmoSize;
         LM.UpdateHeartMeter();
         LM.UpdateAmmoMeter();
     }
-    public void WalkingParticles()
-    {
-        if(isGrounded == true)
-        { 
-            //prevents particles from infinitely spawning
-            if (hasSpawned == false)
-            {
-                wait = 1;
-                //spawns the walking particles
-                GameObject walking = Instantiate(walkingParticles, walkingParticlesSpawnPoint.position, Quaternion.identity);
-                Destroy(walking, waitToDestroy);
-            }
-            //if (hasSpawned == true)
-            //{
-                //wait -= Time.deltaTime;
-                //if (wait <= 0) hasSpawned = false;
-            //}
-      }
-    }
+
     public void ReloadingAnimation(bool yeahnah)
     {
         isReloading = yeahnah;
@@ -179,7 +162,7 @@ public class PlayerController : MonoBehaviour
             //Time.deltaTime=1/30=0.03(all approx)
             transform.localScale = new Vector3(1, 1, 1);
 
-            WalkingParticles();
+
             //hasSpawned = true;
         }
         else if (Input.GetAxisRaw("Horizontal") < 0)
@@ -187,7 +170,7 @@ public class PlayerController : MonoBehaviour
             rb.velocity = new Vector2(-moveSpeed, rb.velocity.y); //moves it other direction
             transform.localScale = new Vector3(-1, 1, 1);
             
-            WalkingParticles();
+
             //hasSpawned = true;
         }
         else
@@ -246,5 +229,13 @@ public class PlayerController : MonoBehaviour
             //sets respawn position to the collider that is held by this script
             respawnPosition = other.transform.position;
         }
+    }
+
+    public void NotifyFootStep()
+    {
+        //RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 10, whatIsGround);
+        //if (hit.collider.tag == "Grass") 
+        footStepEffect.Play();
+        //Add footstep sounds.
     }
 }
