@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public int health = 2;
-    int checkForHalfHealth;
+    public int enemyHealth = 2;
+    float checkForHalfHealth;
     int enemyIncreaseNumber = 1;
+    bool isHalfHealth = false;
     public Sprite bloodied;
 
 
@@ -20,24 +21,29 @@ public class EnemyController : MonoBehaviour
         puExit = FindObjectOfType<PopUpExit>();
         sr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
-        checkForHalfHealth = health / 2; //sets this variable to be half health
+        checkForHalfHealth = Mathf.Floor(enemyHealth / 2); //sets this variable to be half health
     }
     // Update is called once per frame
     void Update()
-    {
-        
+    {   
         //when half health switch the sprite
-        if(health == checkForHalfHealth)
+        if(enemyHealth <= checkForHalfHealth)
         {
             sr.sprite = bloodied;
+            isHalfHealth = true;
         }
+        if(isHalfHealth == true)
+        {
+            anim.SetBool("HalfHealth", true);
+        }
+        anim.SetBool("HalfHealth", isHalfHealth);
     }
     //when bullet collides with collider, enemy's health is reduced. if enemies health is equal to or less than 0,
     //increase number of enemies still needed to be killed and perform Die() 
     public void TakeDamage(int damage)
     {
-        health -= damage;
-        if (health <= 0)
+        enemyHealth -= damage;
+        if (enemyHealth <= 0)
         {
             puExit.EnemyKillCounter(enemyIncreaseNumber);
             Die();

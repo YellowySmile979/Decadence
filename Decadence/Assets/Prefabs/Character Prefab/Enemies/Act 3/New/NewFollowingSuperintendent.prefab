@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7306c137e9ac4334e82c17f9e63576b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  moveSpeed: 5
   WhoICanSee:
     serializedVersion: 2
     m_Bits: 137
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f58da8acba9fbb344b1c6bdaaf6a1fa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
+  enemyHealth: 2
   bloodied: {fileID: 1081066303025819369, guid: baf4bbebce3cc634bb67d2d01187a54b, type: 3}
 --- !u!61 &6800025842769412470
 BoxCollider2D:

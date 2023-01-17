@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f58da8acba9fbb344b1c6bdaaf6a1fa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  enemyHealth: 1
   bloodied: {fileID: 4549771532112909933, guid: e286dda766a9a2640840ad0b6aa08cf6, type: 3}
 --- !u!114 &9092499227024673376
 MonoBehaviour:
