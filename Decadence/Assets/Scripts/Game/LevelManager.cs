@@ -12,7 +12,7 @@ public class LevelManager : MonoBehaviour
 
     [Header("Health")]
     public int maxHealth;
-    public int healthCount;    
+    public static int healthCount;    
     public int healthToRespawn;
     int maxHealthCount = 10;
 
@@ -63,7 +63,7 @@ public class LevelManager : MonoBehaviour
     {
         crumpets += amount;
         player.NumberOfCrumpetsTracker(crumpets); //updates the crumpet tracker
-        if (crumpets > 0)
+        if (crumpets >= 0)
         {
             numberOfCrumpets.text = "x" + crumpets;
         }
