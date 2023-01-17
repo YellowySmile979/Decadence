@@ -47,12 +47,6 @@ public class CutsceneManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        StartCoroutine(MoveToNextCutscene());
-        Debug.Log("Coroutine started");
-    }
-
-    [HideInInspector]  public IEnumerator MoveToNextCutscene()
-    {
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (cutsceneFrames != null && cutsceneFrames.Count > 0)
@@ -71,8 +65,8 @@ public class CutsceneManager : MonoBehaviour
             }
         }
 
-        yield return null;
     }
+
 
     
 

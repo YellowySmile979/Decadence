@@ -26,7 +26,7 @@ public class DialogueTrigger : MonoBehaviour
         if (collision.GetComponent<PlayerController>())
         {
             diatrigger = true;
-            dialogueLines = diacontent; 
+
 
         }
     }
