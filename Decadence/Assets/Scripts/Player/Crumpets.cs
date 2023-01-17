@@ -4,13 +4,10 @@ using UnityEngine;
 
 public class Crumpets : MonoBehaviour
 {
-    public int maxDamageBoost = 1;
-    int damageBoost;
     public int initialDamage = 1;
     int crumpetValue = 1;
     public AudioClip CrumpetPickUpSound;
 
-    PlayerController pc;
     LevelManager lm;
     AudioSource audioSource;
     SpriteRenderer sr;
@@ -18,8 +15,6 @@ public class Crumpets : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        damageBoost = maxDamageBoost; //sets damage to the damage we deal
-        pc = FindObjectOfType<PlayerController>();
         lm = FindObjectOfType<LevelManager>();
         audioSource = GetComponent<AudioSource>();
         sr = GetComponent<SpriteRenderer>();
@@ -34,7 +29,6 @@ public class Crumpets : MonoBehaviour
             {
                 audioSource.PlayOneShot(CrumpetPickUpSound); //plays audio for picking it up
                 lm.AddCrumpets(crumpetValue);
-                pc.SetDamage(damageBoost);
             }
             sr.enabled = false;
             Destroy(gameObject, 1f);

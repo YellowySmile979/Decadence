@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4.5
-  jumpSpeed: 7.7
+  jumpSpeed: 8
   groundCheck: {fileID: 1043654219899474918}
   groundCheckRadius: 0.15
   whatIsGround:
@@ -159,7 +159,7 @@ MonoBehaviour:
     m_Bits: 8
   damg: 1
   maxDamageBoostDuration: 5
-  maxDamageBoost: 1
+  maxDamageBoost: 2
   initialDamage: 1
   timeBetweenFiring: 1
   canMove: 1
@@ -522,6 +522,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8712399462829701846, guid: 1b2b04728f09f6e40a9c369baf890e29, type: 3}
       propertyPath: EmissionModule.m_BurstCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8712399462829701846, guid: 1b2b04728f09f6e40a9c369baf890e29, type: 3}
+      propertyPath: ShapeModule.radiusThickness
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8712399462829701846, guid: 1b2b04728f09f6e40a9c369baf890e29, type: 3}
