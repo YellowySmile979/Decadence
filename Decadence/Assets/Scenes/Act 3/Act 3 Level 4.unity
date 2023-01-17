@@ -5188,7 +5188,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -5198,7 +5198,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 11
-      m_TileSpriteIndex: 11
+      m_TileSpriteIndex: 12
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -5208,7 +5208,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 6
-      m_TileSpriteIndex: 6
+      m_TileSpriteIndex: 11
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -5248,7 +5248,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 9
-      m_TileSpriteIndex: 9
+      m_TileSpriteIndex: 10
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -12108,7 +12108,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 2
-      m_TileSpriteIndex: 2
+      m_TileSpriteIndex: 9
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -12738,7 +12738,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileSpriteIndex: 8
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -12775,34 +12775,34 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   m_TileSpriteArray:
-  - m_RefCount: 1
-    m_Data: {fileID: 3150223026707758033, guid: a0deb491dcdd4f34eb724a4b487cdea3, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 20
     m_Data: {fileID: 2570476594101805008, guid: a0deb491dcdd4f34eb724a4b487cdea3, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -3911877349262259944, guid: a0deb491dcdd4f34eb724a4b487cdea3, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 62
     m_Data: {fileID: 2534650075597106684, guid: a0deb491dcdd4f34eb724a4b487cdea3, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 4982873817506072818, guid: a0deb491dcdd4f34eb724a4b487cdea3, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 20
     m_Data: {fileID: -1843215132602111750, guid: a0deb491dcdd4f34eb724a4b487cdea3, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -4324256830434821862, guid: a0deb491dcdd4f34eb724a4b487cdea3, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 650
     m_Data: {fileID: -5543515276840837986, guid: a0deb491dcdd4f34eb724a4b487cdea3, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 4982873817506072818, guid: a0deb491dcdd4f34eb724a4b487cdea3, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -3911877349262259944, guid: a0deb491dcdd4f34eb724a4b487cdea3, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 7615290152562533220, guid: 1f70b55382f1bf34cb475658ef9cfd4e, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -4324256830434821862, guid: a0deb491dcdd4f34eb724a4b487cdea3, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 6197311701728584552, guid: 1f70b55382f1bf34cb475658ef9cfd4e, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 3150223026707758033, guid: a0deb491dcdd4f34eb724a4b487cdea3, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 758
     m_Data:
@@ -17196,7 +17196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numberOfEnemies: 0
   requiredNumberOfKills: 11
-  Scene: Act 3 Level 6
+  Scene: Act 3 Level 5
 --- !u!102 &711048131
 TextMesh:
   serializedVersion: 3

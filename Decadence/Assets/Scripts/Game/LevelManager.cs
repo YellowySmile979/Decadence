@@ -12,7 +12,7 @@ public class LevelManager : MonoBehaviour
 
     [Header("Health")]
     public int maxHealth;
-    public static int healthCount;    
+    public static int healthCount = 1;    
     public int healthToRespawn;
     int maxHealthCount = 10;
 
