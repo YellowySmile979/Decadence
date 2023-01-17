@@ -25,7 +25,7 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        anim.SetInteger("HalfHealth", checkForHalfHealth);
+        
         //when half health switch the sprite
         if(health == checkForHalfHealth)
         {
