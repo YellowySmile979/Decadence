@@ -12,16 +12,20 @@ public class EnemyController : MonoBehaviour
 
     PopUpExit puExit;
     SpriteRenderer sr;
+    Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
         puExit = FindObjectOfType<PopUpExit>();
+        sr = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
         checkForHalfHealth = health / 2; //sets this variable to be half health
     }
     // Update is called once per frame
     void Update()
     {
+        anim.SetInteger("HalfHealth", checkForHalfHealth);
         //when half health switch the sprite
         if(health == checkForHalfHealth)
         {

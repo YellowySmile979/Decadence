@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: ad170ce539bd7fa40931babb1566e349
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6257990240138202671
+    second: RobberNThugs_0
+  - first:
+      213: 3590456913331785719
+    second: RobberNThugs_1
+  - first:
+      213: 1477701253879603942
+    second: RobberNThugs_2
+  - first:
+      213: 6645279795952054292
+    second: RobberNThugs_3
+  - first:
+      213: -9215264149214045974
+    second: RobberNThugs_4
+  - first:
+      213: -5592176336217801819
+    second: RobberNThugs_5
+  - first:
+      213: 832857314484417618
+    second: RobberNThugs_6
+  - first:
+      213: -6833850991032634870
+    second: RobberNThugs_7
+  - first:
+      213: -1290995067141383480
+    second: RobberNThugs_8
+  - first:
+      213: -7692016988385126695
+    second: RobberNThugs_9
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -32,7 +62,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +71,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -90,7 +120,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: RobberNThugs_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 826
+        width: 110
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e8c4797f8d8d650800000000000000
+      internalID: 6257990240138202671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobberNThugs_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 826
+        width: 100
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff8c742a8dd3d130800000000000000
+      internalID: 3590456913331785719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobberNThugs_2
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 826
+        width: 100
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2a4a11679d18410800000000000000
+      internalID: 1477701253879603942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobberNThugs_3
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 826
+        width: 119
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4107dc624c6c83c50800000000000000
+      internalID: 6645279795952054292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobberNThugs_4
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 826
+        width: 140
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae854b2b41ecc1080800000000000000
+      internalID: -9215264149214045974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobberNThugs_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 606
+        width: 110
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab746630499462b0800000000000000
+      internalID: -5592176336217801819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobberNThugs_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 606
+        width: 100
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254fd6a9057ee8b00800000000000000
+      internalID: 832857314484417618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobberNThugs_7
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 606
+        width: 100
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a027c8f1bb84921a0800000000000000
+      internalID: -6833850991032634870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobberNThugs_8
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 606
+        width: 119
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca914093d6751ee0800000000000000
+      internalID: -1290995067141383480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RobberNThugs_9
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 606
+        width: 140
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6d8099d47704590800000000000000
+      internalID: -7692016988385126695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
