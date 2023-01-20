@@ -13892,7 +13892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberOfEnemies: 0
-  requiredNumberOfKills: 10
+  requiredNumberOfKills: 6
   Scene: Final Cutscene
 --- !u!61 &1201302516
 BoxCollider2D:
