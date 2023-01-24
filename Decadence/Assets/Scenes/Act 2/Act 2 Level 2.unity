@@ -18002,7 +18002,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberOfEnemies: 0
-  requiredNumberOfKills: 16
+  requiredNumberOfKills: 13
   Scene: Act 2 Level 3
 --- !u!61 &1057235178
 BoxCollider2D:
@@ -18017,7 +18017,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 5.8513203, y: -5.6}
+  m_Offset: {x: 5.353897, y: -5.6}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -18028,7 +18028,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.8334541, y: 3.5740623}
+  m_Size: {x: 2.8283005, y: 3.5740623}
   m_EdgeRadius: 0
 --- !u!102 &1057235179
 TextMesh:
@@ -18101,7 +18101,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057235176}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 47.22, y: 2.46, z: -13.675401}
+  m_LocalPosition: {x: 47.22, y: 2.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

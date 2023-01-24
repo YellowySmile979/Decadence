@@ -17421,7 +17421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberOfEnemies: 0
-  requiredNumberOfKills: 11
+  requiredNumberOfKills: 8
   Scene: Act 3 Level 5
 --- !u!102 &711048131
 TextMesh:
@@ -23838,8 +23838,8 @@ Transform:
   - {fileID: 455495504}
   - {fileID: 1974810982}
   - {fileID: 112208876}
-  - {fileID: 532281702}
   - {fileID: 889680467}
+  - {fileID: 532281702}
   - {fileID: 1256053807}
   - {fileID: 1994064337}
   - {fileID: 777456136}
