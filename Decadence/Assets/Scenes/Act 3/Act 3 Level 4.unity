@@ -17421,7 +17421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberOfEnemies: 0
-  requiredNumberOfKills: 8
+  requiredNumberOfKills: 6
   Scene: Act 3 Level 5
 --- !u!102 &711048131
 TextMesh:
@@ -23166,7 +23166,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 62.4, y: 1.125}
+  m_Size: {x: 62.4, y: 3.09}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -23180,7 +23180,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1636565262}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.94, y: -5.56, z: 0}
+  m_LocalPosition: {x: 19.94, y: -6.52, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -23204,7 +23204,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 2, y: 0.375}
-    newSize: {x: 62.4, y: 1.125}
+    newSize: {x: 62.4, y: 3.09}
     adaptiveTilingThreshold: 0.5
     drawMode: 2
     adaptiveTiling: 0
