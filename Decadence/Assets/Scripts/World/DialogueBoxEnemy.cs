@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DialogueBox : MonoBehaviour
+public class DialogueBoxEnemy : MonoBehaviour
 {
     [Header("Text To Display")]
     public string textToDisplay = "Element 1";
     public Text cutsceneText;
     public GameObject backgroundOfText;
-    bool hasTyped = false;
+    bool thugHasDied = false;
 
     [Header("Text Scroll")]
     bool isTyping = false;
@@ -27,9 +27,14 @@ public class DialogueBox : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //basically if the text is done then turn the obhect off
-        //so that the object doesnt play itself again
-        if (hasTyped) gameObject.SetActive(false);
+        //deactivates the gameobject if the thug has died
+        if (thugHasDied)
+        {
+            cutsceneText.text = "";
+            backgroundOfText.SetActive(false);
+            player.canMove = true;
+            gameObject.SetActive(false);
+        }
     }
     //when player triggers this, dialogue activates
     void OnTriggerEnter2D(Collider2D collision)
@@ -53,6 +58,9 @@ public class DialogueBox : MonoBehaviour
     //and turns the dialogue box off
     void OnTriggerExit2D(Collider2D collision)
     {
+        //when thug is killed, set the bool thugHasDied to true
+        if (collision.GetComponent<EnemyController>()) thugHasDied = true;
+
         if (collision.GetComponent<PlayerController>())
         {
             StopAllCoroutines();
@@ -68,7 +76,6 @@ public class DialogueBox : MonoBehaviour
         yield return new WaitForSeconds(1);
         cutsceneText.text = "";
         backgroundOfText.SetActive(false);
-        hasTyped = true;
         player.canMove = true;
     }
     //types out each letter of the text for that dialogue effect
@@ -88,6 +95,5 @@ public class DialogueBox : MonoBehaviour
         yield return new WaitForSeconds(waitToDisableText);
         cutsceneText.text = "";
         backgroundOfText.SetActive(false);
-        hasTyped = true;
     }
 }

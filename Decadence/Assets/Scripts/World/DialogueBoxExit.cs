@@ -15,7 +15,7 @@ public class DialogueBoxExit : MonoBehaviour
     [Header("Text Scroll")]
     bool isTyping = false;
     public float delay = 0.01f;
-    public float waitToDisableText;
+    public float waitToDisableText = 1f;
     public bool ifIWantPlayerToStopAndRead;
 
     [Header("Scene")]
@@ -42,13 +42,13 @@ public class DialogueBoxExit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //basically if the text is done then turn the obhect off
-        //so that the object doesnt play itself again
+        //basically if the text is done then load next scene
         if (hasTyped) SceneManager.LoadScene(Scene);
     }
     //when player triggers this, dialogue activates
     void OnTriggerEnter2D(Collider2D collision)
     {
+        //checks to see if i have killed all the required number of enemies
         if (numberOfEnemies >= requiredNumberOfKills && collision.GetComponent<PlayerController>())
         {
             SceneManager.LoadScene(Scene);
