@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
 
 
     //rb is variable name that we have to declare and will be defined later
-    Rigidbody2D rb;
+    [HideInInspector] public Rigidbody2D rb;
     Animator anim;
     bool isGrounded;
     Weapon weapon;

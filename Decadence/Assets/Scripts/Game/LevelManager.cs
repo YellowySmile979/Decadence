@@ -42,8 +42,10 @@ public class LevelManager : MonoBehaviour
     public Sprite Ammo5;
     public Sprite Ammo6;
 
-    [Header("Effect")]
+    [Header("Death Effect")]
     public GameObject deathSplosion;
+    public AudioClip deathSound;
+    AudioSource audioSource;
 
     [Header("Damage Boost")]
     public Image damageBoost;
@@ -54,6 +56,7 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
         player = FindObjectOfType<PlayerController>();
+        audioSource = GetComponent<AudioSource>();
         healthToRespawn = healthCount;
         numberOfCrumpets.text = "x" + 0;
         //healthCount = maxHealth;
@@ -101,11 +104,11 @@ public class LevelManager : MonoBehaviour
 
         //creates the objects particles when player dies
         Instantiate(deathSplosion, player.transform.position, player.transform.rotation);
+        //plays this sound when player dies
+        audioSource.PlayOneShot(deathSound);
 
         //wait for a while
         yield return new WaitForSeconds(waitToRespawn);
-
-
 
         //moveplayer to respawn position
         player.gameObject.SetActive(true);

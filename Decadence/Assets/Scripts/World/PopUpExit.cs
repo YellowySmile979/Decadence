@@ -30,9 +30,8 @@ public class PopUpExit : MonoBehaviour
         if (other.GetComponent<PlayerController>())
         {
             mr.enabled = true;
-
         }
-        if (numberOfEnemies >= requiredNumberOfKills)
+        if (numberOfEnemies >= requiredNumberOfKills && other.GetComponent<PlayerController>())
         {
             SceneManager.LoadScene(Scene);
         }
@@ -43,13 +42,6 @@ public class PopUpExit : MonoBehaviour
         if (other.GetComponent<PlayerController>())
         {
             mr.enabled = false;
-
         }
-    }
-    //sets the required amount of enemies to kill before the player can progress
-    public void EnemyKillCounter(int number)
-    {
-        numberOfEnemies += number;
-        
     }
 }

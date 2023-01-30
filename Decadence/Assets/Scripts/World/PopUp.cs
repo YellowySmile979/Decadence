@@ -10,7 +10,6 @@ public class PopUp : MonoBehaviour
     void Start()
     {
         mr = GetComponent<MeshRenderer>();
-
     }
     //when player collides with collider, enable the mesh renderer
     void OnTriggerEnter2D(Collider2D other)
@@ -18,7 +17,6 @@ public class PopUp : MonoBehaviour
         if (other.GetComponent<PlayerController>())
         {
             mr.enabled = true;
-
         }        
     }
     //when player interacts with collider, msg will appear
@@ -27,7 +25,6 @@ public class PopUp : MonoBehaviour
         if (other.GetComponent<PlayerController>())
         {
             mr.enabled = false;
-
         }
     }
 }

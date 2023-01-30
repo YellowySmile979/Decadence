@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 1043654218754022230}
   - component: {fileID: 1043654218754022226}
   - component: {fileID: 1043654218754022227}
-  - component: {fileID: 769106927}
   - component: {fileID: 769106926}
   m_Layer: 0
   m_Name: Shopkeeper
@@ -157,6 +156,7 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
+  rb: {fileID: 0}
   damg: 1
   maxDamageBoostDuration: 5
   maxDamageBoost: 2
@@ -185,14 +185,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!81 &769106927
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043654218754022229}
-  m_Enabled: 1
 --- !u!82 &769106926
 AudioSource:
   m_ObjectHideFlags: 0
