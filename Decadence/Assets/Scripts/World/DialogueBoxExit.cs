@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class DialogueBoxExit : MonoBehaviour
 {
     [Header("Text To Display")]
-    public string textToDisplay = "Element 1";
+    [TextArea] public string textToDisplay = "Element 1";
     public Text cutsceneText;
     public GameObject backgroundOfText;
     bool hasTyped = false;

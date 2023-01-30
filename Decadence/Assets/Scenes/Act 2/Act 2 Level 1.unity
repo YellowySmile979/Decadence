@@ -2095,7 +2095,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 156902791}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -39363,7 +39363,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 990507920}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: WhereToSpawnLoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45536,11 +45536,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8781068430013697497, guid: 82ac90efb32d6354099a1ad7aa869aeb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.52
+      value: -5.54
       objectReference: {fileID: 0}
     - target: {fileID: 8781068430013697497, guid: 82ac90efb32d6354099a1ad7aa869aeb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.86
+      value: 4.43
       objectReference: {fileID: 0}
     - target: {fileID: 8781068430013697497, guid: 82ac90efb32d6354099a1ad7aa869aeb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -57627,7 +57627,7 @@ GameObject:
   - component: {fileID: 5099096794658132311}
   - component: {fileID: 1001861025}
   - component: {fileID: 1835360004510710558}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: REVAMPED_crate (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

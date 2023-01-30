@@ -5,8 +5,12 @@ using UnityEngine.UI;
 
 public class DialogueBox : MonoBehaviour
 {
+    [Header("IMPORTANT")]
+    [TextArea] public string Notes = "IF YOU SEE AN ERROR FOR A COROUTINE, IGNORE IT AS IT DOES NOT AFFECT ANYTHING." +
+        " THERE IS NO FIX AND JUST EXISTS. ALSO DO NOT EDIT THIS AS THIS IS FOR INSTRUCTIONS";
+
     [Header("Text To Display")]
-    public string textToDisplay = "Element 1";
+    [TextArea] public string textToDisplay = "Element 1";
     public Text cutsceneText;
     public GameObject backgroundOfText;
     bool hasTyped = false;

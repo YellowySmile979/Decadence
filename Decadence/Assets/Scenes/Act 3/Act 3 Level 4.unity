@@ -5244,16 +5244,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -10, y: -3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 9
-      m_TileSpriteIndex: 10
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 51, y: -3, z: 0}
     second:
       serializedVersion: 2
@@ -12148,7 +12138,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 2
-      m_TileSpriteIndex: 9
+      m_TileSpriteIndex: 10
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -12778,7 +12768,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 4
-      m_TileSpriteIndex: 8
+      m_TileSpriteIndex: 9
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -12804,8 +12794,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 17c27db1afdd3d648964c2a39b217032, type: 2}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 42c907d56b445444dbba61922efcc891, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
@@ -12831,12 +12821,12 @@ Tilemap:
     m_Data: {fileID: 5192895336793714988, guid: 1f70b55382f1bf34cb475658ef9cfd4e, type: 3}
   - m_RefCount: 650
     m_Data: {fileID: -5543515276840837986, guid: a0deb491dcdd4f34eb724a4b487cdea3, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 4982873817506072818, guid: a0deb491dcdd4f34eb724a4b487cdea3, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -3911877349262259944, guid: a0deb491dcdd4f34eb724a4b487cdea3, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 7615290152562533220, guid: 1f70b55382f1bf34cb475658ef9cfd4e, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -4324256830434821862, guid: a0deb491dcdd4f34eb724a4b487cdea3, type: 3}
   - m_RefCount: 1
@@ -12844,7 +12834,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 3150223026707758033, guid: a0deb491dcdd4f34eb724a4b487cdea3, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 762
+  - m_RefCount: 761
     m_Data:
       e00: 1
       e01: 0
@@ -12863,7 +12853,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 762
+  - m_RefCount: 761
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -17368,9 +17358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 711048128}
   - component: {fileID: 711048129}
-  - component: {fileID: 711048132}
-  - component: {fileID: 711048131}
-  - component: {fileID: 711048130}
+  - component: {fileID: 711048133}
   m_Layer: 0
   m_Name: Pop Up Exit
   m_TagString: Untagged
@@ -17418,7 +17406,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.9945593, y: 2.9771376}
   m_EdgeRadius: 0
---- !u!114 &711048130
+--- !u!114 &711048133
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17427,82 +17415,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 711048127}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2acc1a90c60dac46bad491c36a9e218, type: 3}
+  m_Script: {fileID: 11500000, guid: da3b61324b4f25d45b1780b3aff58693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberOfEnemies: 0
-  requiredNumberOfKills: 6
+  textToDisplay: There's still too many officers on this level... I may get flanked!
+  cutsceneText: {fileID: 1132435545}
+  backgroundOfText: {fileID: 1132435544}
+  delay: 0.01
+  waitToDisableText: 1
+  ifIWantPlayerToStopAndRead: 0
   Scene: Act 3 Level 5
---- !u!102 &711048131
-TextMesh:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711048127}
-  m_Text: 'There''s still too
-
-    many officers on
-
-    this level... I may
-
-    get
-    flanked!'
-  m_OffsetZ: -0.18
-  m_CharacterSize: 1
-  m_LineSpacing: 1
-  m_Anchor: 6
-  m_Alignment: 0
-  m_TabSize: 4
-  m_FontSize: 11
-  m_FontStyle: 0
-  m_RichText: 1
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-  m_Color:
-    serializedVersion: 2
-    rgba: 4278190335
---- !u!23 &711048132
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711048127}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
+  requiredNumberOfKills: 6
+  numberOfEnemies: 0
 --- !u!1 &737280082
 GameObject:
   m_ObjectHideFlags: 0
@@ -20288,6 +20212,22 @@ MonoBehaviour:
 --- !u!114 &1132435543 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2922748567743031748, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
+  m_PrefabInstance: {fileID: 1132435528}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1132435544 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1256967322, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
+  m_PrefabInstance: {fileID: 1132435528}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1132435545 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 516698517, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
   m_PrefabInstance: {fileID: 1132435528}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}

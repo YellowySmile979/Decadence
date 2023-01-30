@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class DialogueBoxEnemy : MonoBehaviour
 {
     [Header("Text To Display")]
-    public string textToDisplay = "Element 1";
+    [TextArea] public string textToDisplay = "Element 1";
     public Text cutsceneText;
     public GameObject backgroundOfText;
     bool thugHasDied = false;
