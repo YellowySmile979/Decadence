@@ -51,12 +51,15 @@ public class LevelManager : MonoBehaviour
     public Image damageBoost;
     public Text numberOfCrumpets;
     int crumpets = 0;
+    bool usingPowerUp = false;
+    PowerUpParticles powerUpParticles;
 
     // Start is called before the first frame update
     void Start()
     {
         player = FindObjectOfType<PlayerController>();
         audioSource = GetComponent<AudioSource>();
+        powerUpParticles = FindObjectOfType<PowerUpParticles>();
         healthToRespawn = healthCount;
         numberOfCrumpets.text = "x" + 0;
         //healthCount = maxHealth;
@@ -74,8 +77,19 @@ public class LevelManager : MonoBehaviour
     //updates the timer for the power up
     public void UpdateCrumpetUI(float fillAmount)
     {
-        if (fillAmount <= 0) damageBoost.enabled = false;
-        if (fillAmount > 0) damageBoost.enabled = true;
+        if (fillAmount <= 0)
+        {
+            damageBoost.enabled = false;
+            usingPowerUp = false;
+        }
+
+        if (fillAmount > 0)
+        {
+            damageBoost.enabled = true;
+            usingPowerUp = true;
+            if (usingPowerUp) powerUpParticles.PlayPowerUpParticles();
+
+        }
         //clamp caps the fillAmount between the two min-max values in this case 0-1
         damageBoost.fillAmount = Mathf.Clamp(fillAmount, 0, 1); //restricts the value to between 0-1 for radial
     }
