@@ -5782,14 +5782,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 415653326, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -7693759749118437761, guid: 370e4ebafcceca448b321ecff0abb2a5, type: 3}
-    - target: {fileID: 1047607359, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -7693759749118437761, guid: 370e4ebafcceca448b321ecff0abb2a5, type: 3}
     - target: {fileID: 2922748567060232854, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
       propertyPath: m_Name
       value: Canvas
