@@ -5782,6 +5782,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 415653326, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7693759749118437761, guid: 370e4ebafcceca448b321ecff0abb2a5, type: 3}
+    - target: {fileID: 1047607359, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7693759749118437761, guid: 370e4ebafcceca448b321ecff0abb2a5, type: 3}
     - target: {fileID: 2922748567060232854, guid: 5e3683aabfd0fbb488ae896d1cdc395f, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -13081,10 +13089,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 828243925}
-  - component: {fileID: 828243924}
-  - component: {fileID: 828243923}
   - component: {fileID: 828243926}
-  - component: {fileID: 828243922}
+  - component: {fileID: 828243927}
   m_Layer: 0
   m_Name: Exit Info
   m_TagString: Untagged
@@ -13092,82 +13098,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &828243922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 828243921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44fe728488adc33469fe8cc3fed2b7aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!102 &828243923
-TextMesh:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 828243921}
-  m_Text: "Whoa! What a big crate! \nI can't move to the next \nwarehouse without
-    this\nthing being removed."
-  m_OffsetZ: 0
-  m_CharacterSize: 1
-  m_LineSpacing: 1
-  m_Anchor: 0
-  m_Alignment: 0
-  m_TabSize: 4
-  m_FontSize: 8
-  m_FontStyle: 1
-  m_RichText: 1
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-  m_Color:
-    serializedVersion: 2
-    rgba: 4278190335
---- !u!23 &828243924
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 828243921}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!4 &828243925
 Transform:
   m_ObjectHideFlags: 0
@@ -13208,6 +13138,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.8334541, y: 3.5740623}
   m_EdgeRadius: 0
+--- !u!114 &828243927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828243921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6d86e790ad0ea643a424b34ce9778d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Notes: IF YOU SEE AN ERROR FOR A COROUTINE, IGNORE IT AS IT DOES NOT AFFECT ANYTHING.
+    THERE IS NO FIX AND JUST EXISTS. ALSO DO NOT EDIT THIS AS THIS IS FOR INSTRUCTIONS
+  textToDisplay: Whoa! What a big crate! I can't move to the next warehouse without
+    this thing being removed.
+  cutsceneText: {fileID: 299772671}
+  backgroundOfText: {fileID: 299772670}
+  delay: 0.01
+  waitToDisableText: 1
+  ifIWantPlayerToStopAndRead: 1
 --- !u!1001 &841887556
 PrefabInstance:
   m_ObjectHideFlags: 0
