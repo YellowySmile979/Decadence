@@ -69,7 +69,7 @@ public class PlayerController : MonoBehaviour
         footStepEffect = transform.Find("Footstep").GetComponentInChildren<ParticleSystem>();
 
         //updates the UI for ammo
-        ammoUIText.text = " Max Ammo: " + Weapon.currentAmmo + "/" + Weapon.maxAmmoSize;
+        ammoUIText.text = " Max Ammo: " + Weapon.currentAmmo;
         LM.UpdateHeartMeter();
         LM.UpdateAmmoMeter();
     }
