@@ -20,16 +20,11 @@ public class PopUpThug : MonoBehaviour
         //otherwise the mesh renderer will permanently be set to false
         if (thugHasDied == true)
         {
-
-            if (other.GetComponent<PlayerController>())
-            {
-                mr.enabled = true;
-
-            }
-        }else if (thugHasDied == false)
+            if (other.GetComponent<PlayerController>()) mr.enabled = true;
+        }
+        else if (thugHasDied == false)
         {
             mr.enabled = false;
-
         }
     }
     //when player interacts with collider, msg will appear. if thug dies, msg is PERMANENTLY not able to show up
@@ -41,13 +36,11 @@ public class PopUpThug : MonoBehaviour
             if (other.GetComponent<PlayerController>())
             {
                 mr.enabled = false;
-
             }
             else if (other.GetComponent<EnemyController>())
             {
                 mr.enabled = false;
                 thugHasDied = false;
-
             }
         }
     }

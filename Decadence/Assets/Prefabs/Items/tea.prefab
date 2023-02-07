@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealthToGive: 5
-  drinkingSound: {fileID: 8300000, guid: c937eaa691f2eca4ba3e20c9e6715019, type: 3}
+  drinkingSound: {fileID: 8300000, guid: 8d9a3ad8771b90a49b02c0d74cbea252, type: 3}
 --- !u!82 &1086576038
 AudioSource:
   m_ObjectHideFlags: 0

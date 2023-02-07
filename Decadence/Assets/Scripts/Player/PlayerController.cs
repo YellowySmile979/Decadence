@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
 
 
     //rb is variable name that we have to declare and will be defined later
-    Rigidbody2D rb;
+    [HideInInspector] public Rigidbody2D rb;
     Animator anim;
     bool isGrounded;
     Weapon weapon;
@@ -69,7 +69,7 @@ public class PlayerController : MonoBehaviour
         footStepEffect = transform.Find("Footstep").GetComponentInChildren<ParticleSystem>();
 
         //updates the UI for ammo
-        ammoUIText.text = " Max Ammo: " + Weapon.currentAmmo + "/" + Weapon.maxAmmoSize;
+        ammoUIText.text = " Max Ammo: " + Weapon.currentAmmo;
         LM.UpdateHeartMeter();
         LM.UpdateAmmoMeter();
     }

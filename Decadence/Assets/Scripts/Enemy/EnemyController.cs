@@ -11,14 +11,14 @@ public class EnemyController : MonoBehaviour
     public Sprite bloodied;
 
 
-    PopUpExit puExit;
+    DialogueBoxExit dialogueBoxExit;
     SpriteRenderer sr;
     Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
-        puExit = FindObjectOfType<PopUpExit>();
+        dialogueBoxExit = FindObjectOfType<DialogueBoxExit>();
         sr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         checkForHalfHealth = Mathf.Floor(enemyHealth / 2); //sets this variable to be half health
@@ -45,7 +45,7 @@ public class EnemyController : MonoBehaviour
         enemyHealth -= damage;
         if (enemyHealth <= 0)
         {
-            puExit.EnemyKillCounter(enemyIncreaseNumber);
+            dialogueBoxExit.EnemyKillCounter(enemyIncreaseNumber);
             Die();
              
         }
