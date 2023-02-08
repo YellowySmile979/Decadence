@@ -13,7 +13,10 @@ public class PowerUpParticles : MonoBehaviour
 
         particleSystemm.Stop();
     }
-
+    public void StopPowerUpParticles()
+    {
+        particleSystemm.Stop();
+    }
     //plays the power up particles
     public void PlayPowerUpParticles()
     {

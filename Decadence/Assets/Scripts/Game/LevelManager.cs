@@ -129,6 +129,7 @@ public class LevelManager : MonoBehaviour
         player.transform.position = player.respawnPosition;
         healthCount = healthToRespawn;
         respawning = false;
+        powerUpParticles.StopPowerUpParticles();
         UpdateHeartMeter();
         UpdateAmmoMeter();
     }

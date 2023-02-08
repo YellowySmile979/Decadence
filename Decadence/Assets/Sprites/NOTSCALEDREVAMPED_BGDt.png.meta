@@ -1,0 +1,1357 @@
+fileFormatVersion: 2
+guid: f3559ff4802bb734b8eca67334d5a0c0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6477587423227211435
+    second: NOTSCALEDREVAMPED_BGDt_0
+  - first:
+      213: 1981884995721081285
+    second: NOTSCALEDREVAMPED_BGDt_1
+  - first:
+      213: -2342356166969705711
+    second: NOTSCALEDREVAMPED_BGDt_2
+  - first:
+      213: 8903519796005386443
+    second: NOTSCALEDREVAMPED_BGDt_3
+  - first:
+      213: -7841221919197944956
+    second: NOTSCALEDREVAMPED_BGDt_4
+  - first:
+      213: -6570287221353960414
+    second: NOTSCALEDREVAMPED_BGDt_5
+  - first:
+      213: -8098446567453051444
+    second: NOTSCALEDREVAMPED_BGDt_6
+  - first:
+      213: 2997502040187598726
+    second: NOTSCALEDREVAMPED_BGDt_7
+  - first:
+      213: 3895172344128457187
+    second: NOTSCALEDREVAMPED_BGDt_8
+  - first:
+      213: -6518507060914431649
+    second: NOTSCALEDREVAMPED_BGDt_9
+  - first:
+      213: -6293083430020292979
+    second: NOTSCALEDREVAMPED_BGDt_10
+  - first:
+      213: -9189933863552662132
+    second: NOTSCALEDREVAMPED_BGDt_11
+  - first:
+      213: -8312250412133271461
+    second: NOTSCALEDREVAMPED_BGDt_12
+  - first:
+      213: -1075485331910372240
+    second: NOTSCALEDREVAMPED_BGDt_13
+  - first:
+      213: 1284648959255625203
+    second: NOTSCALEDREVAMPED_BGDt_14
+  - first:
+      213: 1031189948862098113
+    second: NOTSCALEDREVAMPED_BGDt_15
+  - first:
+      213: -2979898268318255158
+    second: NOTSCALEDREVAMPED_BGDt_16
+  - first:
+      213: 3738051131742319921
+    second: NOTSCALEDREVAMPED_BGDt_17
+  - first:
+      213: 1896689657750427940
+    second: NOTSCALEDREVAMPED_BGDt_18
+  - first:
+      213: -8644677902106267063
+    second: NOTSCALEDREVAMPED_BGDt_19
+  - first:
+      213: 7993945615121713964
+    second: NOTSCALEDREVAMPED_BGDt_20
+  - first:
+      213: -7340513135219580724
+    second: NOTSCALEDREVAMPED_BGDt_21
+  - first:
+      213: 4278520317683399210
+    second: NOTSCALEDREVAMPED_BGDt_22
+  - first:
+      213: -4201732172739548395
+    second: NOTSCALEDREVAMPED_BGDt_23
+  - first:
+      213: 4174539757621622187
+    second: NOTSCALEDREVAMPED_BGDt_24
+  - first:
+      213: -1629534037136139830
+    second: NOTSCALEDREVAMPED_BGDt_25
+  - first:
+      213: -8234433376226803187
+    second: NOTSCALEDREVAMPED_BGDt_26
+  - first:
+      213: -8947585606394032638
+    second: NOTSCALEDREVAMPED_BGDt_27
+  - first:
+      213: 2156003864608166484
+    second: NOTSCALEDREVAMPED_BGDt_28
+  - first:
+      213: -8580112143818076200
+    second: NOTSCALEDREVAMPED_BGDt_29
+  - first:
+      213: 5876425268569883631
+    second: NOTSCALEDREVAMPED_BGDt_30
+  - first:
+      213: -7398109510676085703
+    second: NOTSCALEDREVAMPED_BGDt_31
+  - first:
+      213: 3074417518981803329
+    second: NOTSCALEDREVAMPED_BGDt_32
+  - first:
+      213: 6397504037076693905
+    second: NOTSCALEDREVAMPED_BGDt_33
+  - first:
+      213: -2765755386805283274
+    second: NOTSCALEDREVAMPED_BGDt_34
+  - first:
+      213: -7364982385475428582
+    second: NOTSCALEDREVAMPED_BGDt_35
+  - first:
+      213: -1253605909171702304
+    second: NOTSCALEDREVAMPED_BGDt_36
+  - first:
+      213: 998090366799506850
+    second: NOTSCALEDREVAMPED_BGDt_37
+  - first:
+      213: 260341582393293206
+    second: NOTSCALEDREVAMPED_BGDt_38
+  - first:
+      213: -3722250355857046046
+    second: NOTSCALEDREVAMPED_BGDt_39
+  - first:
+      213: 1689415280373866769
+    second: NOTSCALEDREVAMPED_BGDt_40
+  - first:
+      213: 1167142748709106045
+    second: NOTSCALEDREVAMPED_BGDt_41
+  - first:
+      213: -5158990269203960733
+    second: NOTSCALEDREVAMPED_BGDt_42
+  - first:
+      213: -5290748450572635129
+    second: NOTSCALEDREVAMPED_BGDt_43
+  - first:
+      213: -3024732268321496793
+    second: NOTSCALEDREVAMPED_BGDt_44
+  - first:
+      213: -6387716766887284292
+    second: NOTSCALEDREVAMPED_BGDt_45
+  - first:
+      213: 1491005695069997793
+    second: SIGN
+  - first:
+      213: 6833473402177378114
+    second: NOTSCALEDREVAMPED_BGDt_47
+  - first:
+      213: 6971626182801976689
+    second: NOTSCALEDREVAMPED_BGDt_48
+  - first:
+      213: 6278868679321026369
+    second: NOTSCALEDREVAMPED_BGDt_49
+  - first:
+      213: 7923331453120445431
+    second: NOTSCALEDREVAMPED_BGDt_50
+  - first:
+      213: 6081619842692575845
+    second: NOTSCALEDREVAMPED_BGDt_51
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 88
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551110dee8cfa16a0800000000000000
+      internalID: -6477587423227211435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1b1a337e1118b10800000000000000
+      internalID: 1981884995721081285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b335af9774e7fd0800000000000000
+      internalID: -2342356166969705711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 348
+        width: 172
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc83f83e418af8b70800000000000000
+      internalID: 8903519796005386443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_4
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 348
+        width: 172
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483233585326e2390800000000000000
+      internalID: -7841221919197944956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_5
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 348
+        width: 172
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ca8e24596a1d4a0800000000000000
+      internalID: -6570287221353960414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_6
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 500
+        width: 20
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5ba7a11c98c9f80800000000000000
+      internalID: -8098446567453051444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_7
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 500
+        width: 20
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687f3ee5934499920800000000000000
+      internalID: 2997502040187598726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_8
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 500
+        width: 20
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9c3b60c9e6e0630800000000000000
+      internalID: 3895172344128457187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 428
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59d1585d5c9985a0800000000000000
+      internalID: -6518507060914431649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_10
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 428
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e5ebb66f97aa8a0800000000000000
+      internalID: -6293083430020292979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_11
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 428
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c854c9967dbc67080800000000000000
+      internalID: -9189933863552662132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_12
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 476
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58b3b45a44f4ac80800000000000000
+      internalID: -8312250412133271461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_13
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 476
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074d65ee9cb1311f0800000000000000
+      internalID: -1075485331910372240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_14
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 476
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdb18d0c6df3d110800000000000000
+      internalID: 1284648959255625203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_15
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 476
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cae0e58bc58f4e00800000000000000
+      internalID: 1031189948862098113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_16
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 476
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7b61a205645a6d0800000000000000
+      internalID: -2979898268318255158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_17
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 476
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1357fb303b930e330800000000000000
+      internalID: 3738051131742319921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_18
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 476
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4291f53d135625a10800000000000000
+      internalID: 1896689657750427940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_19
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 360
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942794fdf3fe70880800000000000000
+      internalID: -8644677902106267063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_20
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 360
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b0f17ee2330fe60800000000000000
+      internalID: 7993945615121713964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_21
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 360
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0e52af132412a90800000000000000
+      internalID: -7340513135219580724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_22
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 376
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a7fc37f8b506b30800000000000000
+      internalID: 4278520317683399210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_23
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 376
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b6782c9d270b5c0800000000000000
+      internalID: -4201732172739548395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba538c9bac1fee930800000000000000
+      internalID: 4174539757621622187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_25
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac997174d6bb269e0800000000000000
+      internalID: -1629534037136139830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_26
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d028163e87a69bd80800000000000000
+      internalID: -8234433376226803187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_27
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 192
+        width: 72
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e4c7d1c4ac3d380800000000000000
+      internalID: -8947585606394032638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_28
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 192
+        width: 72
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452d654871aabed10800000000000000
+      internalID: 2156003864608166484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_29
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 100
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df45bee6715de880800000000000000
+      internalID: -8580112143818076200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_30
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 192
+        width: 100
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3cc3aa5a14d8150800000000000000
+      internalID: 5876425268569883631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_31
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 288
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93486bec892a45990800000000000000
+      internalID: -7398109510676085703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_32
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 288
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14de52ec1768aaa20800000000000000
+      internalID: 3074417518981803329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193751bb60088c850800000000000000
+      internalID: 6397504037076693905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_34
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63619d911201e99d0800000000000000
+      internalID: -2765755386805283274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_35
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 220
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f5ab0ba835ac990800000000000000
+      internalID: -7364982385475428582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_36
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 140
+        width: 144
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e57d77411c4a9ee0800000000000000
+      internalID: -1253605909171702304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_37
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ade2d686ede9dd00800000000000000
+      internalID: 998090366799506850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_38
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699b0d23a4bec9300800000000000000
+      internalID: 260341582393293206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_39
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5c11ec509e75cc0800000000000000
+      internalID: -3722250355857046046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_40
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 168
+        width: 72
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1112dc02f32027710800000000000000
+      internalID: 1689415280373866769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_41
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 164
+        width: 100
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71bafa6526823010800000000000000
+      internalID: 1167142748709106045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_42
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 76
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ca6640fa59768b0800000000000000
+      internalID: -5158990269203960733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_43
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 8
+        width: 72
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7047ba7d05c7396b0800000000000000
+      internalID: -5290748450572635129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_44
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 8
+        width: 100
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7212906170ef506d0800000000000000
+      internalID: -3024732268321496793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_45
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 104
+        width: 128
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb170efa1754a57a0800000000000000
+      internalID: -6387716766887284292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SIGN
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 48
+        width: 88
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea4bbca7cd11b410800000000000000
+      internalID: 1491005695069997793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_47
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 8
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247dcde9adf55de50800000000000000
+      internalID: 6833473402177378114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 128
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d69b4731130c060800000000000000
+      internalID: 6971626182801976689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_49
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 8
+        width: 68
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f71460cc5032750800000000000000
+      internalID: 6278868679321026369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_50
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 24
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb7cec1af355fd60800000000000000
+      internalID: 7923331453120445431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NOTSCALEDREVAMPED_BGDt_51
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 4
+        width: 136
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56278ae6601466450800000000000000
+      internalID: 6081619842692575845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

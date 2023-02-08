@@ -82,7 +82,7 @@ public class Weapon : MonoBehaviour
             bullet.transform.localScale = new Vector3(Mathf.Sign(owner.transform.localScale.x), 1, 1);
             currentClip--;
             Lm.UpdateAmmoMeter();
-            owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;           
+            owner.ammoUIText.text = " Max Ammo: " + currentAmmo;           
         }
         else
         {
@@ -111,7 +111,7 @@ public class Weapon : MonoBehaviour
                     currentClip++;
                     currentAmmo--;
                     reloadCount++;
-                    owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
+                    owner.ammoUIText.text = " Max Ammo: " + currentAmmo;
                     Lm.UpdateAmmoMeter();
                     if (currentClip <= maxClipSize && reloading == true)
                     {
@@ -160,12 +160,12 @@ public class Weapon : MonoBehaviour
     {
         currentAmmo += amount; //adds currentAmmo by the added amount under BulletCollecting script
         Lm.UpdateAmmoMeter();
-        owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
+        owner.ammoUIText.text = " Max Ammo: " + currentAmmo;
         if (currentAmmo >= maxAmmoSize) //prevents stack overflow
         {
             currentAmmo = maxAmmoSize; //to limit the ammo count
             Lm.UpdateAmmoMeter();
-            owner.ammoUIText.text = " Max Ammo: " + currentAmmo + "/" + maxAmmoSize;
+            owner.ammoUIText.text = " Max Ammo: " + currentAmmo;
         }
     }
 }
