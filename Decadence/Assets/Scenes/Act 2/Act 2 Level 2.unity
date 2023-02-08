@@ -1882,10 +1882,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1690257788, guid: c587482b6fd7d1f43997f7daef29df4f, type: 3}
-      propertyPath: maxLoot
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 48150448987399485, guid: c587482b6fd7d1f43997f7daef29df4f, type: 3}
       propertyPath: m_ConnectedAnchor.x
       value: 0
@@ -19000,40 +18996,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1141169444 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8260143987298264464, guid: ce820d24597d2414f875070e7dd47aeb, type: 3}
-  m_PrefabInstance: {fileID: 8260143987461891620}
-  m_PrefabAsset: {fileID: 0}
---- !u!50 &1141169448 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 8260143987298264477, guid: ce820d24597d2414f875070e7dd47aeb, type: 3}
-  m_PrefabInstance: {fileID: 8260143987461891620}
-  m_PrefabAsset: {fileID: 0}
---- !u!233 &1141169450
-HingeJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1141169444}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 1856737239}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0, y: -1.4900001}
-  m_UseMotor: 0
-  m_Motor:
-    m_MotorSpeed: 0
-    m_MaximumMotorForce: 10000
-  m_UseLimits: 0
-  m_AngleLimits:
-    m_LowerAngle: 0
-    m_UpperAngle: 359
 --- !u!1 &1142843504
 GameObject:
   m_ObjectHideFlags: 0
@@ -26333,68 +26295,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1467807927 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3780125346018207243, guid: ce820d24597d2414f875070e7dd47aeb, type: 3}
-  m_PrefabInstance: {fileID: 8260143987461891620}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1467807928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1467807927}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a440b991df059b4887fba858bcc33e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!61 &1467807929
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1467807927}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.0074005127, y: -2.2515473}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.45241547, y: 4.7892427}
-  m_EdgeRadius: 0
---- !u!232 &1467807930
-DistanceJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1467807927}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 1141169448}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0, y: 0}
-  m_AutoConfigureDistance: 1
-  m_Distance: 5.790035
-  m_MaxDistanceOnly: 0
 --- !u!1 &1468471031 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1966658718686279157, guid: 5f1334365ff27f7408609310b524de41, type: 3}
@@ -34836,11 +34736,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &1856737239 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 5597600815723665450, guid: ce820d24597d2414f875070e7dd47aeb, type: 3}
-  m_PrefabInstance: {fileID: 8260143987461891620}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1860834290
 GameObject:
   m_ObjectHideFlags: 0
@@ -53686,14 +53581,6 @@ PrefabInstance:
     - target: {fileID: 2371725448609270400, guid: ce820d24597d2414f875070e7dd47aeb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8260143987298264476, guid: ce820d24597d2414f875070e7dd47aeb, type: 3}
-      propertyPath: maxLoot
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8260143987298264477, guid: ce820d24597d2414f875070e7dd47aeb, type: 3}
-      propertyPath: m_Constraints
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9105743998693228750, guid: ce820d24597d2414f875070e7dd47aeb, type: 3}
       propertyPath: m_Name

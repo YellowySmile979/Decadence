@@ -17,6 +17,7 @@ public class FallingCrate : MonoBehaviour
     //transform creates an option or component under Inspector to get the Transform of a gameobject
     public float groundCheckRadius = 0.4f;
     public LayerMask whatIsGround;
+    public GameObject longChain;
 
     bool isGrounded;
     Rigidbody2D rb;
@@ -40,7 +41,7 @@ public class FallingCrate : MonoBehaviour
         //based on the amount we have specified in maxLoot
         if(isGrounded)
         {
-           Destroy(gameObject,0.4f); 
+           Destroy(longChain, 0.4f); 
             if (numberOfLoot < maxLoot)
             {
                 Instantiate(lootToDrop, whereToSpawnLoot.position, whereToSpawnLoot.rotation);

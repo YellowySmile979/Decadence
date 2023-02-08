@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     //transform creates an option or component under Inspector to get the Transform of a gameobject
     public float groundCheckRadius = 0.4f;
     public LayerMask whatIsGround;
+    public bool hasJumped = false;
 
 
     //rb is variable name that we have to declare and will be defined later
@@ -170,19 +171,22 @@ public class PlayerController : MonoBehaviour
         {
             rb.velocity = new Vector2(0, rb.velocity.y); //straight up stops her from moving when i dont input anything
         }
-
+        if (rb.velocity.y == 0) hasJumped = false;
         //listen to spacebar to jump
-        if (Input.GetButtonDown("Jump") && isGrounded )
+        if (!hasJumped)
         {
-            //rb.velocity = new Vector2(rb.velocity.x, jumpSpeed)
-            //above is what the slides say
+            if (Input.GetButtonDown("Jump") && isGrounded)
+            {
+                //rb.velocity = new Vector2(rb.velocity.x, jumpSpeed)
+                //above is what the slides say
 
-            rb.velocity += new Vector2(0, jumpSpeed); //this is much more efficient
+                rb.velocity += new Vector2(0, jumpSpeed); //this is much more efficient
 
-            //basically it forms a vector triangle which adds the x axis velocity with the y axis velocity to produce
-            //the third velocity which is diagonal (basically physics)
+                //basically it forms a vector triangle which adds the x axis velocity with the y axis velocity to produce
+                //the third velocity which is diagonal (basically physics)
+                hasJumped = true;
+            }
         }
-
         //checks to see if you can fire
         if (!canFire)
         {
