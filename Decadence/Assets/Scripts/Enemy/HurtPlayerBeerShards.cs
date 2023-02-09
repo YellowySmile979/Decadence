@@ -14,27 +14,33 @@ public class HurtPlayerBeerShards : MonoBehaviour
     void Start()
     {
         levelmanager = FindObjectOfType<LevelManager>();
+        damageFromSpike = false;
     }
     private void Update()
     {
-        timer += Time.deltaTime;
-        if (timer > timeBetweenEachDamage)
+        if (damageFromSpike)
         {
-            damageFromSpike = true;
-            timer = 0;
-
+            timer += Time.deltaTime;
+            if (timer > timeBetweenEachDamage)
+            {
+                levelmanager.HurtPlayer(damageToGive);
+                timer = 0;
+            }
         }
     }
-    void OnTriggerStay2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.GetComponent<PlayerController>())
         {
-            if (damageFromSpike == true)
-            {
-                levelmanager.HurtPlayer(damageToGive);
-                damageFromSpike = false;
-            }
+            damageFromSpike = true;
 
+        }
+    }
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.GetComponent<PlayerController>())
+        {
+            damageFromSpike = false;
         }
     }
 }
