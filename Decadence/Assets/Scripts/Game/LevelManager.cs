@@ -45,7 +45,7 @@ public class LevelManager : MonoBehaviour
     [Header("Death Effect")]
     public GameObject deathSplosion;
     public AudioClip deathSound;
-    AudioSource audioSource;
+    [HideInInspector] public AudioSource audioSource;
 
     [Header("Damage Boost")]
     public Image damageBoost;

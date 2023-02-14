@@ -74,7 +74,11 @@ public class PlayerController : MonoBehaviour
         LM.UpdateHeartMeter();
         LM.UpdateAmmoMeter();
     }
-
+    //zeros the velocity
+    public void Reboot()
+    {
+        rb.velocity = Vector2.zero;
+    }
     public void ReloadingAnimation(bool yeahnah)
     {
         isReloading = yeahnah;
