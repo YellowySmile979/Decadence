@@ -191,16 +191,40 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4068318136375958635, guid: 5327f6b6e8c99df46a4da4b600ea9c1b, type: 3}
+      propertyPath: lengthInSec
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4068318136375958635, guid: 5327f6b6e8c99df46a4da4b600ea9c1b, type: 3}
+      propertyPath: simulationSpeed
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4068318136375958635, guid: 5327f6b6e8c99df46a4da4b600ea9c1b, type: 3}
       propertyPath: ShapeModule.type
       value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 4068318136375958635, guid: 5327f6b6e8c99df46a4da4b600ea9c1b, type: 3}
       propertyPath: ShapeModule.radiusThickness
-      value: 1.0000
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4068318136375958635, guid: 5327f6b6e8c99df46a4da4b600ea9c1b, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 4068318136375958635, guid: 5327f6b6e8c99df46a4da4b600ea9c1b, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4068318136375958635, guid: 5327f6b6e8c99df46a4da4b600ea9c1b, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4068318136375958635, guid: 5327f6b6e8c99df46a4da4b600ea9c1b, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4068318136375958635, guid: 5327f6b6e8c99df46a4da4b600ea9c1b, type: 3}
+      propertyPath: InitialModule.startSpeed.minScalar
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4068318136375958635, guid: 5327f6b6e8c99df46a4da4b600ea9c1b, type: 3}
       propertyPath: InitialModule.gravityModifier.scalar
