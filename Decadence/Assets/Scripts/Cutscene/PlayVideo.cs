@@ -17,17 +17,13 @@ public class PlayVideo : MonoBehaviour
     public bool allowSkipping = false;
     [Header("Fade Away")]
     public bool canFadeAway;
-    public Color fadeColour;
-    public float transitionSpeed;
 
     VideoPlayer videoPlayer;
-    SpriteRenderer sr;
 
     // Start is called before the first frame update
     void Start()
     {
         videoPlayer = GetComponent<VideoPlayer>();
-        sr = GetComponentInChildren<SpriteRenderer>();
 
         //casts the frame count to long since this is a ulong
         //frameOffset helps offset since the actual frame that the video is on tends to not end exact
@@ -71,12 +67,7 @@ public class PlayVideo : MonoBehaviour
     }
     IEnumerator FadeAway()
     {
-        while (fadeColour.a < 1)
-        {
-            fadeColour.a = Mathf.Lerp(0f, 1f, transitionSpeed);
-            sr.color = fadeColour;
-        }
-        print(fadeColour.a);
+        
         yield return new WaitForSeconds(3f);
         SceneManager.LoadScene(sceneToLoad);
     }
