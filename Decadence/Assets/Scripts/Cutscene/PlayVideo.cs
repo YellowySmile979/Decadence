@@ -27,7 +27,6 @@ public class PlayVideo : MonoBehaviour
         //frameOffset helps offset since the actual frame that the video is on tends to not end exact
         frameCount = (long)videoPlayer.frameCount - frameOffset;
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -42,6 +41,14 @@ public class PlayVideo : MonoBehaviour
                 {
                     SceneManager.LoadScene(sceneToLoad);
                 }
+            }
+        }
+        else
+        {
+            //if it isnt a separate scene, instantly load the next scene once the video is over
+            if (frame == frameCount)
+            {
+                SceneManager.LoadScene(sceneToLoad);
             }
         }
         //allows for skipping before the vid ends

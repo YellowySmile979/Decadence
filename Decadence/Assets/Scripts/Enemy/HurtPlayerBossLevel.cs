@@ -20,7 +20,7 @@ public class HurtPlayerBossLevel : MonoBehaviour
     //b. hasnt already dealt the dmg
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.GetComponent<PlayerController>() && hasDealtDamage && lm.healthTracker > 3)
+        if(collision.GetComponent<PlayerController>() && !hasDealtDamage && lm.healthTracker > 3)
         {
             lm.HurtPlayer(damageToDeal);
             hasDealtDamage = true;

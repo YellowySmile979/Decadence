@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2967145113261011948}
   - component: {fileID: 2967145113261011949}
   - component: {fileID: 2967145113261011950}
+  - component: {fileID: 1106149295}
   m_Layer: 2
   m_Name: NewFollowingCommander
   m_TagString: Untagged
@@ -252,8 +253,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 0.11643791
+        time: 0.009017944
+        value: 0.06849289
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -300,6 +301,25 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!95 &1106149295
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2967145113261011958}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cafab1c3aa5ed6d4bb6f3a2d2d461ddd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2967145114282085945
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6800025842769412470}
   - component: {fileID: 6800025842769412465}
   - component: {fileID: 6800025842769412464}
-  - component: {fileID: 530706050}
+  - component: {fileID: 1090849114}
   m_Layer: 8
   m_Name: NewFollowingSuperintendent
   m_TagString: Untagged
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f58da8acba9fbb344b1c6bdaaf6a1fa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyHealth: 2
+  enemyHealth: 5
   bloodied: {fileID: 1081066303025819369, guid: baf4bbebce3cc634bb67d2d01187a54b, type: 3}
 --- !u!61 &6800025842769412470
 BoxCollider2D:
@@ -195,7 +195,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!95 &530706050
+--- !u!95 &1090849114
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
