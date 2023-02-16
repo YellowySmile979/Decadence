@@ -628,14 +628,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallingbrickSpawner (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 6287448750657103859, guid: cc3eeec6f6d05b94c876fdd4c17f327e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.717
-      objectReference: {fileID: 0}
-    - target: {fileID: 6287448750657103859, guid: cc3eeec6f6d05b94c876fdd4c17f327e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.917
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc3eeec6f6d05b94c876fdd4c17f327e, type: 3}
 --- !u!1 &35610608

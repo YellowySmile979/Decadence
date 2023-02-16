@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93cc55dc91f9674196a1ff3add135bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shakeSpeed: 0.04
 --- !u!68 &8473079686004153330
 EdgeCollider2D:
   m_ObjectHideFlags: 0

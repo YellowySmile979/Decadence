@@ -4,39 +4,34 @@ using UnityEngine;
 
 public class FallingPlatformSpawner : MonoBehaviour
 {
+    [Header("Spawning")]
     public GameObject fallingPlatformPrefab;
-    public bool isplatformThere;
+    public float maxSpawnTime = 10f;
+    float spawnTime;
+
+    GameObject storedPlatform;
 
     // Start is called before the first frame update
     void Start()
     {
-        isplatformThere = true;
-
+        //instantiates the platform at the start of play
+        storedPlatform = Instantiate(fallingPlatformPrefab, transform.position, Quaternion.identity);
+        //sets timer to max timer
+        spawnTime = maxSpawnTime;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //checks to see if platform exists, if not do nothing. otherwise start coroutine SpawnPlatform
-        if (!isplatformThere)
+        //allows timer to tickdown
+        spawnTime -= Time.deltaTime;
+        //checks to see if a platform has spawned and spawn time is 
+        if(storedPlatform == null && spawnTime <= 0)
         {
-            StartCoroutine(SpawnPlatform());
-            isplatformThere = true;
-
+            //instantiates the falling platform and also stores it so that we know if it has spawned or not
+            storedPlatform = Instantiate(fallingPlatformPrefab, transform.position, Quaternion.identity);
+            //resets spawn timer
+            spawnTime = maxSpawnTime;
         }
-        else
-        {
-            return;
-        }
-    }
-    //waits for awhile before triggering the platform to fall
-    public IEnumerator SpawnPlatform()
-    {
-        yield return new WaitForSeconds(3f);
-
-        GameObject platform = Instantiate(fallingPlatformPrefab, transform.position, transform.rotation);
-
-        Destroy(gameObject, 0.5f);
-
     }
 }

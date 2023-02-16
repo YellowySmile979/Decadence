@@ -15,6 +15,7 @@ public class LevelManager : MonoBehaviour
     public static int healthCount = 1;    
     public int healthToRespawn;
     int maxHealthCount = 10;
+    [HideInInspector] public int healthTracker;
 
     bool respawning;
 
@@ -102,7 +103,7 @@ public class LevelManager : MonoBehaviour
             Respawn();
             respawning = true;
         }
-
+        healthTracker = healthCount;
     }
     //starts the coroutine RespawnCO()
     public void Respawn()
@@ -152,8 +153,6 @@ public class LevelManager : MonoBehaviour
     //updates the health sprite
     public void UpdateHeartMeter()
     {
-
-
         if (healthCount >= 10)
         {
             healthCount = maxHealthCount; //limits the max health to 10
