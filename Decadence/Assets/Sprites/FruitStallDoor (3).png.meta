@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 92ddf5cb07f8bf343823a0b2fedc1428
+guid: d9e520136158b20448215bcd8d417f9c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2879759279962713035
-    second: FruitCrate_0
-  - first:
-      213: -5401681020938831096
-    second: FruitCrate_1
-  - first:
-      213: 18226506814352229
-    second: FruitCrate_2
-  - first:
-      213: -8582030547249321716
-    second: FruitCrate_3
+      213: -5611803545821523532
+    second: FruitStallDoor (3)_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -100,41 +91,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FruitCrate_0
+      name: FruitStallDoor (3)_0
       rect:
         serializedVersion: 2
-        x: 75
-        y: 323
-        width: 360
-        height: 424
+        x: 126
+        y: 275
+        width: 464
+        height: 664
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,71 +109,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5341037413a0908d0800000000000000
-      internalID: -2879759279962713035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FruitCrate_1
-      rect:
-        serializedVersion: 2
-        x: 604
-        y: 614
-        width: 156
-        height: 109
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80bb8f41bbf5905b0800000000000000
-      internalID: -5401681020938831096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FruitCrate_2
-      rect:
-        serializedVersion: 2
-        x: 580
-        y: 420
-        width: 156
-        height: 158
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56b6a2059e0c04000800000000000000
-      internalID: 18226506814352229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FruitCrate_3
-      rect:
-        serializedVersion: 2
-        x: 556
-        y: 226
-        width: 144
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0927a3dfa086e880800000000000000
-      internalID: -8582030547249321716
+      spriteID: 4b1d70e586ede12b0800000000000000
+      internalID: -5611803545821523532
       vertices: []
       indices: 
       edges: []

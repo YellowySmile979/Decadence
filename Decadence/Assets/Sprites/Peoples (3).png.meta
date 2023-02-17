@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: 92ddf5cb07f8bf343823a0b2fedc1428
+guid: 543662093f88d1a4fb35b7a50ac01357
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2879759279962713035
-    second: FruitCrate_0
+      213: 4827992272209194687
+    second: Peoples (3)_0
   - first:
-      213: -5401681020938831096
-    second: FruitCrate_1
+      213: -3401149579151776892
+    second: Peoples (3)_1
   - first:
-      213: 18226506814352229
-    second: FruitCrate_2
+      213: -4916583242543356026
+    second: Peoples (3)_2
   - first:
-      213: -8582030547249321716
-    second: FruitCrate_3
+      213: 7052070982258609830
+    second: Peoples (3)_3
+  - first:
+      213: -8265778391196809109
+    second: Peoples (3)_4
+  - first:
+      213: 5160129365144833119
+    second: Peoples (3)_5
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -100,41 +106,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FruitCrate_0
+      name: Peoples (3)_0
       rect:
         serializedVersion: 2
-        x: 75
-        y: 323
-        width: 360
-        height: 424
+        x: 32
+        y: 520
+        width: 304
+        height: 464
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5341037413a0908d0800000000000000
-      internalID: -2879759279962713035
+      spriteID: fbe2c5b4469700340800000000000000
+      internalID: 4827992272209194687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FruitCrate_1
+      name: Peoples (3)_1
       rect:
         serializedVersion: 2
-        x: 604
-        y: 614
-        width: 156
-        height: 109
+        x: 352
+        y: 520
+        width: 304
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80bb8f41bbf5905b0800000000000000
-      internalID: -5401681020938831096
+      spriteID: 48360b25a70bcc0d0800000000000000
+      internalID: -3401149579151776892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FruitCrate_2
+      name: Peoples (3)_2
       rect:
         serializedVersion: 2
-        x: 580
-        y: 420
-        width: 156
-        height: 158
+        x: 672
+        y: 520
+        width: 240
+        height: 464
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56b6a2059e0c04000800000000000000
-      internalID: 18226506814352229
+      spriteID: 687a09f0799c4cbb0800000000000000
+      internalID: -4916583242543356026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FruitCrate_3
+      name: Peoples (3)_3
       rect:
         serializedVersion: 2
-        x: 556
-        y: 226
-        width: 144
-        height: 170
+        x: 56
+        y: 8
+        width: 288
+        height: 464
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,8 +187,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0927a3dfa086e880800000000000000
-      internalID: -8582030547249321716
+      spriteID: 6ae4d54e13dfdd160800000000000000
+      internalID: 7052070982258609830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peoples (3)_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 8
+        width: 288
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b684d90e85e0a4d80800000000000000
+      internalID: -8265778391196809109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peoples (3)_5
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 16
+        width: 208
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c058c61567c9740800000000000000
+      internalID: 5160129365144833119
       vertices: []
       indices: 
       edges: []
