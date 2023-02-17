@@ -51,7 +51,7 @@ public class Projectile : MonoBehaviour
             }
             if (hp != null)
             {
-                Instantiate(enemyBleedingEffect, transform.position, Quaternion.identity);
+
                 hp.TakeDamage(damage);
                 Destroy(this);
             }
