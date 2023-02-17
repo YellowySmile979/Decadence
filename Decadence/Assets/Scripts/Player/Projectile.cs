@@ -36,6 +36,7 @@ public class Projectile : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other)
     {
         EnemyController enemy = other.collider.GetComponent<EnemyController>();
+       CommanderScript hp = other.collider.GetComponent<CommanderScript>();
         if (other.collider.tag != "NO") //allows us to prevent ALL colliders from destroying the bullet
         {
             if (enemy != null)
@@ -48,6 +49,13 @@ public class Projectile : MonoBehaviour
                 Destroy(other.collider.GetComponent<Joint2D>());
                 Destroy(this);
             }
+            if (hp != null)
+            {
+                Instantiate(enemyBleedingEffect, transform.position, Quaternion.identity);
+                hp.TakeDamage(damage);
+                Destroy(this);
+            }
+            Destroy(this);
         }
     }   
 }

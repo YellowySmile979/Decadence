@@ -1,0 +1,841 @@
+fileFormatVersion: 2
+guid: f3daff64643765648a9d6750dfd70b75
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5238242773179602442
+    second: ANGRYCommanderBloodied_0
+  - first:
+      213: 7427527914651362243
+    second: ANGRYCommanderBloodied_1
+  - first:
+      213: -8991970670420451969
+    second: ANGRYCommanderBloodied_2
+  - first:
+      213: 3824458131363096584
+    second: ANGRYCommanderBloodied_3
+  - first:
+      213: 6008869007484349258
+    second: ANGRYCommanderBloodied_4
+  - first:
+      213: -6582568741131420231
+    second: ANGRYCommanderBloodied_5
+  - first:
+      213: -1741759366884323199
+    second: ANGRYCommanderBloodied_6
+  - first:
+      213: -7308058094141948644
+    second: ANGRYCommanderBloodied_7
+  - first:
+      213: -1060762814551268095
+    second: ANGRYCommanderBloodied_8
+  - first:
+      213: 3543831807744459625
+    second: ANGRYCommanderBloodied_9
+  - first:
+      213: -4173907339345840293
+    second: ANGRYCommanderBloodied_10
+  - first:
+      213: 6979325844730388950
+    second: ANGRYCommanderBloodied_11
+  - first:
+      213: 9107049621909048454
+    second: ANGRYCommanderBloodied_12
+  - first:
+      213: 5027573909055659659
+    second: ANGRYCommanderBloodied_13
+  - first:
+      213: 1688181202546080728
+    second: ANGRYCommanderBloodied_14
+  - first:
+      213: 5136642335784046832
+    second: ANGRYCommanderBloodied_15
+  - first:
+      213: 6252558473820205628
+    second: ANGRYCommanderBloodied_16
+  - first:
+      213: -3294599580176090584
+    second: ANGRYCommanderBloodied_17
+  - first:
+      213: -2346637895447394311
+    second: ANGRYCommanderBloodied_18
+  - first:
+      213: 5924181934551385010
+    second: ANGRYCommanderBloodied_19
+  - first:
+      213: 4224814185147994335
+    second: ANGRYCommanderBloodied_20
+  - first:
+      213: 3612423524464431746
+    second: ANGRYCommanderBloodied_21
+  - first:
+      213: -4945587741731641825
+    second: ANGRYCommanderBloodied_22
+  - first:
+      213: -4757716464752874055
+    second: ANGRYCommanderBloodied_23
+  - first:
+      213: -8924752472110694051
+    second: ANGRYCommanderBloodied_24
+  - first:
+      213: -5263419970522395469
+    second: ANGRYCommanderBloodied_25
+  - first:
+      213: -262774759477435447
+    second: ANGRYCommanderBloodied_26
+  - first:
+      213: 8219438177687443996
+    second: ANGRYCommanderBloodied_27
+  - first:
+      213: 4502011653110372894
+    second: ANGRYCommanderBloodied_28
+  - first:
+      213: -4729567204283636013
+    second: ANGRYCommanderBloodied_29
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 102
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 635
+        width: 137
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f96f5183f50e47b0800000000000000
+      internalID: -5238242773179602442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_1
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 782
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3a7102941e31760800000000000000
+      internalID: 7427527914651362243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_2
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 635
+        width: 129
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d9bd6115a163380800000000000000
+      internalID: -8991970670420451969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_3
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 781
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808604a5864331530800000000000000
+      internalID: 3824458131363096584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_4
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 635
+        width: 143
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b65f4a68ac36350800000000000000
+      internalID: 6008869007484349258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_5
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 781
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd754b1b9406a4a0800000000000000
+      internalID: -6582568741131420231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_6
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 635
+        width: 153
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18096a4851704d7e0800000000000000
+      internalID: -1741759366884323199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_7
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 781
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d30c412ef849a90800000000000000
+      internalID: -7308058094141948644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_8
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 635
+        width: 164
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1056abf17d96741f0800000000000000
+      internalID: -1060762814551268095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_9
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 587
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963c65cc0483e2130800000000000000
+      internalID: 3543831807744459625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 431
+        width: 168
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5735e0a36d4316c0800000000000000
+      internalID: -4173907339345840293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_11
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 441
+        width: 174
+        height: 165
+      alignment: 9
+      pivot: {x: 0.41, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1abd2b0eb8bd060800000000000000
+      internalID: 6979325844730388950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_12
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 427
+        width: 177
+        height: 175
+      alignment: 9
+      pivot: {x: 0.41, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c8eb1416db26e70800000000000000
+      internalID: 9107049621909048454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_13
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 441
+        width: 137
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ed84345d785c540800000000000000
+      internalID: 5027573909055659659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_14
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 588
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db304efbdf9d6710800000000000000
+      internalID: 1688181202546080728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_15
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 441
+        width: 128
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f014a24df4094740800000000000000
+      internalID: 5136642335784046832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_16
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 389
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c327961fdcc85c650800000000000000
+      internalID: 6252558473820205628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 243
+        width: 143
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82af37a232b3742d0800000000000000
+      internalID: -3294599580176090584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_18
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 389
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7436164411f6fd0800000000000000
+      internalID: -2346637895447394311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_19
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 243
+        width: 151
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3c8b1f41ce63250800000000000000
+      internalID: 5924181934551385010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_20
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 389
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd017cb0e1e81aa30800000000000000
+      internalID: 4224814185147994335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_21
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 243
+        width: 164
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28297f95e08e12230800000000000000
+      internalID: 3612423524464431746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_22
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 385
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f162f88d62ebd5bb0800000000000000
+      internalID: -4945587741731641825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_23
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 239
+        width: 169
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bda060351239fdb0800000000000000
+      internalID: -4757716464752874055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_24
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 239
+        width: 174
+        height: 165
+      alignment: 9
+      pivot: {x: 0.29, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d518d8779e8e42480800000000000000
+      internalID: -8924752472110694051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_25
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 47
+        width: 147
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcc0517c6394f6b0800000000000000
+      internalID: -5263419970522395469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_26
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 46
+        width: 144
+        height: 151
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3a86d9fbf6a5cf0800000000000000
+      internalID: -262774759477435447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_27
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 50
+        width: 162
+        height: 151
+      alignment: 9
+      pivot: {x: 0.45, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a1852697f411270800000000000000
+      internalID: 8219438177687443996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_28
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 47
+        width: 183
+        height: 150
+      alignment: 9
+      pivot: {x: 0.4, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a105eeebb5a7e30800000000000000
+      internalID: 4502011653110372894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRYCommanderBloodied_29
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 47
+        width: 188
+        height: 152
+      alignment: 9
+      pivot: {x: 0.395, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6265f9fa33d5eb0800000000000000
+      internalID: -4729567204283636013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,25 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class commanderScript : MonoBehaviour
+public class CommanderScript : MonoBehaviour
 {
 
     //LineRenderer lR;
 
-    SpriteRenderer sr;   
+    SpriteRenderer sr;
     BoxCollider2D box;
     Animator anim;
     //calling components
 
     public LayerMask WhoICanSee;//who the enemy can see
     bool playerSeen;//whether the player is seen
-    [HideInInspector] public float TimeForShooting, RateOfShooting, TimeForCrouching, RateForCrouching; 
+    [HideInInspector] public float TimeForShooting, RateOfShooting, TimeForCrouching, RateForCrouching;
     //variables to shooting
     [HideInInspector] public bool canShoot;//whether the enemy can shooting
     public Transform firePoint;//where the bullet is created
     //public float ammo=3;
     public GameObject enemyBullet;//prefab of the bullet
-    bool goingToShoot =true;//the enemy is going to shoot
+    bool goingToShoot = true;//the enemy is going to shoot
     public int AmmoInTheGun;//ammount of ammo in gun
     bool IsCrouching;//is crouching
     public float timer;//timer
@@ -28,14 +28,13 @@ public class commanderScript : MonoBehaviour
     bool IsReloading;// the enemy is reloading
 
     //[HideInInspector]
-    public bool halfHp , lastHp ;//at points at which the enemy goes into states
+    public bool halfHp, lastHp;//at points at which the enemy goes into states
 
-     //public float  crouchedY,  CrouchedOffSetY;
+    //public float  crouchedY,  CrouchedOffSetY;
     //[HideInInspector] public float StandingScaleY, StandingOffSetY;
 
-    [HideInInspector]public int maxhp;//max hp for boss
+    [HideInInspector] public int maxhp;//max hp for boss
     public int hp = 8;//hp for enemy
-    public GameObject enemyDeathEffect;//enemy death effects
     public HealthBarBehaviour HealthBar;//enemy healthbar
 
     void Start()
@@ -79,10 +78,11 @@ public class commanderScript : MonoBehaviour
         {
             ChangeCrouchStance();
         }//change crouchstance
-        if (playerSeen == true && goingToShoot == false && AmmoInTheGun > 0 )
-        {            
+        if (playerSeen == true && goingToShoot == false && AmmoInTheGun > 0)
+        {
             StartCoroutine(shootOnSight());//shoot on sight
-        }else if (AmmoInTheGun == 0 && !IsReloading)
+        }
+        else if (AmmoInTheGun == 0 && !IsReloading)
         {
             IsReloading = true;
         }//the enemy is reloading
@@ -99,14 +99,14 @@ public class commanderScript : MonoBehaviour
     }//reloading timer
 
     IEnumerator shootOnSight()
-    {        
-        goingToShoot = true;        
-             
+    {
+        goingToShoot = true;
+
         yield return new WaitForSeconds(1);//time
         anim.SetTrigger("Shooting");
         //set trigger here      
         //shooting
-        if (!halfHp || AmmoInTheGun <=1 )
+        if (!halfHp || AmmoInTheGun <= 1)
         {
             goingToShoot = false;
             yield break;
@@ -118,8 +118,8 @@ public class commanderScript : MonoBehaviour
             //set trigger here            
             goingToShoot = false;
         }    //shooting more if less hp
-                 
-    }  
+
+    }
 
     private void OnTriggerEnter2D(Collider2D other)//sight
     {
@@ -160,27 +160,28 @@ public class commanderScript : MonoBehaviour
         canflip = false;
         transform.localScale = new Vector2(transform.localScale.x * -1, 1);
     }*/
-    
+
     void ChangeCrouchStance()
     {
-        if ( Time.time <= TimeForCrouching) return;
+        if (Time.time <= TimeForCrouching) return;
         RateForCrouching = Random.Range(6f, 8f);
         TimeForCrouching = Time.time + RateForCrouching;
-        if(IsCrouching== false)
+        if (IsCrouching == false)
         {
             IsCrouching = true;
-        }else if (IsCrouching == true)
+        }
+        else if (IsCrouching == true)
         {
             IsCrouching = false;
         }
     }
     //timer for crouch stance
-    
+
     public void TakeDamage(int damage)
     {
         hp -= damage;
         HealthBar.SetHealth(hp, maxhp);
-        if (hp == maxhp/2)
+        if (hp == maxhp / 2)
         {
             halfHp = true;
         }
@@ -190,7 +191,6 @@ public class commanderScript : MonoBehaviour
         }
         if (hp <= 0)
         {
-            Instantiate(enemyDeathEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }//taking damage and the phases relating to their health
