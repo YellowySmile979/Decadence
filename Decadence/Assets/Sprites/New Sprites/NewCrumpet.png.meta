@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ecc44b3420e71b24182b5e3893ad3a38
+guid: 370e4ebafcceca448b321ecff0abb2a5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2282074664697841190
-    second: Moneynote_0
+      213: -7693759749118437761
+    second: NewCrumpet_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -91,17 +91,29 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Moneynote_0
+      name: NewCrumpet_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 20
-        width: 68
-        height: 23
+        x: 12
+        y: 16
+        width: 43
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -109,8 +121,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 626cb3c01de8baf10800000000000000
-      internalID: 2282074664697841190
+      spriteID: f76d89e75464a3590800000000000000
+      internalID: -7693759749118437761
       vertices: []
       indices: 
       edges: []

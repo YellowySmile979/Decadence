@@ -1,37 +1,25 @@
 fileFormatVersion: 2
-guid: 3f0f11c9d70480947a65582fb7eccd9c
+guid: 543662093f88d1a4fb35b7a50ac01357
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3448120935943364757
-    second: Checkpoint_0
+      213: 4827992272209194687
+    second: Peoples (3)_0
   - first:
-      213: 3301549609868922437
-    second: Checkpoint_1
+      213: -3401149579151776892
+    second: Peoples (3)_1
   - first:
-      213: 596405922659037225
-    second: Checkpoint_2
+      213: -4916583242543356026
+    second: Peoples (3)_2
   - first:
-      213: 5240123770684355362
-    second: Checkpoint_3
+      213: 7052070982258609830
+    second: Peoples (3)_3
   - first:
-      213: -206266764050003113
-    second: Checkpoint_4
+      213: -8265778391196809109
+    second: Peoples (3)_4
   - first:
-      213: 8932256421180023228
-    second: Checkpoint_5
-  - first:
-      213: 128570746160111963
-    second: Checkpoint_6
-  - first:
-      213: -97824224889232085
-    second: Checkpoint_7
-  - first:
-      213: 2757991356376791674
-    second: Checkpoint_8
-  - first:
-      213: -6543464395030787550
-    second: Checkpoint_9
+      213: 5160129365144833119
+    second: Peoples (3)_5
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -62,7 +50,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -76,7 +64,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 120
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -118,17 +106,29 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Checkpoint_0
+      name: Peoples (3)_0
       rect:
         serializedVersion: 2
-        x: 301
-        y: 850
-        width: 104
-        height: 114
+        x: 32
+        y: 520
+        width: 304
+        height: 464
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6f12861740d520d0800000000000000
-      internalID: -3448120935943364757
+      spriteID: fbe2c5b4469700340800000000000000
+      internalID: 4827992272209194687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Checkpoint_1
+      name: Peoples (3)_1
       rect:
         serializedVersion: 2
-        x: 417
-        y: 846
-        width: 104
-        height: 115
+        x: 352
+        y: 520
+        width: 304
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,20 +157,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54e0198b0e571dd20800000000000000
-      internalID: 3301549609868922437
+      spriteID: 48360b25a70bcc0d0800000000000000
+      internalID: -3401149579151776892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Checkpoint_2
+      name: Peoples (3)_2
       rect:
         serializedVersion: 2
-        x: 581
-        y: 856
-        width: 104
-        height: 114
+        x: 672
+        y: 520
+        width: 240
+        height: 464
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 920f70ad60cd64800800000000000000
-      internalID: 596405922659037225
+      spriteID: 687a09f0799c4cbb0800000000000000
+      internalID: -4916583242543356026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Checkpoint_3
+      name: Peoples (3)_3
       rect:
         serializedVersion: 2
-        x: 697
-        y: 852
-        width: 104
-        height: 115
+        x: 56
+        y: 8
+        width: 288
+        height: 464
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 223b8ba5ec8a8b840800000000000000
-      internalID: 5240123770684355362
+      spriteID: 6ae4d54e13dfdd160800000000000000
+      internalID: 7052070982258609830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Checkpoint_4
+      name: Peoples (3)_4
       rect:
         serializedVersion: 2
-        x: 169
-        y: 641
-        width: 40
-        height: 72
+        x: 384
+        y: 8
+        width: 288
+        height: 488
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,20 +220,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75b84df8871332df0800000000000000
-      internalID: -206266764050003113
+      spriteID: b684d90e85e0a4d80800000000000000
+      internalID: -8265778391196809109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Checkpoint_5
+      name: Peoples (3)_5
       rect:
         serializedVersion: 2
-        x: 289
-        y: 509
-        width: 116
-        height: 333
+        x: 744
+        y: 16
+        width: 208
+        height: 456
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,92 +241,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb12323d3efb5fb70800000000000000
-      internalID: 8932256421180023228
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Checkpoint_6
-      rect:
-        serializedVersion: 2
-        x: 417
-        y: 509
-        width: 112
-        height: 333
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5161659966c8c100800000000000000
-      internalID: 128570746160111963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Checkpoint_7
-      rect:
-        serializedVersion: 2
-        x: 564
-        y: 509
-        width: 116
-        height: 333
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b25ac01c26574aef0800000000000000
-      internalID: -97824224889232085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Checkpoint_8
-      rect:
-        serializedVersion: 2
-        x: 701
-        y: 509
-        width: 112
-        height: 333
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7abf62b68a564620800000000000000
-      internalID: 2757991356376791674
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Checkpoint_9
-      rect:
-        serializedVersion: 2
-        x: 237
-        y: 509
-        width: 40
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22a06cd2dc1f035a0800000000000000
-      internalID: -6543464395030787550
+      spriteID: f5c058c61567c9740800000000000000
+      internalID: 5160129365144833119
       vertices: []
       indices: 
       edges: []
