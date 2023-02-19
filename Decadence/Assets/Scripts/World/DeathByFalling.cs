@@ -11,7 +11,6 @@ public class DeathByFalling : MonoBehaviour
     void Start()
     {
         theLevelManager = FindObjectOfType<LevelManager>();
-
     }
 
     //checks if player has walked into the spike

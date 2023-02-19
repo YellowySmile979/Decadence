@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class destroyDistance : MonoBehaviour
 {
+    //destroys the distance joint when bullet hits
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.GetComponent<Projectile>())

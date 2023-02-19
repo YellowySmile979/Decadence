@@ -107,15 +107,21 @@ public class Weapon : MonoBehaviour
                 //reloading part
                 if (currentAmmo > 0)
                 {
-                    randomSound = Random.Range(0, 1);
-                    currentClip++;
-                    currentAmmo--;
-                    reloadCount++;
+                    randomSound = Random.Range(0, 1); //randomises reload sound
+                    currentClip++; //adds 1 to currentClip
+                    currentAmmo--; //minuses 1 to currentAmmo
+                    reloadCount++; //adds 1 to reloadCount
+                    //updates the ammo UI to display the text
                     owner.ammoUIText.text = "" + currentAmmo;
+                    //updates the ammo UI
                     Lm.UpdateAmmoMeter();
+                    //if the amount of ammo still in the barrel less than the max the barrel can hold
+                    //and player is reloading
                     if (currentClip <= maxClipSize && reloading == true)
                     {
+                        //starts the reloading animation
                         owner.ReloadingAnimation(reloading);
+                        //randomises the reloading noise
                         if(randomSound == 0)
                         {
                             audioSource.PlayOneShot(reloadingSoundOne);
@@ -125,6 +131,9 @@ public class Weapon : MonoBehaviour
                             audioSource.PlayOneShot(reloadingSoundTwo);
                         }
                     }
+                    //when reload is done, wait a bit to allow reload anim to end then stop reloading
+                    //by updating the function that handles the bool that controls reloading
+                    //samething if current ammo is not
                     if (reloadCount == reloadAmount)
                     {
                         yield return new WaitForSeconds(waitToReload);
@@ -137,11 +146,11 @@ public class Weapon : MonoBehaviour
                         reloading = false;
                         owner.ReloadingAnimation(reloading);
                     }
+                    //once reloading is done, play this sound
                     if (reloading == false) audioSource.PlayOneShot(rackingRevolverSound);
                     yield return new WaitForSeconds(timeBetweenEachBulletReload);
                     //This will keep running until your gun is fully reloaded
-                    //also stops u from moving
-                    
+                    //also stops u from moving                   
                 }               
             }           
             reloadCount = 0;

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-
     //creates a variable called target that we can manipulate
     public Transform target;
     //Vector3 targetPosition is a class variable and EVERY INSTANCE of this specific object will have this variable
@@ -28,7 +27,8 @@ public class CameraController : MonoBehaviour
         Vector3 targetPosition = new Vector3(target.position.x + lookAhead * Mathf.Sign(target.localScale.x),
                 target.position.y + lookAbove, transform.position.z);
 
-        //this line is for natural camera movement e.g. when player is far cam speeds up. when player is close,
+        //this line is for natural camera movement e.g. when player is far cam speeds up.
+        //when player is close,
         //cam moves slower
         //aka smoothly moves camera to the destination
         transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * smoothing);

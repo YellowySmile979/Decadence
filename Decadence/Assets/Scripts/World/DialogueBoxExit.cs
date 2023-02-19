@@ -22,8 +22,10 @@ public class DialogueBoxExit : MonoBehaviour
     public string Scene;
     public int requiredNumberOfKills = 1;
     public int numberOfEnemies;
+    public bool loadScene = true;
 
     PlayerController player;
+    VideoPlayerTrigger videoPlayerTrigger;
 
     //sets the required amount of enemies to kill before the player can progress
     public void EnemyKillCounter(int number)
@@ -38,6 +40,7 @@ public class DialogueBoxExit : MonoBehaviour
     void Start()
     {
         player = FindObjectOfType<PlayerController>();
+        videoPlayerTrigger = GetComponent<VideoPlayerTrigger>();
     }
     // Update is called once per frame
     void Update()
@@ -49,9 +52,16 @@ public class DialogueBoxExit : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         //checks to see if i have killed all the required number of enemies
-        if (numberOfEnemies >= requiredNumberOfKills && collision.GetComponent<PlayerController>())
+        if (numberOfEnemies >= requiredNumberOfKills && collision.GetComponent<PlayerController>() && 
+            loadScene)
         {
             SceneManager.LoadScene(Scene);
+        }
+        //if i dont want the code to immediately load scene and instead play the video
+        if(numberOfEnemies >= requiredNumberOfKills && collision.GetComponent<PlayerController>() &&
+            !loadScene)
+        {
+            videoPlayerTrigger.playVideo = true;
         }
         if (collision.GetComponent<PlayerController>())
         {
@@ -61,7 +71,9 @@ public class DialogueBoxExit : MonoBehaviour
                 player.canMove = false;
                 player.rb.velocity = new Vector2(0, 0);
             }
+            //background is now active
             backgroundOfText.SetActive(true);
+            //when the text isnt typing, start the coroutine to make it type
             if (!isTyping)
             {
                 StartCoroutine(TypeOutText(textToDisplay));
@@ -77,7 +89,15 @@ public class DialogueBoxExit : MonoBehaviour
             StopAllCoroutines();
             cutsceneText.text = textToDisplay;
             isTyping = false;
+            StartCoroutine(DisableText());
         }
+    }
+    //disables text
+    IEnumerator DisableText()
+    {
+        yield return new WaitForSeconds(waitToDisableText);
+        cutsceneText.text = "";
+        backgroundOfText.SetActive(false);
     }
     //types out each letter of the text for that dialogue effect
     IEnumerator TypeOutText(string message)

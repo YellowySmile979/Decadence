@@ -29,14 +29,14 @@ public class Projectile : MonoBehaviour
         //sets bullet speed and direction of movement
         rb.velocity = new Vector2(bulletspeed * direction, 0);
         
-        
+        //sets the player damage
         damage = pc.damg;
     }
     //when bullet collides with enemy's collider, enemy takes damage based on TakeDamage function
     void OnCollisionEnter2D(Collision2D other)
     {
         EnemyController enemy = other.collider.GetComponent<EnemyController>();
-       CommanderScript hp = other.collider.GetComponent<CommanderScript>();
+        CommanderScript hp = other.collider.GetComponent<CommanderScript>();
         if (other.collider.tag != "NO") //allows us to prevent ALL colliders from destroying the bullet
         {
             if (enemy != null)

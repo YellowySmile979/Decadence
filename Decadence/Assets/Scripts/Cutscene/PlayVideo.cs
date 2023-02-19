@@ -15,6 +15,7 @@ public class PlayVideo : MonoBehaviour
     public float frameOffset = 4f;
     [Header("Allow Skipping")]
     public bool allowSkipping = false;
+    public bool immediateTransition = false;
     [Header("Fade Away")]
     public bool canFadeAway;
 
@@ -37,7 +38,7 @@ public class PlayVideo : MonoBehaviour
         if (ifVideoIsSeparateScene)
         {
             //when frame == total frame count, allow player to skip
-            if (frame == frameCount)
+            if (frame >= frameCount)
             {
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
@@ -48,7 +49,7 @@ public class PlayVideo : MonoBehaviour
         else
         {
             //if it isnt a separate scene, instantly load the next scene once the video is over
-            if (frame == frameCount)
+            if (frame >= frameCount)
             {
                 if(canFadeAway)
                 {
@@ -64,10 +65,21 @@ public class PlayVideo : MonoBehaviour
                 SceneManager.LoadScene(sceneToLoad);
             }
         }
+        //if i want the video to immediately transition
+        if (immediateTransition && frame >= frameCount)
+        {
+            //runs the function to immediately transition
+            ImmediateTransition();
+        }
     }
-    IEnumerator FadeAway()
+    //function that immediately loads the scene
+    public void ImmediateTransition()
     {
-        
+        SceneManager.LoadScene(sceneToLoad);
+    }
+    //Coroutine that waits a bit before loading the scene
+    IEnumerator FadeAway()
+    {        
         yield return new WaitForSeconds(3f);
         SceneManager.LoadScene(sceneToLoad);
     }

@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Cutscenes/Opening.unity
+    path: Assets/Scenes/Cutscenes/Opening Logo.unity
     guid: 6ce467799e1701b4e90f8a4e545b2449
   - enabled: 1
     path: Assets/Scenes/Menus/MainMenu.unity
@@ -62,4 +62,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menus/Licenses Next Page 1.unity
     guid: bb989ce1eb4528948ad925f5c1a8c2a1
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Extortion.unity
+    guid: 9b262d35032c2da45a69b40f8230f87d
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Scary Video Part.unity
+    guid: dc440840a7d98024eaa80aef6a3cf281
   m_configObjects: {}

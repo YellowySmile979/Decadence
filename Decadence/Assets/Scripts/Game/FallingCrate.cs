@@ -37,20 +37,21 @@ public class FallingCrate : MonoBehaviour
         //if i draw a circle, is there a collider in there? thats what this is
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
 
-        //checks to see if box has touched the ground, if it has, destroy the block BUT wait a short while to spawn bullets
+        //checks to see if box has touched the ground, if it has, destroy the block
+        //BUT wait a short while to spawn bullets
         //based on the amount we have specified in maxLoot
         if(isGrounded)
         {
-           Destroy(longChain, 0.4f); 
+            Destroy(longChain, 0.4f);
             if (numberOfLoot < maxLoot)
             {
                 Instantiate(lootToDrop, whereToSpawnLoot.position, whereToSpawnLoot.rotation);
-                numberOfLoot += 1;
-                             
+                numberOfLoot += 1;                           
             } 
         }
     }
-     public void DropBoxOrChain()
+    //function that allows the box or chain to be dropped
+    public void DropBoxOrChain()
     {
         rb.isKinematic = false;
     }

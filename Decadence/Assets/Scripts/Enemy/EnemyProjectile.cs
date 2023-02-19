@@ -30,7 +30,7 @@ public class EnemyProjectile : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other)
     {
         PlayerController player = other.collider.GetComponent<PlayerController>();
-        //prevents the bulet from destroying itself on colliders that aren't enemies
+        //prevents the bullet from destroying itself on colliders that aren't enemies
         if (other.collider.tag != "NO")
         {
             if (player != null)
@@ -41,5 +41,4 @@ public class EnemyProjectile : MonoBehaviour
             else Destroy(gameObject);
         }
     }
-
 }

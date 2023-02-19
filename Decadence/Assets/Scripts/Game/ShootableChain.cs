@@ -15,6 +15,7 @@ public class ShootableChain : MonoBehaviour
         fc = GetComponentInParent<FallingCrate>();
         
     }
+    //for dropping the chains and boxes
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.GetComponent<Projectile>())
@@ -22,7 +23,4 @@ public class ShootableChain : MonoBehaviour
             fc.DropBoxOrChain();
         }
     }
-    
-   
-
 }

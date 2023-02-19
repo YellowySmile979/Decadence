@@ -8,8 +8,8 @@ public class MainMenu : MonoBehaviour
     //command for button named new game
     public void NewGame()
     {
-        //loads scene named level 1 tutorial
-        SceneManager.LoadScene("REVAMPED LEVEL 1 (TUTORIAL LEVEL)");
+        //loads the 1st cutscene named Extortion
+        SceneManager.LoadScene("Extortion");
     }
 
     //allows for the game to be quit from

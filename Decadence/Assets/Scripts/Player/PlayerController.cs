@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
     Weapon weapon;
     LevelManager LM;
     SpriteRenderer sr;
+    [HideInInspector] public AudioSource audioSource;
 
     [Header("Damage")]
     public int damg = 1;
@@ -66,6 +67,7 @@ public class PlayerController : MonoBehaviour
         respawnPosition = transform.position;
         LM = FindObjectOfType<LevelManager>();
         sr = GetComponent<SpriteRenderer>();
+        audioSource = GetComponent<AudioSource>();
 
         footStepEffect = transform.Find("Footstep").GetComponentInChildren<ParticleSystem>();
 
@@ -79,6 +81,7 @@ public class PlayerController : MonoBehaviour
     {
         rb.velocity = Vector2.zero;
     }
+    //the way we update if the player is reloading or not
     public void ReloadingAnimation(bool yeahnah)
     {
         isReloading = yeahnah;
@@ -106,7 +109,8 @@ public class PlayerController : MonoBehaviour
         {
             canIEat = true;
         }
-        //when i press F, use the crumpet, activate damage boost and update UI and reduce crumpetTracker value
+        //when i press F, use the crumpet, activate damage boost and update UI and
+        //reduce crumpetTracker value
         if (Input.GetKeyDown(KeyCode.F) && canIEat == true)
         {
             haveIPressedF = true;           
@@ -131,7 +135,7 @@ public class PlayerController : MonoBehaviour
             //reduces the value to between 0-1 for the radial sprite in UI to be able to read it
             LM.UpdateCrumpetUI(damageBoostDuration / maxDamageBoostDuration);
         }
-        else if (damageBoostDuration <= 0)
+        if (damageBoostDuration <= 0)
         {
             SetDamage(initialDamage); //resets damage
             haveIPressedF = false; //stops the timer
@@ -146,6 +150,7 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         sr.color = new Color(1,1,1);
     }
+    //sets the damage the player deals
     public void SetDamage(int dmg)
     {
         damg = dmg;
@@ -231,6 +236,7 @@ public class PlayerController : MonoBehaviour
             respawnPosition = other.transform.position;
         }
     }
+    //starts the footstep particles
     public void NotifyFootStep()
     {
         //RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 10, whatIsGround);

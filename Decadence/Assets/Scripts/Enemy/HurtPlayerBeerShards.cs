@@ -15,12 +15,16 @@ public class HurtPlayerBeerShards : MonoBehaviour
     {
         levelmanager = FindObjectOfType<LevelManager>();
         damageFromSpike = false;
+        //allows player to take damage on 1st collision
+        timer = timeBetweenEachDamage;
     }
     private void Update()
     {
+        //if player is in spikes, start the timer
         if (damageFromSpike)
         {
-            timer += Time.deltaTime;
+            timer += Time.deltaTime; //times when the player can start to take damage
+            //when timer reaches max, player takes damage and timer is reset
             if (timer > timeBetweenEachDamage)
             {
                 levelmanager.HurtPlayer(damageToGive);
@@ -28,14 +32,15 @@ public class HurtPlayerBeerShards : MonoBehaviour
             }
         }
     }
+    //essentially says that the player can be damaged by the spikes as player is in it
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.GetComponent<PlayerController>())
         {
             damageFromSpike = true;
-
         }
     }
+    //says that the player can no longer be damaged by the spike cause player aint in it
     void OnTriggerExit2D(Collider2D collision)
     {
         if(collision.GetComponent<PlayerController>())

@@ -17,7 +17,8 @@ public class Pause : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //when i press the binded cancel key AKA "esc", then check if time is paused or not and do the corresponding funcs
+        //when i press the binded cancel key AKA "esc",
+        //then check if time is paused or not and do the corresponding funcs
         if (Input.GetButtonDown("Cancel"))
         {
             if (Time.timeScale == 0) ResumeGame();
@@ -40,10 +41,12 @@ public class Pause : MonoBehaviour
         pc.canMove = true; //allows player to move again once game is resumed
         pc.GetComponent<AudioSource>().Play(); //resumes the bgm
     }
+    //for the part that asks if you are sure if you want to quit
     public void TurnOnAreYouSure()
     {
         areYouSure.SetActive(true);
     }
+    //same but turns it off
     public void TurnOffAreYouSure()
     {
         areYouSure.SetActive(false);

@@ -15,10 +15,12 @@ public class HealthBarBehaviour : MonoBehaviour
 
     private void Update()
     {
+        //allows the health bar to be visible
         slide.transform.position = Camera.main.WorldToScreenPoint(transform.parent.position + offset);
-        ReloadSlide.transform.position = Camera.main.WorldToScreenPoint(transform.parent.position + ReloadOffset);
+        ReloadSlide.transform.position = Camera.main.WorldToScreenPoint(transform.parent.position + 
+            ReloadOffset);
     }
-
+    //sets the health bar and updates it appropriately
     public void SetHealth(float health, float maxHealth)
     {
         slide.gameObject.SetActive(health < maxHealth);
@@ -27,6 +29,7 @@ public class HealthBarBehaviour : MonoBehaviour
 
         slide.fillRect.GetComponentInChildren<Image>().color = Color.Lerp(low, high, slide.normalizedValue);
     }
+    //sets the reload for enemy's reload
     public void SetReload (float time, float MaxTime)
     {
         ReloadSlide.gameObject.SetActive(time > 0);

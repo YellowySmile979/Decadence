@@ -78,18 +78,19 @@ public class LevelManager : MonoBehaviour
     //updates the timer for the power up
     public void UpdateCrumpetUI(float fillAmount)
     {
+        //if the fill is empty, disable the power up
         if (fillAmount <= 0)
         {
             damageBoost.enabled = false;
             usingPowerUp = false;
         }
-
+        //if the fill still is filled, power up is still active
         if (fillAmount > 0)
         {
             damageBoost.enabled = true;
             usingPowerUp = true;
+            //power up particles activate
             if (usingPowerUp) powerUpParticles.PlayPowerUpParticles();
-
         }
         //clamp caps the fillAmount between the two min-max values in this case 0-1
         damageBoost.fillAmount = Mathf.Clamp(fillAmount, 0, 1); //restricts the value to between 0-1 for radial
