@@ -39,11 +39,11 @@ public class EnemyProjectile : MonoBehaviour
                 lm.HurtPlayer(damage);
                 Destroy(gameObject);
             }
-            /*if(Kill != null)
+            if(Kill != null)
             {
                 Kill.tableHP--;
                 Destroy(gameObject);
-            }*/
+            }
             else if(other.tag != "Untagged")Destroy(gameObject);
             
         }

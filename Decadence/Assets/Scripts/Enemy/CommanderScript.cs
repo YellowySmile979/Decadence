@@ -15,7 +15,8 @@ public class CommanderScript : MonoBehaviour
     [Header("Shooting")]
     public LayerMask WhoICanSee;//who the enemy can see
     bool playerSeen;//whether the player is seen
-    [HideInInspector] public float TimeForShooting, RateOfShooting, TimeForCrouching, RateForCrouching;
+    [HideInInspector] public float TimeForCrouching, RateForCrouching, RateForShooting;
+    public float time;
     //variables to shooting
     [HideInInspector] public bool canShoot;//whether the enemy can shooting
     public Transform firePoint;//where the bullet is created
@@ -82,15 +83,15 @@ public class CommanderScript : MonoBehaviour
         anim.SetBool("IsCrouching", IsCrouching);
         HealthBar.SetReload(timer, TimeInReloading);
         //setting the animator
-        if (goingToShoot == true)
+        if (goingToShoot != true)
         {
             ChangeCrouchStance();
         }//change crouchstance
-        if (playerSeen == true && goingToShoot == false && AmmoInTheGun > 0)
+        if (playerSeen == true && goingToShoot == false && AmmoInTheGun >= 1)
         {
             StartCoroutine(shootOnSight());//shoot on sight
         }
-        else if (AmmoInTheGun == 0 && !IsReloading && IsCrouching==false )
+        else if (AmmoInTheGun <= 0 && !IsReloading && IsCrouching==false )
         {
             IsReloading = true;
         }//the enemy is reloading
@@ -99,6 +100,7 @@ public class CommanderScript : MonoBehaviour
             timer += Time.deltaTime;
             if (timer > TimeInReloading)
             {
+                IsCrouching = false;
                 AmmoInTheGun = MaxAmmo;
                 IsReloading = false;
                 timer = 0;
@@ -109,19 +111,18 @@ public class CommanderScript : MonoBehaviour
     IEnumerator shootOnSight()
     {
         goingToShoot = true;
+        anim.SetTrigger("Shooting");
 
         yield return new WaitForSeconds(2);//time
-        anim.SetTrigger("Shooting");
-        //set trigger here      
-        //shooting
         if (!halfHp || AmmoInTheGun <= 1)
         {
+            
             goingToShoot = false;
-            yield break;
         }
-        else
+        else if(halfHp && AmmoInTheGun>=2)
         {
-            yield return new WaitForSeconds(1);
+            print("shootingSecond");
+            yield return new WaitForSeconds(0.5f);
             anim.SetTrigger("Shooting");
             //set trigger here            
             goingToShoot = false;
@@ -190,8 +191,9 @@ public class CommanderScript : MonoBehaviour
     {
         hp -= damage;
         HealthBar.SetHealth(hp, maxhp);
-        if (hp == maxhp / 2)
+        if (hp <= maxhp / 2)
         {
+            RateForShooting = 1;
             halfHp = true;
         }
         if (hp == 1)
