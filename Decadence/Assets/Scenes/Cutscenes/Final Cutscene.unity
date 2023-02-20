@@ -303,13 +303,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: MainMenu
-  ifVideoIsSeparateScene: 1
+  ifVideoIsSeparateScene: 0
   frameCount: 0
   frame: 0
   frameOffset: 4
   allowSkipping: 1
   immediateTransition: 0
-  canFadeAway: 0
+  canFadeAway: 1
+  noLoadScene: 0
+  canvas: {fileID: 0}
 --- !u!328 &1423575480
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -318,7 +320,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1423575476}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d2da82cb93ac8294f869ec26ec98e38b, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: f9b9ac6e37633884792aa90fdae92a80, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
