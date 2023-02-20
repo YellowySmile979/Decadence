@@ -5032,11 +5032,14 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
+  hasJumped: 0
   rb: {fileID: 0}
+  audioSource: {fileID: 0}
   damg: 1
   maxDamageBoostDuration: 5
   maxDamageBoost: 2
   initialDamage: 1
+  crumpetCrunch: {fileID: 8300000, guid: 75ad331204332014ea82d8d2732a7e08, type: 3}
   timeBetweenFiring: 1
   canMove: 1
   respawnPosition: {x: 0, y: 0}
@@ -5235,6 +5238,8 @@ MonoBehaviour:
   bulletPrefab: {fileID: 5095750906621595155, guid: d5b5c24f8d6b4c542b292000e9c5703f, type: 3}
   FireOffset: {fileID: 9029933808277150685}
   timeBetweenEachBulletReload: 1
+  canReload: 0
+  reloading: 0
   waitToReload: 0.5
   reloadCount: 0
   muzzleFlash: {fileID: 5763507587532058490, guid: 153973827d80c8944bdb8a0491fb7f7c, type: 3}

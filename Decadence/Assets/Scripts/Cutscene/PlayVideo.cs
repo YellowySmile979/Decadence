@@ -21,6 +21,7 @@ public class PlayVideo : MonoBehaviour
     [Header("Don't Load Scene")]
     public bool noLoadScene = false;
     public GameObject canvas;
+    public GameObject cutsceneTrigger;
 
     VideoPlayer videoPlayer;
     PlayerController player;
@@ -50,6 +51,7 @@ public class PlayVideo : MonoBehaviour
                 player.audioSource.Play();
                 canvas.SetActive(true);
                 gameObject.SetActive(false);
+                cutsceneTrigger.SetActive(false);
             }           
         }
         if (ifVideoIsSeparateScene)

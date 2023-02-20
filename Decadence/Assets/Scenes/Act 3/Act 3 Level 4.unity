@@ -30025,7 +30025,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985285418}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.91, y: -3.37, z: -2.63885}
+  m_LocalPosition: {x: 12.74, y: -3.37, z: -2.63885}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -30044,7 +30044,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.46490192, y: 1.5690434}
+  m_Offset: {x: 0.043815613, y: 1.5690434}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -30055,7 +30055,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0581112, y: 6.230145}
+  m_Size: {x: 0.040676117, y: 6.230145}
   m_EdgeRadius: 0
 --- !u!114 &1985285421
 MonoBehaviour:
@@ -34101,6 +34101,7 @@ MonoBehaviour:
   canFadeAway: 0
   noLoadScene: 1
   canvas: {fileID: 2030293385}
+  cutsceneTrigger: {fileID: 1985285418}
 --- !u!328 &2126466725
 VideoPlayer:
   m_ObjectHideFlags: 0
