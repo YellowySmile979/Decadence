@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviour
     int crumpetTracker = 0;
     int usedCrumpet = -1;
     bool isReloading;
+    public AudioClip crumpetCrunch;
 
     [Header("Firing Time")]
     bool canFire;
@@ -116,6 +117,7 @@ public class PlayerController : MonoBehaviour
             haveIPressedF = true;           
             SetDamage(damageBoost);
             LM.AddCrumpets(usedCrumpet);
+            audioSource.PlayOneShot(crumpetCrunch);
             crumpetTracker -= 1;
             NumberOfCrumpetsTracker(crumpetTracker);
         }

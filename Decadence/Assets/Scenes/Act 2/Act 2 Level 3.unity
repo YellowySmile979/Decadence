@@ -32040,6 +32040,7 @@ MonoBehaviour:
   canFadeAway: 0
   noLoadScene: 0
   canvas: {fileID: 0}
+  cutsceneTrigger: {fileID: 0}
 --- !u!1001 &1588111265
 PrefabInstance:
   m_ObjectHideFlags: 0
