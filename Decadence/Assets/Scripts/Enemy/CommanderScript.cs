@@ -15,7 +15,7 @@ public class CommanderScript : MonoBehaviour
     [Header("Shooting")]
     public LayerMask WhoICanSee;//who the enemy can see
     bool playerSeen;//whether the player is seen
-    [HideInInspector] public float TimeForCrouching, RateForCrouching, RateForShooting;
+    [HideInInspector] public float TimeForCrouching, RateForCrouching, RateForShooting=2;
     public float time;
     //variables to shooting
     [HideInInspector] public bool canShoot;//whether the enemy can shooting
@@ -47,6 +47,7 @@ public class CommanderScript : MonoBehaviour
 
     void Start()
     {
+        RateForShooting = 2;
         maxhp = hp;//yes
         HealthBar.SetHealth(hp, maxhp);
         //setting hp in ui
@@ -83,7 +84,7 @@ public class CommanderScript : MonoBehaviour
         anim.SetBool("IsCrouching", IsCrouching);
         HealthBar.SetReload(timer, TimeInReloading);
         //setting the animator
-        if (goingToShoot != true)
+        if (goingToShoot != true && IsReloading==false)
         {
             ChangeCrouchStance();
         }//change crouchstance
@@ -93,6 +94,7 @@ public class CommanderScript : MonoBehaviour
         }
         else if (AmmoInTheGun <= 0 && !IsReloading && IsCrouching==false )
         {
+            IsCrouching = false;
             IsReloading = true;
         }//the enemy is reloading
         if (IsReloading)
@@ -113,16 +115,14 @@ public class CommanderScript : MonoBehaviour
         goingToShoot = true;
         anim.SetTrigger("Shooting");
 
-        yield return new WaitForSeconds(2);//time
+        yield return new WaitForSeconds(RateForShooting);//time
         if (!halfHp || AmmoInTheGun <= 1)
         {
             
             goingToShoot = false;
         }
         else if(halfHp && AmmoInTheGun>=2)
-        {
-            print("shootingSecond");
-            yield return new WaitForSeconds(0.5f);
+        { 
             anim.SetTrigger("Shooting");
             //set trigger here            
             goingToShoot = false;
