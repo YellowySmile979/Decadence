@@ -20205,7 +20205,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 5.353897, y: -5.6}
+  m_Offset: {x: 5.702133, y: -5.6}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -20216,7 +20216,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.8283005, y: 3.5740623}
+  m_Size: {x: 2.1318283, y: 3.5740623}
   m_EdgeRadius: 0
 --- !u!4 &1057235181
 Transform:
@@ -60675,6 +60675,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2371725448609270400, guid: ce820d24597d2414f875070e7dd47aeb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260143987298264477, guid: ce820d24597d2414f875070e7dd47aeb, type: 3}
+      propertyPath: m_Mass
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260143987298264477, guid: ce820d24597d2414f875070e7dd47aeb, type: 3}
+      propertyPath: m_BodyType
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9105743998693228750, guid: ce820d24597d2414f875070e7dd47aeb, type: 3}
