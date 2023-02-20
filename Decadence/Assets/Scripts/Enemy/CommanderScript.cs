@@ -102,7 +102,7 @@ public class CommanderScript : MonoBehaviour
             timer += Time.deltaTime;
             if (timer > TimeInReloading)
             {
-                IsCrouching = false;
+                IsCrouching = true;
                 AmmoInTheGun = MaxAmmo;
                 IsReloading = false;
                 timer = 0;
