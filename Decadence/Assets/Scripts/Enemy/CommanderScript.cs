@@ -88,7 +88,7 @@ public class CommanderScript : MonoBehaviour
         {
             StartCoroutine(shootOnSight());//shoot on sight
         }
-        else if (AmmoInTheGun == 0 && !IsReloading)
+        else if (AmmoInTheGun == 0 && !IsReloading && IsCrouching==false )
         {
             IsReloading = true;
         }//the enemy is reloading
@@ -108,7 +108,7 @@ public class CommanderScript : MonoBehaviour
     {
         goingToShoot = true;
 
-        yield return new WaitForSeconds(1);//time
+        yield return new WaitForSeconds(2);//time
         anim.SetTrigger("Shooting");
         //set trigger here      
         //shooting

@@ -128,9 +128,11 @@ public class LevelManager : MonoBehaviour
 
         //moveplayer to respawn position
         player.gameObject.SetActive(true);
+
         player.transform.position = player.respawnPosition;
         healthCount = healthToRespawn;
         respawning = false;
+        player.canMove = true;
         powerUpParticles.StopPowerUpParticles();
         UpdateHeartMeter();
         UpdateAmmoMeter();

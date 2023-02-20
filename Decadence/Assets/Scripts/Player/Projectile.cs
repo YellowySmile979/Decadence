@@ -9,6 +9,8 @@ public class Projectile : MonoBehaviour
     public float lifespan = 3f;
     public int maxdamage = 1;
     int damage;
+    public Transform BleedPoint;
+    public GameObject EnemyBleed;
     Rigidbody2D rb;
 
     PlayerController pc;
@@ -42,6 +44,9 @@ public class Projectile : MonoBehaviour
             if (enemy != null)
             {
                 enemy.TakeDamage(damage);
+                GameObject B=Instantiate(EnemyBleed, BleedPoint.position, Quaternion.identity);
+                B.transform.localScale = new Vector3( Mathf.Sign(transform.localScale.x),B.transform.localScale.y,B.transform.localScale.z);
+                
             }
             Destroy(gameObject);
             if (other.collider.GetComponent<Joint2D>())
@@ -51,7 +56,7 @@ public class Projectile : MonoBehaviour
             }
             if (hp != null)
             {
-
+                Instantiate(EnemyBleed, BleedPoint.position, Quaternion.identity);
                 hp.TakeDamage(damage);
                 Destroy(this);
             }

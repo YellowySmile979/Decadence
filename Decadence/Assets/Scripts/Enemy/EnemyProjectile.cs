@@ -27,18 +27,25 @@ public class EnemyProjectile : MonoBehaviour
         rb.velocity = new Vector2(bulletspeed * direction, 0);
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        PlayerController player = other.collider.GetComponent<PlayerController>();
+        PlayerController player = other.GetComponent<PlayerController>();
+        TableShieldDestroy Kill = other.GetComponent<TableShieldDestroy>();
         //prevents the bullet from destroying itself on colliders that aren't enemies
-        if (other.collider.tag != "NO")
+        if (other.tag != "NO")
         {
             if (player != null)
             {
                 lm.HurtPlayer(damage);
                 Destroy(gameObject);
             }
-            else Destroy(gameObject);
+            /*if(Kill != null)
+            {
+                Kill.tableHP--;
+                Destroy(gameObject);
+            }*/
+            else if(other.tag != "Untagged")Destroy(gameObject);
+            
         }
     }
 }
