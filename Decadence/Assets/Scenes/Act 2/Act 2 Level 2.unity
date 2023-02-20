@@ -15697,7 +15697,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 683988898116055975, guid: c96f70a6b55ed79448a5b3450f69c5ab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 38.771675
+      value: 38.94
       objectReference: {fileID: 0}
     - target: {fileID: 683988898116055975, guid: c96f70a6b55ed79448a5b3450f69c5ab, type: 3}
       propertyPath: m_LocalPosition.y
@@ -20191,6 +20191,7 @@ MonoBehaviour:
   Scene: Act 2 Level 3
   requiredNumberOfKills: 9
   numberOfEnemies: 0
+  loadScene: 1
 --- !u!61 &1057235178
 BoxCollider2D:
   m_ObjectHideFlags: 0
