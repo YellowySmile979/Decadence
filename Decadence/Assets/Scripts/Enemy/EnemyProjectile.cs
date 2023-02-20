@@ -24,7 +24,7 @@ public class EnemyProjectile : MonoBehaviour
     void Update()
     {
         //constantly set the bullet's speed
-        rb.velocity = new Vector2(bulletspeed * direction * -1, 0);
+        rb.velocity = new Vector2(bulletspeed * direction, 0);
     }
 
     private void OnCollisionEnter2D(Collision2D other)

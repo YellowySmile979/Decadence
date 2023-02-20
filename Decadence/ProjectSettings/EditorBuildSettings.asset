@@ -68,4 +68,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cutscenes/Scary Video Part.unity
     guid: dc440840a7d98024eaa80aef6a3cf281
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Final Cutscene.unity
+    guid: e5bea3562a2ff9e4eb9eadf1cabf45c5
   m_configObjects: {}

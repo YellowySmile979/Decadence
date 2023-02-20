@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1528465253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1528465254}
+  m_Layer: 0
+  m_Name: Key Spawn Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1528465254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528465253}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.111, y: -0.693, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2198388692567624177}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2198388691378775252
 GameObject:
   m_ObjectHideFlags: 0
@@ -10,7 +40,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2198388691378775250}
   - component: {fileID: 2198388691378775251}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Reload
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2198388691509811991}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,7 +166,7 @@ GameObject:
   - component: {fileID: 2198388692050118381}
   - component: {fileID: 2198388692050118379}
   - component: {fileID: 2198388692050118380}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,7 +241,7 @@ GameObject:
   - component: {fileID: 2198388692374407767}
   - component: {fileID: 2198388692374407765}
   - component: {fileID: 2198388692374407766}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -286,7 +316,7 @@ GameObject:
   - component: {fileID: 2198388692381098196}
   - component: {fileID: 2198388692381098194}
   - component: {fileID: 2198388692381098195}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -361,7 +391,7 @@ GameObject:
   - component: {fileID: 2198388692409138194}
   - component: {fileID: 2198388692409138192}
   - component: {fileID: 2198388692409138193}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -434,7 +464,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2198388692564883589}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -475,7 +505,7 @@ GameObject:
   - component: {fileID: 2198388692567624180}
   - component: {fileID: 2198388692567624182}
   - component: {fileID: 2198388692567624181}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Commander (2)_0 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -495,6 +525,7 @@ Transform:
   m_Children:
   - {fileID: 2198388693397914890}
   - {fileID: 2198388693227286465}
+  - {fileID: 1528465254}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -535,8 +566,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1646920109
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -7029134091486477274, guid: 451a9d479f68f4148b1c0856bfee5cf7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -600,9 +631,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.31621122, y: 0.37811786}
-      - {x: 14.392059, y: 2.415079}
-      - {x: 14.449853, y: -1.2086904}
+    - - {x: 0.45482826, y: -0.93750286}
+      - {x: 0.30100393, y: 3.06655}
+      - {x: 26.711954, y: 4.200897}
+      - {x: 26.597027, y: -0.9887116}
 --- !u!95 &2198388692567624182
 Animator:
   serializedVersion: 3
@@ -645,13 +677,14 @@ MonoBehaviour:
   firePoint: {fileID: 2198388693397914890}
   enemyBullet: {fileID: 5433503932301646451, guid: 85bf44f67551a254bbd361c825dcb90c, type: 3}
   AmmoInTheGun: 6
-  timer: 5
-  TimeInReloading: 0
+  TimeInReloading: 5
+  keySpawnPosition: {fileID: 1528465254}
+  key: {fileID: 8060347220556139233, guid: af6923726b335374dad7be91031bc90b, type: 3}
   halfHp: 0
   lastHp: 0
   maxhp: 0
   hp: 8
-  HealthBar: {fileID: 0}
+  HealthBar: {fileID: 2198388693227286466}
 --- !u!1 &2198388692927878351
 GameObject:
   m_ObjectHideFlags: 0
@@ -662,7 +695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2198388692927878350}
   - component: {fileID: 2198388692927878349}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -754,7 +787,7 @@ GameObject:
   - component: {fileID: 2198388693227286479}
   - component: {fileID: 2198388693227286464}
   - component: {fileID: 2198388693227286466}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -870,7 +903,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2198388693397914890}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -885,7 +918,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2198388693397914891}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.94, y: 0.042, z: 0}
+  m_LocalPosition: {x: 0.758, y: 0.042, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2198388692567624177}

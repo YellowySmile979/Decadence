@@ -12,6 +12,7 @@ public class CommanderScript : MonoBehaviour
     Animator anim;
     //calling components
 
+    [Header("Shooting")]
     public LayerMask WhoICanSee;//who the enemy can see
     bool playerSeen;//whether the player is seen
     [HideInInspector] public float TimeForShooting, RateOfShooting, TimeForCrouching, RateForCrouching;
@@ -21,12 +22,17 @@ public class CommanderScript : MonoBehaviour
     //public float ammo=3;
     public GameObject enemyBullet;//prefab of the bullet
     bool goingToShoot = true;//the enemy is going to shoot
+    [Header("Reloading/Ammo")]
     public int AmmoInTheGun;//ammount of ammo in gun
     bool IsCrouching;//is crouching
-    public float timer;//timer
+    float timer;//timer
     public float TimeInReloading;//time in reloading
     bool IsReloading;// the enemy is reloading
+    [Header("Key")]
+    public Transform keySpawnPosition;
+    public GameObject key;
 
+    [Header("Health")]
     //[HideInInspector]
     public bool halfHp, lastHp;//at points at which the enemy goes into states
 
@@ -128,10 +134,11 @@ public class CommanderScript : MonoBehaviour
             Vector2 dir = other.transform.position - transform.position;
             float dist = dir.magnitude;
             RaycastHit2D hit = Physics2D.Raycast(transform.position, dir, dist, WhoICanSee);
-            Debug.DrawRay(transform.position, dir, Color.green);
+            Debug.DrawRay(transform.position, dir, Color.red);
 
             if (hit.collider == other)
             {
+                print(other.name);
                 playerSeen = true;
                 RateForCrouching = Random.Range(6f, 8f);
                 TimeForCrouching = Time.time + RateForCrouching;
@@ -191,6 +198,7 @@ public class CommanderScript : MonoBehaviour
         }
         if (hp <= 0)
         {
+            Instantiate(key, keySpawnPosition.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }//taking damage and the phases relating to their health
