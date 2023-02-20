@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 4245575798723185689}
   - component: {fileID: 8184897366134849317}
   - component: {fileID: -2477545511968355719}
-  - component: {fileID: 345382923706162656}
+  - component: {fileID: 1586527850411482893}
+  - component: {fileID: -7124039466541127471}
   m_Layer: 3
   m_Name: REVAMPED_fallingbrick
   m_TagString: Untagged
@@ -98,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shakeSpeed: 0.04
+  shakeTime: 1
 --- !u!50 &-2477545511968355719
 Rigidbody2D:
   serializedVersion: 4
@@ -119,7 +121,33 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!68 &345382923706162656
+--- !u!61 &1586527850411482893
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4245575798723185691}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.180612}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.6875, y: 0.4375}
+    newSize: {x: 0.6875, y: 0.4375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6875, y: 0.076276004}
+  m_EdgeRadius: 0
+--- !u!68 &-7124039466541127471
 EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -132,11 +160,11 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.17}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.34565353, y: 0.22077125}
-  - {x: 0.34252453, y: 0.21942234}
+  - {x: -0.34375, y: 0}
+  - {x: 0.34375, y: 0}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0

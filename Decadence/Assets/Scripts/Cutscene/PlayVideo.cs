@@ -18,13 +18,20 @@ public class PlayVideo : MonoBehaviour
     public bool immediateTransition = false;
     [Header("Fade Away")]
     public bool canFadeAway;
+    [Header("Don't Load Scene")]
+    public bool noLoadScene = false;
+    public GameObject canvas;
 
     VideoPlayer videoPlayer;
+    PlayerController player;
+    LevelManager lm;
 
     // Start is called before the first frame update
     void Start()
     {
         videoPlayer = GetComponent<VideoPlayer>();
+        player = FindObjectOfType<PlayerController>();
+        lm = FindObjectOfType<LevelManager>();
 
         //casts the frame count to long since this is a ulong
         //frameOffset helps offset since the actual frame that the video is on tends to not end exact
@@ -35,6 +42,16 @@ public class PlayVideo : MonoBehaviour
     {
         //this is just a float which increases by the frame number of the video as it plays
         frame = videoPlayer.frame;
+        if(noLoadScene)
+        {
+            if(frame >= frameCount)
+            {
+                player.canMove = true;
+                player.audioSource.Play();
+                canvas.SetActive(true);
+                gameObject.SetActive(false);
+            }           
+        }
         if (ifVideoIsSeparateScene)
         {
             //when frame == total frame count, allow player to skip

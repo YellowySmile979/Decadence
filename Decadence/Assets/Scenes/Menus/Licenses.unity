@@ -591,8 +591,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 118.69, y: -150.00601}
-  m_SizeDelta: {x: 562.61, y: 300.0163}
+  m_AnchoredPosition: {x: 118.69, y: -179.10306}
+  m_SizeDelta: {x: 562.61, y: 358.2104}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &995043529
 MonoBehaviour:
@@ -658,7 +658,11 @@ MonoBehaviour:
     License
     (CC BY 4.0): https://filmmusic.io/standard-license
 
-'
+
+    Music: Epic Build Up
+    Music (With a Hint of Darkness) - Final Form
+
+    By: Secession Studios'
 --- !u!222 &995043530
 CanvasRenderer:
   m_ObjectHideFlags: 0

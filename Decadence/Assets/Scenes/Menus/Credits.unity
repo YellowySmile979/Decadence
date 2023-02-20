@@ -780,8 +780,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -35, y: 29}
-  m_SizeDelta: {x: 304.0651, y: 117.3466}
+  m_AnchoredPosition: {x: -35, y: 12.1443}
+  m_SizeDelta: {x: 304.0651, y: 151.0579}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1230223331
 MonoBehaviour:
@@ -805,7 +805,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 19774ec7b05b8ab4bae8686cf825f830, type: 3}
-    m_FontSize: 34
+    m_FontSize: 23
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -816,7 +816,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Most assets are produced ourselves
+  m_Text: 'Most assets are produced ourselves
+
+
+    LPC Animated Doors by Lanea Zimmerman
+    on OpenGameArt.Org'
 --- !u!222 &1230223332
 CanvasRenderer:
   m_ObjectHideFlags: 0

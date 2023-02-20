@@ -953,7 +953,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 166602094}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.95, y: -3.68, z: 0}
+  m_LocalPosition: {x: -10.95, y: -3.87, z: 0}
   m_LocalScale: {x: 0.9525729, y: 0.58485043, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1938,6 +1938,10 @@ PrefabInstance:
     - target: {fileID: 1043654218754022225, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043654218754022226, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
+      propertyPath: jumpSpeed
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 1043654218754022226, guid: 4d01e06ac6572404aafcc90323e6de42, type: 3}
       propertyPath: ammoUIText
@@ -3264,8 +3268,6 @@ GameObject:
   m_Component:
   - component: {fileID: 890103498}
   - component: {fileID: 890103497}
-  - component: {fileID: 890103496}
-  - component: {fileID: 890103499}
   m_Layer: 3
   m_Name: Normal_Door_Fruit
   m_TagString: Untagged
@@ -3273,32 +3275,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &890103496
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 890103495}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 1
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1.12}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.8666666, y: 5.5333333}
-    newSize: {x: 1.92, y: 2.56}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.67, y: 0.103171706}
-  m_EdgeRadius: 0
 --- !u!212 &890103497
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3364,25 +3340,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!251 &890103499
-PlatformEffector2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 890103495}
-  m_Enabled: 1
-  m_UseColliderMask: 1
-  m_ColliderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RotationalOffset: 0
-  m_UseOneWay: 1
-  m_UseOneWayGrouping: 0
-  m_SurfaceArc: 180
-  m_UseSideFriction: 0
-  m_UseSideBounce: 0
-  m_SideArc: 1
 --- !u!1 &901158784
 GameObject:
   m_ObjectHideFlags: 0
@@ -4255,8 +4212,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1153323194}
   - component: {fileID: 1153323193}
-  - component: {fileID: 1153323192}
-  - component: {fileID: 1153323195}
   m_Layer: 3
   m_Name: Normal_Door_Fruit (1)
   m_TagString: Untagged
@@ -4264,32 +4219,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1153323192
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153323191}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 1
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1.12}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.8666666, y: 5.5333333}
-    newSize: {x: 1.92, y: 2.56}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.67, y: 0.103171706}
-  m_EdgeRadius: 0
 --- !u!212 &1153323193
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4355,25 +4284,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!251 &1153323195
-PlatformEffector2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153323191}
-  m_Enabled: 1
-  m_UseColliderMask: 1
-  m_ColliderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RotationalOffset: 0
-  m_UseOneWay: 1
-  m_UseOneWayGrouping: 0
-  m_SurfaceArc: 180
-  m_UseSideFriction: 0
-  m_UseSideBounce: 0
-  m_SideArc: 1
 --- !u!1 &1160944117
 GameObject:
   m_ObjectHideFlags: 0
@@ -4657,6 +4567,8 @@ MonoBehaviour:
   allowSkipping: 1
   immediateTransition: 0
   canFadeAway: 1
+  noLoadScene: 0
+  canvas: {fileID: 0}
 --- !u!1001 &1254292986
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11207,7 +11119,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1342018511}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19, y: -5.25, z: 0}
+  m_LocalPosition: {x: 19, y: -5.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 598893269}

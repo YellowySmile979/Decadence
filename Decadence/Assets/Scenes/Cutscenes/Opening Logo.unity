@@ -237,13 +237,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b56415fdf74a32046bf006e3f258d801, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: MainMenu
+  sceneToLoad: Scary Video Part
   ifVideoIsSeparateScene: 0
   frameCount: 0
   frame: 0
   frameOffset: 4
   allowSkipping: 0
+  immediateTransition: 0
   canFadeAway: 1
+  noLoadScene: 0
+  canvas: {fileID: 0}
 --- !u!328 &1272130984
 VideoPlayer:
   m_ObjectHideFlags: 0

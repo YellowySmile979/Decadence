@@ -10,6 +10,7 @@ public class FallingPlatform : MonoBehaviour
     Vector2 origin;
 
     Rigidbody2D rb;
+    BoxCollider2D bxCollider;
     EdgeCollider2D ec;
 
     // Start is called before the first frame update
@@ -17,6 +18,7 @@ public class FallingPlatform : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         ec = GetComponent<EdgeCollider2D>();
+        bxCollider = GetComponent<BoxCollider2D>();
         //stores the original position (minus shakespeed so that platform moves completely from left to right)
         origin = new Vector2(transform.position.x - shakeSpeed, transform.position.y);
     }
@@ -45,6 +47,7 @@ public class FallingPlatform : MonoBehaviour
         //making it false turns the rigidbody2d on and so it falls
         rb.isKinematic = false;
         ec.enabled = false; //disables edge collider
+        bxCollider.enabled = false; //disables box collider
         yield return new WaitForSeconds(0.5f);
         Destroy(gameObject, 3f);
     }

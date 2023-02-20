@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b56415fdf74a32046bf006e3f258d801, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: REVAMPED LEVEL 1 (TUTORIAL LEVEL)
+  sceneToLoad: MainMenu
   ifVideoIsSeparateScene: 0
   frameCount: 0
   frame: 0
@@ -245,6 +245,8 @@ MonoBehaviour:
   allowSkipping: 1
   immediateTransition: 1
   canFadeAway: 0
+  noLoadScene: 0
+  canvas: {fileID: 0}
 --- !u!328 &1535017492
 VideoPlayer:
   m_ObjectHideFlags: 0
