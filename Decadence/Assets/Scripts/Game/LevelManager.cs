@@ -9,6 +9,7 @@ public class LevelManager : MonoBehaviour
     [Header("Respawn")]
     public float waitToRespawn = 2f;
     PlayerController player;
+    Weapon weapon;
 
     [Header("Health")]
     public int maxHealth;
@@ -17,7 +18,7 @@ public class LevelManager : MonoBehaviour
     int maxHealthCount = 10;
     [HideInInspector] public int healthTracker;
 
-    bool respawning;
+    [HideInInspector]public bool respawning;
 
     [Header("Hearts")]
     public Image heart1;
@@ -58,6 +59,7 @@ public class LevelManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        weapon = FindObjectOfType<Weapon>();
         player = FindObjectOfType<PlayerController>();
         audioSource = GetComponent<AudioSource>();
         powerUpParticles = FindObjectOfType<PowerUpParticles>();
@@ -115,6 +117,7 @@ public class LevelManager : MonoBehaviour
     //coroutine RespawnCO() is created here
     IEnumerator RespawnCO()
     {
+
         //Diasble the player
         player.gameObject.SetActive(false);
 
@@ -132,10 +135,12 @@ public class LevelManager : MonoBehaviour
         player.transform.position = player.respawnPosition;
         healthCount = healthToRespawn;
         respawning = false;
-        player.canMove = true;
+
+        weapon.ReloadingDeath();
         powerUpParticles.StopPowerUpParticles();
         UpdateHeartMeter();
         UpdateAmmoMeter();
+
     }
 
     //how much damage the player should take

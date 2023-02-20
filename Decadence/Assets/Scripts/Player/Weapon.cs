@@ -10,11 +10,11 @@ public class Weapon : MonoBehaviour
     PlayerController owner;
     LevelManager Lm;
     public float timeBetweenEachBulletReload;
-    bool canReload;
+    [HideInInspector]public bool canReload;
     //Function is to make sure you don't reload twice
     public bool IsReloading { get; private set; }
     //cannot shoot while reloading variable
-    bool reloading;
+    public bool reloading;
     public float waitToReload;
     public int reloadCount = 0;
 
@@ -107,6 +107,7 @@ public class Weapon : MonoBehaviour
                 //reloading part
                 if (currentAmmo > 0)
                 {
+                  
                     randomSound = Random.Range(0, 1); //randomises reload sound
                     currentClip++; //adds 1 to currentClip
                     currentAmmo--; //minuses 1 to currentAmmo
@@ -119,6 +120,7 @@ public class Weapon : MonoBehaviour
                     //and player is reloading
                     if (currentClip <= maxClipSize && reloading == true)
                     {
+
                         //starts the reloading animation
                         owner.ReloadingAnimation(reloading);
                         //randomises the reloading noise
@@ -176,5 +178,19 @@ public class Weapon : MonoBehaviour
             Lm.UpdateAmmoMeter();
             owner.ammoUIText.text = "" + currentAmmo;
         }
+    }
+    public void ReloadingDeath()
+    {
+        print("death");
+        reloadCount = 0;
+        canReload = true;
+        IsReloading = false;
+        reloading = false;
+        owner.ReloadingAnimation(reloading);
+        //reloadAmmount = (currentAmmo - reloadAmmount) >= 0 ? reloadAmmount : currentAmmo;
+        //currentClip += reloadAmmount;
+        //currentAmmo -= reloadAmmount;
+
+        owner.canMove = true;
     }
 }

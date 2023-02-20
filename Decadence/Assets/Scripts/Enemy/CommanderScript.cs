@@ -24,6 +24,7 @@ public class CommanderScript : MonoBehaviour
     bool goingToShoot = true;//the enemy is going to shoot
     [Header("Reloading/Ammo")]
     public int AmmoInTheGun;//ammount of ammo in gun
+    public int MaxAmmo;//the maximum amount of ammo in gun
     bool IsCrouching;//is crouching
     float timer;//timer
     public float TimeInReloading;//time in reloading
@@ -58,6 +59,7 @@ public class CommanderScript : MonoBehaviour
         halfHp = false;
         lastHp = false;
         //precaution not necessary
+        MaxAmmo = AmmoInTheGun;
     }
 
 
@@ -97,7 +99,7 @@ public class CommanderScript : MonoBehaviour
             timer += Time.deltaTime;
             if (timer > TimeInReloading)
             {
-                AmmoInTheGun = 6;
+                AmmoInTheGun = MaxAmmo;
                 IsReloading = false;
                 timer = 0;
             }
