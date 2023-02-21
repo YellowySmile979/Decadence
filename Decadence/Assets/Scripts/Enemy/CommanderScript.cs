@@ -44,7 +44,6 @@ public class CommanderScript : MonoBehaviour
     [HideInInspector] public int maxhp;//max hp for boss
     public int hp = 8;//hp for enemy
     public HealthBarBehaviour HealthBar;//enemy healthbar
-
     void Start()
     {
         RateForShooting = 2;
